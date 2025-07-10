@@ -1,0 +1,1856 @@
+[
+  {
+    "id": "n001",
+    "texto": "Soy el genio de la lámpara y te concederé tres deseos, ¿cuál es el primero? ...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n002",
+    "texto": "Llegué tarde porque había un piquete a favor de...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n003",
+    "texto": "Según la Organización Mundial de la Salud no hay nada más peligroso que...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n004",
+    "texto": "Mis viejos se unieron a una secta nueva que adora...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n005",
+    "texto": "Mi viejo siempre decía: \"En la mesa no se habla de política ni de...\".",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n006",
+    "texto": "La nueva pareja del Bailando: ... y ... .",
+    "respuestas_necesarias": 2,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n007",
+    "texto": "El problema de la Iglesia es que está controlada por...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n008",
+    "texto": "¿De qué fue testigo Jehová? ...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n009",
+    "texto": "Mi libro se va a llamar: ..., una historia sobre ... .",
+    "respuestas_necesarias": 2,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n010",
+    "texto": "Todos los días de 20 a 21 me tomo una horita para...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n011",
+    "texto": "Club Atlético ... .",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n012",
+    "texto": "El mundo sería un mejor lugar sin...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n013",
+    "texto": "Mi vida sexual es comparable a...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n014",
+    "texto": "Lo único que le gusta más a los Pumas que cantar el himno es...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n015",
+    "texto": "El homeópata me recomendó...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n016",
+    "texto": "¿Qué es lo peor que te podés tatuar borracho? ...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n017",
+    "texto": "Cuando tenía tiempo, en lugar de la Z el Zorro te dibujaba...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n018",
+    "texto": "La verdad es que soy un privilegiado, vivo de...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n019",
+    "texto": "Trágico accidente deja 35 heridos. La causa: ... .",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n020",
+    "texto": "Nada le gusta tanto a un cura como...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n021",
+    "texto": "Solo dos cosas pueden lastimar a Superman: la kryptonita y...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n022",
+    "texto": "Qué ganas de hacer un trío con ... y ... .",
+    "respuestas_necesarias": 2,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n023",
+    "texto": "Chanel presenta su nueva fragancia: Obsesión de ..., eau de toilette.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n024",
+    "texto": "¿Sabías que el campeón mundial de ... es argentino?",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n025",
+    "texto": "El tiburón más grande es el tiburón ballena. Pero el más raro es el tiburón...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n026",
+    "texto": "El médico me dijo que fue un milagro, pero de ahora en más, nada de...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n027",
+    "texto": "No hay nada mejor para una primera cita que...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n028",
+    "texto": "Por las noches soy un superhéroe conocido como ... y mi superpoder es ... .",
+    "respuestas_necesarias": 2,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n029",
+    "texto": "Se solicita a los señores pasajeros...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n030",
+    "texto": "De los caballeros de la mesa redonda, el que más me gusta es Sir ... .",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n031",
+    "texto": "Nos conocimos en una fiesta de disfraces. Se disfrazó de ... y yo de ... .",
+    "respuestas_necesarias": 2,
+    "articulo_opcional": true
+  },
+  {
+    "id": "n032",
+    "texto": "No se la pude chupar. Tenía gusto a...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n033",
+    "texto": "El que depositó dólares, recibirá...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n034",
+    "texto": "Cuando era chico, todos los años le pedía a Papá Noel lo mismo: ... .",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n035",
+    "texto": "¿Qué tiene que tener tu pareja ideal? ...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n036",
+    "texto": "Vuelve el boxeo al Luna Park: \"...\" Calderón vs. \"...\" Salazar. Y el premio ... es para ... .",
+    "respuestas_necesarias": 4,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n037",
+    "texto": "En el cine están dando ... III.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n038",
+    "texto": "Piedra, papel o...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n039",
+    "texto": "El piropo más raro que me dijeron: \"Quisiera ser ... para ... con vos\".",
+    "respuestas_necesarias": 2,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n040",
+    "texto": "Científicos crearon un robot mitad ... mitad ... .",
+    "respuestas_necesarias": 2,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n041",
+    "texto": "(Nombrá a un jugador de la mesa) usa el mismo password para todo: ... .",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n042",
+    "texto": "... puso a Argentina en el mapa.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n043",
+    "texto": "No te puedo explicar el asco que me da...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n044",
+    "texto": "Plantar un árbol, escribir un libro, ... .",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n045",
+    "texto": "Lo que más excita a (nombrá a un jugador de la mesa) es...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n046",
+    "texto": "Lo que más bronca le da a (nombrá a un jugador de la mesa) es: ... .",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n047",
+    "texto": "¿Cuál es tu secreto para ser tan sexy? ...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n048",
+    "texto": "---¿Por qué llora Quico? ---Por ... .",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n049",
+    "texto": "No sé si es el momento para decirlo, pero ayer (nombrá a un jugador de la mesa) me dijo que tenía pesadillas recurrentes con...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n050",
+    "texto": "¿Qué cosa es legal pero va a dejar de serlo en 10 años? ...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n051",
+    "texto": "En lugar de rendir el final tuvimos que preparar una monografía sobre...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n052",
+    "texto": "En el nombre del Padre, del Hijo y de...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n053",
+    "texto": "Mi pareja me dejó por...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n054",
+    "texto": "Debo confesarlo, tengo un fetiche con...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n055",
+    "texto": "Arqueólogos descubren que los antiguos egipcios amaban...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n056",
+    "texto": "No hay nada más triste que...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n057",
+    "texto": "La causa de la Tercera Guerra Mundial va a ser...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n058",
+    "texto": "¿Cuál es el peor regalo que te pueden hacer? ...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n059",
+    "texto": "De pibe tenía el álbum de figuritas de...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n060",
+    "texto": "Dios perdona, ... no.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n061",
+    "texto": "Se difundió una encuesta que dice que el 71% de los argentinos les gusta...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n062",
+    "texto": "Donald Trump podrá tener todo el dinero del mundo, pero nunca podrá tener...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n063",
+    "texto": "Elige tu propia aventura: Eres un agente secreto contra...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n064",
+    "texto": "Hoy en yoga aprendimos tres posturas nuevas. La grulla, el loto y ... .",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n065",
+    "texto": "Soy el heredero al trono. La espada de ... me pertenece.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n066",
+    "texto": "Entre mi porno tengo una carpeta entera dedicada a...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n067",
+    "texto": "El Comité Olímpico Internacional está analizando sumar ... a los próximos juegos.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n068",
+    "texto": "Acabo de terminar de leer una novela erótica sobre...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n069",
+    "texto": "¿Quién estuvo detrás del atentado a la AMIA? ...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n070",
+    "texto": "El Frente para la Victoria tiene a La Cámpora, Cambiemos tiene...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n071",
+    "texto": "Macri reemplazó los cuadros de la Casa Rosada por cuadros de...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n072",
+    "texto": "¿Qué guarda Batman en lo más profundo de la Baticueva? ...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n073",
+    "texto": "Olmedo y Porcel presentan: A las chicas les gusta...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n074",
+    "texto": "El gobierno planea reemplazar el Obelisco con un monumento a...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n075",
+    "texto": "Todo bien con el colectivo y la birome, pero el mejor invento argentino es por lejos...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n076",
+    "texto": "Informe especial: El lado oscuro de...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n077",
+    "texto": "Cada vez hay más gente con fobia a...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n078",
+    "texto": "La secuela de Charlie y la fábrica de chocolate debería llamarse Charlie y...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n079",
+    "texto": "Nada es tan desagradable como masturbarse pensando en...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n080",
+    "texto": "Almuerzan hoy con la señora: ... y ... .",
+    "respuestas_necesarias": 2,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n081",
+    "texto": "Lo más difícil de ser ciego debe ser...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n082",
+    "texto": "Solo hay una cosa que me gusta más que coger: ... .",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n083",
+    "texto": "Amo el olor de ... por la mañana.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n084",
+    "texto": "Los ricos comen sushi sobre el cuerpo de una mujer desnuda. Los MUY ricos, sobre...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n085",
+    "texto": "Soy capaz de tolerar cualquier cosa, excepto...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n086",
+    "texto": "Antes de morir, Nostradamus predijo la llegada de...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n087",
+    "texto": "Antes de morir, Nostradamus predijo la llegada de ... y el fin del dulce de leche.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n088",
+    "texto": "La Scaloneta ganó el mundial, pero lo que realmente nos une como argentinos es...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n089",
+    "texto": "En mi country club, la nueva actividad de moda es ... con vista al lago.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n090",
+    "texto": "El INADI ahora considera ofensivo...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": true
+  },
+  {
+    "id": "n091",
+    "texto": "Mi psicólogo me dijo que mi problema es una fijación insana con...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n092",
+    "texto": "La nueva criptomoneda argentina se llama ... y está respaldada por promesas electorales.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n093",
+    "texto": "¿Querés ver Netflix o ...?",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n094",
+    "texto": "El verdadero lujo en Argentina no es tener dólares, es tener...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n095",
+    "texto": "Para evadir impuestos, ahora los empresarios argentinos están invirtiendo en...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n096",
+    "texto": "La Mona Jiménez y L-Gante anuncian un nuevo hit titulado: \"... y ...\".",
+    "respuestas_necesarias": 2,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n097",
+    "texto": "El ingrediente secreto de la abuela para el tuco no era amor, era...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n098",
+    "texto": "Descubrieron que el Monstruo del Lago Ness en realidad es ... de vacaciones.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n099",
+    "texto": "Mi onlyfans exclusivo es sobre ... y tutoriales de Excel.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n100",
+    "texto": "La AFIP ahora te permite pagar el monotributo con...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": true
+  },
+  {
+    "id": "n101",
+    "texto": "El Papa Francisco confesó en privado que reza por...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n102",
+    "texto": "La nueva temporada de Okupas debería tratarse sobre...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n103",
+    "texto": "En lugar de \"Argentina, tierra de amor y venganza\", la nueva novela de Polka se llama \"Argentina, tierra de ... y ...\".",
+    "respuestas_necesarias": 2,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n104",
+    "texto": "La provincia con más onda de Argentina es, sin dudas, ... .",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n105",
+    "texto": "El Gobierno anunció un nuevo plan social: \"... para Todos\".",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n106",
+    "texto": "Mi terapeuta de vidas pasadas dice que fui ... en la época de Rosas.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n107",
+    "texto": "La nueva cepa de COVID se transmite por ... y te hace bailar malambo.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n108",
+    "texto": "Para la próxima Marcha del Orgullo, la nueva consigna es: \"Amor es amor, y también ...\".",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n109",
+    "texto": "El Indio Solari sacó un nuevo tema que solo dice \"...\" durante 15 minutos.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n110",
+    "texto": "La última vez que me sentí verdaderamente vivo fue cuando...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n111",
+    "texto": "¿Qué es lo más kirchnerista que se te ocurre? ...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n112",
+    "texto": "¿Y lo más macrista? ...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n113",
+    "texto": "El nuevo emprendimiento cool en Palermo se dedica a ... artesanal y orgánico.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n114",
+    "texto": "Me enteré por TikTok que ahora es tendencia...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n115",
+    "texto": "La app de delivery ahora también te trae ... a domicilio.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": true
+  },
+  {
+    "id": "n116",
+    "texto": "El colectivero me miró raro cuando le pregunté si paraba en...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n117",
+    "texto": "Mi mayor miedo es morir y que mi última búsqueda en Google sea \"...\".",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n118",
+    "texto": "En el after de la Bresh lo único que había era ... y gente linda.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n119",
+    "texto": "La próxima medida económica para bajar la inflación será ... masivo.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n120",
+    "texto": "(Nombrá a un jugador de la mesa) cree secretamente que el terraplanismo es culpa de...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n121",
+    "texto": "La Selección Argentina de ... está buscando nuevos talentos.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n122",
+    "texto": "\"Papá, ¿qué es ...?\" preguntó mi hijo el otro día. No supe qué responder.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n123",
+    "texto": "El nuevo corte de pelo de moda entre los traperos es el \"... style\".",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n124",
+    "texto": "Si Cristina Kirchner tuviera un podcast, se llamaría \"...\".",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n125",
+    "texto": "Y si Mauricio Macri tuviera uno, sería sobre ... y cómo pilotear un dron.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n126",
+    "texto": "La verdadera grieta en Argentina no es política, es entre los que les gusta ... y los que prefieren ... .",
+    "respuestas_necesarias": 2,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n127",
+    "texto": "Me echaron del laburo por... Pero valió la pena.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n128",
+    "texto": "El nuevo challenge viral consiste en ... mientras suena un tema de María Becerra.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n129",
+    "texto": "Mi abuela solo mira Crónica TV para ver noticias sobre...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n130",
+    "texto": "La causa real del hundimiento del Titanic fue...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": true
+  },
+  {
+    "id": "n131",
+    "texto": "En mi Tinder bio puse: \"Busco ... y alguien que pague el telo\".",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n132",
+    "texto": "El próximo feriado nacional será en conmemoración a...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n133",
+    "texto": "Los extraterrestres finalmente nos contactaron para pedirnos la receta de...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n134",
+    "texto": "La nueva película de Darín trata sobre un profesor de filosofía que se obsesiona con...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n135",
+    "texto": "¿Qué le regalarías a Javier Milei para su cumpleaños? ...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n136",
+    "texto": "Mi placer culposo es escuchar ... a todo volumen cuando estoy solo.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n137",
+    "texto": "En las reuniones de consorcio de mi edificio solo se habla de ... y de las expensas.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n138",
+    "texto": "Disculpe oficial, no vi el semáforo en rojo porque estaba pensando en...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n139",
+    "texto": "La Mona Lisa estaría más buena si tuviera...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": true
+  },
+  {
+    "id": "n140",
+    "texto": "El último libro de autoayuda que leí se titulaba: \"Cómo superar ... en 3 simples pasos\".",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n141",
+    "texto": "(Nombrá a un jugador de la mesa) está ahorrando para comprarse un pasaje a ... y no volver más.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n142",
+    "texto": "La hinchada de Boca canta: \"River, decime qué se siente tener ...\".",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n143",
+    "texto": "Y la de River responde: \"Boca, ...\".",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n144",
+    "texto": "El nuevo sabor de helado que la rompe este verano es \"... granizado\".",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n145",
+    "texto": "Para mi tesis de la UBA investigué la correlación entre ... y el precio del dólar blue.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n146",
+    "texto": "La sociedad secreta que realmente gobierna el mundo está obsesionada con...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": true
+  },
+  {
+    "id": "n147",
+    "texto": "Me acabo de dar cuenta de que mi gato es la reencarnación de...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n148",
+    "texto": "\"Doctor, ¿es grave?\" \"Sí, tiene un caso agudo de...\".",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n149",
+    "texto": "La solución definitiva a todos los problemas de Argentina es, claramente, ... .",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n150",
+    "texto": "¡La concha de la lora! ¿Otra vez sopa? No, peor, otra vez...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n151",
+    "texto": "Ese ... es más inútil que cenicero de moto.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n152",
+    "texto": "\"Andá a cagar\" se queda corto para describir lo que siento por...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n153",
+    "texto": "Me quiero cortar la pija en fetas cada vez que (nombrá a un jugador de la mesa) habla de...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n154",
+    "texto": "El nuevo impuesto a ... me tiene las bolas por el piso.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n155",
+    "texto": "—¿Viste lo que hizo ese pelotudo de...? —Peor, boludo, ¡...!",
+    "respuestas_necesarias": 2,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n156",
+    "texto": "Mi límite de tolerancia llegó cuando el forro de mi jefe me pidió...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n157",
+    "texto": "\"Che, sorete, ¿no te da la cara para ...?\"",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n158",
+    "texto": "La frase que resume mi situación económica actual es: \"... y la reputa que me parió\".",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n159",
+    "texto": "En este país de mierda, lo único que funciona bien es...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": true
+  },
+  {
+    "id": "n160",
+    "texto": "El político que más me hace decir \"¡qué pedazo de hijo de puta!\" es el que propone...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n161",
+    "texto": "(Nombrá a un jugador de la mesa) se recibió de ... en la Universidad del Pelotudo Útil.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n162",
+    "texto": "Cuando todo se va al carajo, mi única salida es...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n163",
+    "texto": "¿Sabés qué me chupa bien un huevo? ... .",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n164",
+    "texto": "El nuevo eslogan del gobierno debería ser: \"Argentina, un país con ... y sin gasoil\".",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n165",
+    "texto": "La definición de \"ser un salame\" es creer que ... va a solucionar algo.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n166",
+    "texto": "Hoy me levanté cruzado y lo primero que pensé fue: \"Manga de giles, ¿por qué carajo ...?\".",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n167",
+    "texto": "(Nombrá a un jugador de la mesa), la verdad, me parecés un tremendo ..., pero te banco por ... .",
+    "respuestas_necesarias": 2,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n168",
+    "texto": "El único argentino que no se queja por ... es porque está muerto o es millonario.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n169",
+    "texto": "Si hay algo que me revienta las pelotas más que un corte de luz en verano es...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n170",
+    "texto": "En el vestuario de la Selección, antes de salir a la cancha, Scaloni siempre nos hace rezarle a...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n171",
+    "texto": "El VAR en Argentina es tan confiable como ... en un tiroteo.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n172",
+    "texto": "\"¡Referí hijo de mil putas, cobrá ... de una vez!\"",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n173",
+    "texto": "La nueva táctica de Gago para que Racing gane algo es, básicamente, ... .",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n174",
+    "texto": "Mi sueño es ver a Riquelme y Palermo comentando un partido mientras se cagan a puteadas por...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n175",
+    "texto": "El Dibu Martínez, después de atajar un penal, le grita al pateador: \"¡Mirá que te como ...!\".",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n176",
+    "texto": "La verdadera razón por la que Messi volvió a Rosario fue para...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n177",
+    "texto": "Si Maradona viviera, su opinión sobre ... sería tendencia mundial.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": true
+  },
+  {
+    "id": "n178",
+    "texto": "La hinchada de ... empezó a cantar \"el que no salta es un inglés\" cuando entró la AFIP al estadio.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n179",
+    "texto": "(Nombrá a un jugador de la mesa) tiene menos definición que ... pateando un penal.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n180",
+    "texto": "El nuevo sponsor de la Liga Profesional Argentina es \"Lavadero de Dinero ...\".",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n181",
+    "texto": "\"Este equipo es un cabaret\", dijo el Mostaza Merlo refiriéndose a...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n182",
+    "texto": "Para ser barrabrava en Argentina, el requisito número uno es tener un doctorado en...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n183",
+    "texto": "La Conmebol acaba de anunciar una nueva copa: La Libertadores de...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n184",
+    "texto": "El Chiqui Tapia fue reelecto en la AFA gracias a los votos de ... y ... .",
+    "respuestas_necesarias": 2,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n185",
+    "texto": "\"Muchachos, ahora nos volvimos a ilusionar...\" con que la Selección gane el mundial de...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n186",
+    "texto": "Mi club está tan fundido que en lugar de pagar sueldos, les da a los jugadores...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n187",
+    "texto": "La nueva regla falopa del fútbol argentino es que si ... pasa, se suspende el partido.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n188",
+    "texto": "(Nombrá a un jugador de la mesa) es tan pecho frío que usa ... de bufanda en verano.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n189",
+    "texto": "El Bilardismo se resume en ganar como sea, incluso si eso implica...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n190",
+    "texto": "Y el Menottismo, en cambio, es todo ... y firuletes, aunque te comas siete.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n191",
+    "texto": "La próxima publicidad de Quilmes va a ser sobre el sabor del encuentro y el amargo gusto de...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n192",
+    "texto": "El Kun Agüero en su stream se la pasó hablando de ... en lugar del partido.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n193",
+    "texto": "El último gran invento táctico del fútbol argentino fue ... y salió para el orto.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n194",
+    "texto": "¿Qué mirás, bobo? Andá pa' allá, ... .",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": true
+  },
+  {
+    "id": "n195",
+    "texto": "Si tu equipo juega horrible pero gana, es gracias a ... y a la suerte del campeón.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n196",
+    "texto": "El cántico que más me representa como hincha es: \"En las buenas y en las malas... mucho más en ...\".",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n197",
+    "texto": "La Conmebol es una joda, pero peor es tener que fumarse a ... comentando los partidos.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n198",
+    "texto": "(Nombrá a un jugador de la mesa) festeja los goles como ... pero define como mi tía abuela.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n199",
+    "texto": "Para que el fútbol argentino mejore de verdad, lo primero que hay que hacer es prohibir...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n200",
+    "texto": "Un peronista de Perón no votaría a un candidato que propone abiertamente...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n201",
+    "texto": "Para cumplir con el cupo de lenguaje inclusivo, este juego ahora se llama Hijos, Hijas e Hijes de...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n202",
+    "texto": "La UCR (Unión Cívica Radical) está pensando en aliarse con ... para las próximas elecciones. Otra vez.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n203",
+    "texto": "\"No soy kirchnerista, pero...\", es la excusa perfecta para justificar...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n204",
+    "texto": "El manual del buen militante de La Cámpora incluye un capítulo entero sobre...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n205",
+    "texto": "Un macrista en su reposera en Punta del Este solo se levanta si escucha que hay que bajar los impuestos a...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n206",
+    "texto": "El próximo DNU del gobierno va a declarar servicio esencial a ... y feriado el día de su cumpleaños.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n207",
+    "texto": "Te das cuenta que estás en una unidad básica peronista cuando ves un cuadro de Evita al lado de un póster de...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n208",
+    "texto": "Lo único que une a un kirchnerista y a un macrista es el odio compartido hacia...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n209",
+    "texto": "El discurso más emotivo de Alfonsín no fue el del Parque Norte, fue cuando advirtió sobre el peligro de...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": true
+  },
+  {
+    "id": "n210",
+    "texto": "La última cadena nacional de Cristina fue para anunciar ... y culpar a Magnetto.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n211",
+    "texto": "Para no ofender a nadie, en mi trabajo ahora nos referimos a los jefes como \"persones con autoridad opresora\" y a los sueldos como \"...\".",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n212",
+    "texto": "La nueva consigna del PRO es \"el cambio\" de ... por ... .",
+    "respuestas_necesarias": 2,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n213",
+    "texto": "(Nombrá a un jugador de la mesa) es tan gorila que usa de pijama...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n214",
+    "texto": "Si el peronismo fuera una religión, su principal pecado sería...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n215",
+    "texto": "El nuevo spot de campaña del radicalismo muestra a un boina blanca haciendo ... con música de Grieg.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n216",
+    "texto": "Mi amigo progre me canceló por decir que no me gusta ... .",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": true
+  },
+  {
+    "id": "n217",
+    "texto": "El plan económico que finalmente sacará a Argentina adelante consiste en ... y mucha fe.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n218",
+    "texto": "En el grupo de WhatsApp de \"Mamás y Papás del Cole\" se armó un debate tremendo sobre...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n219",
+    "texto": "\"Patria sí, colonia no\". Y sobre todo, patria sin...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n220",
+    "texto": "(Nombrá a un jugador de la mesa), tu hermana me confesó que lo que la pone más caliente es ...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n221",
+    "texto": "El telo más bizarro al que fui tenía una cama redonda, espejos en el techo y...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n222",
+    "texto": "Para mí, el sexo oral es como...: me encanta, pero me da paja hacerlo.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n223",
+    "texto": "La nueva posición sexual de moda se llama \"El Monotributista\" y consiste en...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n224",
+    "texto": "\"Mi amor, no acabé porque...\" es la peor excusa que escuché, después de \"...\".",
+    "respuestas_necesarias": 2,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n225",
+    "texto": "El historial de Pornhub de (nombrá a un jugador de la mesa) está lleno de...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n226",
+    "texto": "No hay nada que baje más las ganas que... en medio del pete.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": true
+  },
+  {
+    "id": "n227",
+    "texto": "Mi récord personal es de cinco garches en una noche. El secreto es...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n228",
+    "texto": "En la primera cita, para romper el hielo, siempre pregunto: \"¿Arriba o abajo de...?\".",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n229",
+    "texto": "El rapidito en el baño del boliche fue una cagada, literalmente olía a...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n230",
+    "texto": "Mi fetiche más raro es que me aten a la cama y me hagan...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n231",
+    "texto": "La última vez que (nombrá a un jugador de la mesa) la puso, el dólar estaba a...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n232",
+    "texto": "¿Forro? No, yo uso ... que es más seguro.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n233",
+    "texto": "La diferencia entre hacer el amor y coger es que en uno pensás en el futuro y en el otro pensás en...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n234",
+    "texto": "Me di cuenta de que era un mal polvo cuando en medio del acto me dijo: \"¿Falta mucho para? ...\".",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n235",
+    "texto": "El polvo de reconciliación estuvo bueno, pero hubiera sido mejor sin...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n236",
+    "texto": "\"Chupame la pija y después hablamos de...\" fue su romántica propuesta.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n237",
+    "texto": "Mi fantasía sexual es un trío con las gemelas de la tele y...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": true
+  },
+  {
+    "id": "n238",
+    "texto": "Para calentar el ambiente, nada mejor que un poco de ... en las tetas.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n239",
+    "texto": "(Nombrá a un jugador de la mesa), con esa cara de pajero, seguro te hacés la paja pensando en...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n240",
+    "texto": "\"Te voy a romper el orto\" le dije, y me respondió: \"Primero, ...\".",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n241",
+    "texto": "Descubrí que mi pareja es swinger cuando la encontré en el living haciendo ... con el vecino.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n242",
+    "texto": "La palabra de seguridad en mi relación sadomasoquista es \"...\".",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n243",
+    "texto": "Un buen pete se hace con la boca, pero uno excelente se hace con...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n244",
+    "texto": "En mi primera vez, lo único que me preocupaba era...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n245",
+    "texto": "El OnlyFans de mi vieja tiene contenido exclusivo de...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n246",
+    "texto": "No es por bardear, (nombrá a un jugador de la mesa), pero tu novia me dijo que en la cama sos como...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n247",
+    "texto": "Lo mejor del sexo anal es...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n248",
+    "texto": "lo peor del sexo anal es...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n249",
+    "texto": "Mi ex era tan tóxica que durante el garche me gritaba \"...\".",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n250",
+    "texto": "En la entrevista de laburo me preguntaron: \"¿Aspiraciones salariales?\" Yo dije: \"Con llegar a fin de mes y ... me conformo\".",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n251",
+    "texto": "Mi jefe me dijo que si quería el ascenso, además de romperme el orto laburando, tenía que ...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n252",
+    "texto": "La última reunión de equipo fue tan productiva que terminamos organizando...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n253",
+    "texto": "Descubrí que mi compañero de oficina se pasa el día viendo porno de ... en lugar de laburar.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n254",
+    "texto": "\"Felicitaciones por el ascenso\", me dijo Recursos Humanos, \"ahora tu nueva responsabilidad es ... y sonreír\".",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n255",
+    "texto": "El grupo de WhatsApp del laburo se llama \"Los Esclavos Felices\" y el sticker más usado es el de...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n256",
+    "texto": "Me quiero morir cada vez que mi jefe empieza una reunión con la frase: \"Bueno equipo, tenemos que hablar de...\".",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n257",
+    "texto": "Lo único que hago en este laburo de mierda de 9 a 18 es rascarme la pija y pensar en...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n258",
+    "texto": "(Nombrá a un jugador de la mesa) es el típico chupamedias que le regala ... al jefe en su cumpleaños.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n259",
+    "texto": "La política de \"puertas abiertas\" de mi empresa significa que podés entrar a la oficina del gerente y encontrarlo cogiendo con...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n260",
+    "texto": "El \"after office\" se descontroló cuando apareció ... con dos travestis.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": true
+  },
+  {
+    "id": "n261",
+    "texto": "Para zafar de la reunión de los viernes, mi excusa infalible es: \"Tengo un brote agudo de...\".",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n262",
+    "texto": "La cafetera de la oficina sabe a ..., pero es lo único que me mantiene despierto.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n263",
+    "texto": "El verdadero team building en esta empresa es cuando todos nos unimos para putear a...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n264",
+    "texto": "Me enteré por radiopasillo que a (nombrá a un jugador de la mesa) lo ascendieron por...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n265",
+    "texto": "El bono de fin de año fue tan generoso que me alcanzó para ... y un alfajor.",
+    "respuestas_necesarias": 2,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n266",
+    "texto": "Si este laburo fuera una película porno, se llamaría \"Cogiendo en ... y sin que se entere Recursos Humanos\".",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n267",
+    "texto": "En el baño de la oficina encontré un grafiti que decía: \"Para ser feliz, renunciá y dedicate a...\".",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n268",
+    "texto": "Mi compañera nueva es tan buena que seguro la contrataron por ... y no por su CV.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n269",
+    "texto": "El día que me echen de este laburo, lo primero que voy a hacer es ... en el escritorio del gerente.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n270",
+    "texto": "\"Se busca empleado proactivo, con ganas de crecer y dispuesto a ... por dos mangos\".",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n271",
+    "texto": "La contraseña del Wi-Fi de la oficina es \"...\".",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n272",
+    "texto": "El \"empleado del mes\" siempre es el que mejor sabe ... al sistema.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n273",
+    "texto": "Lo más bizarro que vi en una llamada de Zoom fue a mi jefa rascándose la concha con ... mientras hablaba de negocios..",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n274",
+    "texto": "(Nombrá a un jugador de la mesa) renunció a su laburo anterior porque le prohibieron...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n275",
+    "texto": "El nuevo lema de la empresa es: \"Trabajamos para vivir, vivimos para ... y para llegar al viernes\".",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n276",
+    "texto": "Si me pagaran por cada vez que me rasco los huevos pensando en renunciar, ya sería millonario y dueño de...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n277",
+    "texto": "El grupo de WhatsApp paralelo, \"Anti-Jefe Oficial\", se usa principalmente para coordinar...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n278",
+    "texto": "La última vez que pedí un aumento, mi jefe me ofreció ... o la puerta.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n279",
+    "texto": "Me suspendieron una semana por mandar un meme de ... al grupo oficial de la empresa.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n280",
+    "texto": "El regalo del amigo invisible en la oficina fue tan choto que prefería que me regalaran...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n281",
+    "texto": "Si coger en el trabajo fuera deporte olímpico, (nombrá a un jugador de la mesa) tendría medalla de oro en...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n282",
+    "texto": "\"Estimado equipo, debido al ajuste presupuestario, este año el aguinaldo será reemplazado por...\".",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n283",
+    "texto": "La única forma de que me guste este laburo es si me dejan ... mientras tomo mate.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n284",
+    "texto": "Mi psicólogo laboral me recomendó que para el estrés, intente visualizar ... en lugar de ahorcar a mi jefe.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n285",
+    "texto": "La última fiesta de fin de año de la empresa terminó con el gerente en bolas bailando arriba de la mesa al ritmo de...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n286",
+    "texto": "\"Señor, no puedo seguir trabajando así. Necesito un aumento o al menos ... decente\".",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n287",
+    "texto": "Descubrí que el verdadero poder en la oficina no lo tiene el CEO, sino la secretaria que sabe todos los secretos de...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n288",
+    "texto": "Lo más humillante que me hicieron hacer en este trabajo fue ... vestido de Teletubbie.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n289",
+    "texto": "(Nombrá a un jugador de la mesa) siempre llega tarde porque dice que se queda \"resolviendo ...\" en su casa.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n290",
+    "texto": "Si mi sueldo hablara, diría ... y andá a llorarle a Magoya\".",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n291",
+    "texto": "El nuevo protocolo de la empresa ante un caso de acoso sexual es ofrecerle a la víctima...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n292",
+    "texto": "El viernes casual en mi oficina significa que podemos ir vestidos como ... y nadie dice nada.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n293",
+    "texto": "La ART no me cubrió el accidente laboral porque dictaminó que \"rascarse la pija con tanta vehemencia\" no es un riesgo de trabajo, sino...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n294",
+    "texto": "Mi sueño es fundar un sindicato de ... para defender nuestros derechos.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n295",
+    "texto": "El mail más pasivo-agresivo que recibí de mi jefe decía: \"Quizás si dejaras de ... podrías cumplir con los deadlines\".",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n296",
+    "texto": "En lugar de una canasta navideña, este año la empresa nos regaló un voucher para...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n297",
+    "texto": "La última capacitación obligatoria fue sobre \"Cómo ser un esclavo feliz y no morir en el intento gracias a...\".",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n298",
+    "texto": "Me enteré de que me van a rajar cuando vi mi puesto publicado en LinkedIn con el título: \"Se busca ... con menos dignidad\".",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n299",
+    "texto": "El CEO dio un discurso motivacional diciendo que somos una gran familia, pero se olvidó de mencionar que en esta familia se coge con...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n300",
+    "texto": "(Nombrá a un jugador de la mesa), tu vieja me contó que su récord personal de ... en una noche es impresionante.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n301",
+    "texto": "El nuevo sabor de forro que la rompe es \"..., con tropezones de esperanza\".",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n302",
+    "texto": "Mi cura para el mal de ojo es un buen ... bien metido hasta el fondo.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n303",
+    "texto": "\"Hijo, cuando seas grande vas a entender que lo importante en la vida no es el dinero, sino la cantidad de ... que puedas acumular\".",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n304",
+    "texto": "En el confesionario, el cura me dijo que mis pecados eran tan zarpados que solo se perdonaban con ... y tres padres nuestros al revés.",
+    "respuestas_necesarias": 2,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n305",
+    "texto": "La autopsia reveló que la verdadera causa de muerte de Nisman fue una sobredosis de...",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n306",
+    "texto": "El casting para el nuevo Gran Hermano Famosos incluye a un cura, un rabino, un imam y ... todos encerrados y en bolas.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n307",
+    "texto": "(Nombrá a un jugador de la mesa), admití que te hacés la paja mirando videos de ... mientras llorás en la ducha.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n308",
+    "texto": "El Papa Francisco sorprendió al mundo al declarar: \"Dios ama a todos, incluso a los que disfrutan de ... con animales de granja\".",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  },
+  {
+    "id": "n309",
+    "texto": "Mi fantasía sexual más inconfesable es que (nombrá a un jugador de la mesa) y yo nos encontremos en un telo y recreemos la escena de ... de la película esa que te dije.",
+    "respuestas_necesarias": 1,
+    "articulo_opcional": false
+  }
+]

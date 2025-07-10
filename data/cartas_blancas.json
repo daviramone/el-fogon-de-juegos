@@ -1,0 +1,5106 @@
+[
+  {
+    "id": "b0001",
+    "texto": "Los piojos"
+  },
+  {
+    "id": "b0002",
+    "texto": "La carpita mañanera"
+  },
+  {
+    "id": "b0003",
+    "texto": "La flacidez"
+  },
+  {
+    "id": "b0004",
+    "texto": "Imponer socialmente el Día de la Concha"
+  },
+  {
+    "id": "b0005",
+    "texto": "Salir del clóset"
+  },
+  {
+    "id": "b0006",
+    "texto": "Fosas comunes"
+  },
+  {
+    "id": "b0007",
+    "texto": "La pena de muerte"
+  },
+  {
+    "id": "b0008",
+    "texto": "Un poster de la concha de tu hermana"
+  },
+  {
+    "id": "b0009",
+    "texto": "La infertilidad"
+  },
+  {
+    "id": "b0010",
+    "texto": "Rosa, la maravillosa"
+  },
+  {
+    "id": "b0011",
+    "texto": "Las anécdotas de mi viejo"
+  },
+  {
+    "id": "b0012",
+    "texto": "Una denuncia de Carrió"
+  },
+  {
+    "id": "b0013",
+    "texto": "Irse a vivir al Uritorco"
+  },
+  {
+    "id": "b0014",
+    "texto": "Un hippie con Osde"
+  },
+  {
+    "id": "b0015",
+    "texto": "Tener las bolas por el piso"
+  },
+  {
+    "id": "b0016",
+    "texto": "El tránsito lento"
+  },
+  {
+    "id": "b0017",
+    "texto": "Agacharse y conocerlo"
+  },
+  {
+    "id": "b0018",
+    "texto": "El cuco"
+  },
+  {
+    "id": "b0019",
+    "texto": "Aguantar los trapos"
+  },
+  {
+    "id": "b0020",
+    "texto": "La fiesta"
+  },
+  {
+    "id": "b0021",
+    "texto": "Creer en el horóscopo"
+  },
+  {
+    "id": "b0022",
+    "texto": "Los pelirrojos"
+  },
+  {
+    "id": "b0023",
+    "texto": "Esperar a que cumpla 18"
+  },
+  {
+    "id": "b0024",
+    "texto": "La pulserita roja contra la envidia"
+  },
+  {
+    "id": "b0025",
+    "texto": "Un uruguayo llamado Washington"
+  },
+  {
+    "id": "b0026",
+    "texto": "Donald Trump"
+  },
+  {
+    "id": "b0027",
+    "texto": "Rabas hechas con prepucios"
+  },
+  {
+    "id": "b0028",
+    "texto": "Una silla de ruedas"
+  },
+  {
+    "id": "b0029",
+    "texto": "La muerte"
+  },
+  {
+    "id": "b0030",
+    "texto": "Un enorme y gigantesco clítoris"
+  },
+  {
+    "id": "b0031",
+    "texto": "La discriminación"
+  },
+  {
+    "id": "b0032",
+    "texto": "La verdad, toda la verdad y nada más que la verdad"
+  },
+  {
+    "id": "b0033",
+    "texto": "Un payaso"
+  },
+  {
+    "id": "b0034",
+    "texto": "Sergio Massa"
+  },
+  {
+    "id": "b0035",
+    "texto": "Usar sandalias con medias"
+  },
+  {
+    "id": "b0036",
+    "texto": "El hijo de puta que se está cogiendo al amor de tu vida mientras vos estás jugando a esto"
+  },
+  {
+    "id": "b0037",
+    "texto": "Tu vieja"
+  },
+  {
+    "id": "b0038",
+    "texto": "La pica entre colectiveros y taxistas"
+  },
+  {
+    "id": "b0039",
+    "texto": "El chi chi chi le le le"
+  },
+  {
+    "id": "b0040",
+    "texto": "Matar al último panda"
+  },
+  {
+    "id": "b0041",
+    "texto": "Diciembre de 2001"
+  },
+  {
+    "id": "b0042",
+    "texto": "La Difunta Correa"
+  },
+  {
+    "id": "b0043",
+    "texto": "La eutanasia"
+  },
+  {
+    "id": "b0044",
+    "texto": "Lo que queda del radicalismo"
+  },
+  {
+    "id": "b0045",
+    "texto": "Una lluvia de pijas"
+  },
+  {
+    "id": "b0046",
+    "texto": "Mi jefe"
+  },
+  {
+    "id": "b0047",
+    "texto": "Matilda"
+  },
+  {
+    "id": "b0048",
+    "texto": "La adicción al sexo"
+  },
+  {
+    "id": "b0049",
+    "texto": "El tráfico de órganos"
+  },
+  {
+    "id": "b0050",
+    "texto": "Mirar nenas en jumper"
+  },
+  {
+    "id": "b0051",
+    "texto": "Pezones bizcos"
+  },
+  {
+    "id": "b0052",
+    "texto": "Ir a pilates"
+  },
+  {
+    "id": "b0053",
+    "texto": "La fiesta de la espuma"
+  },
+  {
+    "id": "b0054",
+    "texto": "Tu situación laboral"
+  },
+  {
+    "id": "b0055",
+    "texto": "El anticristo"
+  },
+  {
+    "id": "b0056",
+    "texto": "El Dalai Lama"
+  },
+  {
+    "id": "b0057",
+    "texto": "La subtrenmetrocleta"
+  },
+  {
+    "id": "b0058",
+    "texto": "El amor de Viggo Mortensen por San Lorenzo"
+  },
+  {
+    "id": "b0059",
+    "texto": "Un mal flash"
+  },
+  {
+    "id": "b0060",
+    "texto": "El pibe de Mi pobre angelito"
+  },
+  {
+    "id": "b0061",
+    "texto": "Una paja bolsillera"
+  },
+  {
+    "id": "b0062",
+    "texto": "Una MILF"
+  },
+  {
+    "id": "b0063",
+    "texto": "El pibe con el que debutó Pelé"
+  },
+  {
+    "id": "b0064",
+    "texto": "Una mujer con los pies muy pequeños y el pene muy grande"
+  },
+  {
+    "id": "b0065",
+    "texto": "El negro pijudo del WhatsApp"
+  },
+  {
+    "id": "b0066",
+    "texto": "Un disfraz de empanada"
+  },
+  {
+    "id": "b0067",
+    "texto": "Eructar el abecedario"
+  },
+  {
+    "id": "b0068",
+    "texto": "Un test de embarazo positivo"
+  },
+  {
+    "id": "b0069",
+    "texto": "Llegar virgen al matrimonio"
+  },
+  {
+    "id": "b0070",
+    "texto": "El olor a bebé"
+  },
+  {
+    "id": "b0071",
+    "texto": "Los porteños"
+  },
+  {
+    "id": "b0072",
+    "texto": "El aro del corpiño"
+  },
+  {
+    "id": "b0073",
+    "texto": "Amar animales más de lo que alguien debería amar un animal"
+  },
+  {
+    "id": "b0074",
+    "texto": "La zona roja"
+  },
+  {
+    "id": "b0075",
+    "texto": "Mi hermano"
+  },
+  {
+    "id": "b0076",
+    "texto": "Un super chino"
+  },
+  {
+    "id": "b0077",
+    "texto": "Probar con un yogur"
+  },
+  {
+    "id": "b0078",
+    "texto": "El gluten"
+  },
+  {
+    "id": "b0079",
+    "texto": "Una tuca"
+  },
+  {
+    "id": "b0080",
+    "texto": "El Viagra"
+  },
+  {
+    "id": "b0081",
+    "texto": "Oler la ropa interior de tu vieja"
+  },
+  {
+    "id": "b0082",
+    "texto": "El gigoló de Rosario"
+  },
+  {
+    "id": "b0083",
+    "texto": "La década ganada"
+  },
+  {
+    "id": "b0084",
+    "texto": "Sentir que me están cagando"
+  },
+  {
+    "id": "b0085",
+    "texto": "Cagar al prójimo"
+  },
+  {
+    "id": "b0086",
+    "texto": "Un sueño húmedo"
+  },
+  {
+    "id": "b0087",
+    "texto": "Un perrito con ruedas en lugar de patas traseras"
+  },
+  {
+    "id": "b0088",
+    "texto": "Anonymous"
+  },
+  {
+    "id": "b0089",
+    "texto": "Los millennials"
+  },
+  {
+    "id": "b0090",
+    "texto": "Guantánamo"
+  },
+  {
+    "id": "b0091",
+    "texto": "Enterarme de que mi vieja es insaciable"
+  },
+  {
+    "id": "b0092",
+    "texto": "La celulitis"
+  },
+  {
+    "id": "b0093",
+    "texto": "El rigor mortis"
+  },
+  {
+    "id": "b0094",
+    "texto": "Un masaje de próstata"
+  },
+  {
+    "id": "b0095",
+    "texto": "No tener códigos"
+  },
+  {
+    "id": "b0096",
+    "texto": "La bipolaridad"
+  },
+  {
+    "id": "b0097",
+    "texto": "El fundamentalismo vegano"
+  },
+  {
+    "id": "b0098",
+    "texto": "Una verga más ancha que larga"
+  },
+  {
+    "id": "b0099",
+    "texto": "La pubertad"
+  },
+  {
+    "id": "b0100",
+    "texto": "Una tirada de goma decepcionante"
+  },
+  {
+    "id": "b0101",
+    "texto": "Un accidente en un parque de diversiones"
+  },
+  {
+    "id": "b0102",
+    "texto": "Un bebé de caca"
+  },
+  {
+    "id": "b0103",
+    "texto": "Alf"
+  },
+  {
+    "id": "b0104",
+    "texto": "La Cámara de Diputados"
+  },
+  {
+    "id": "b0105",
+    "texto": "La Marcha Peronista"
+  },
+  {
+    "id": "b0106",
+    "texto": "Ese festival chino donde comen carne de perro"
+  },
+  {
+    "id": "b0107",
+    "texto": "Una fuerte tendencia a la necrofilia"
+  },
+  {
+    "id": "b0108",
+    "texto": "La Iglesia maradoniana"
+  },
+  {
+    "id": "b0109",
+    "texto": "El papa Francisco"
+  },
+  {
+    "id": "b0110",
+    "texto": "Recuerdos reprimidos"
+  },
+  {
+    "id": "b0111",
+    "texto": "El Opus Dei"
+  },
+  {
+    "id": "b0112",
+    "texto": "La cumbia villera"
+  },
+  {
+    "id": "b0113",
+    "texto": "Auschwitz"
+  },
+  {
+    "id": "b0114",
+    "texto": "El carnaval carioca"
+  },
+  {
+    "id": "b0115",
+    "texto": "Separar siameses"
+  },
+  {
+    "id": "b0116",
+    "texto": "ISIS"
+  },
+  {
+    "id": "b0117",
+    "texto": "La cara de Cristiano cuando le dan un premio a Messi"
+  },
+  {
+    "id": "b0118",
+    "texto": "El pibe de sistemas"
+  },
+  {
+    "id": "b0119",
+    "texto": "Pobreza digna"
+  },
+  {
+    "id": "b0120",
+    "texto": "Parir en el auto"
+  },
+  {
+    "id": "b0121",
+    "texto": "La computadorita por la que habla Stephen Hawking"
+  },
+  {
+    "id": "b0122",
+    "texto": "Una salidera bancaria"
+  },
+  {
+    "id": "b0123",
+    "texto": "Lágrimas de semen"
+  },
+  {
+    "id": "b0124",
+    "texto": "Un pedo vaginal"
+  },
+  {
+    "id": "b0125",
+    "texto": "Automedicarse"
+  },
+  {
+    "id": "b0126",
+    "texto": "Los piqueteros"
+  },
+  {
+    "id": "b0127",
+    "texto": "(Nombrá al jugador de tu izquierda)"
+  },
+  {
+    "id": "b0128",
+    "texto": "Un metrodelegado"
+  },
+  {
+    "id": "b0129",
+    "texto": "Los fluidos vaginales"
+  },
+  {
+    "id": "b0130",
+    "texto": "Un banco de esperma"
+  },
+  {
+    "id": "b0131",
+    "texto": "La navaja de MacGyver"
+  },
+  {
+    "id": "b0132",
+    "texto": "Un guiso de escrotos"
+  },
+  {
+    "id": "b0133",
+    "texto": "El Gauchito Gil"
+  },
+  {
+    "id": "b0134",
+    "texto": "Los barones del conurbano"
+  },
+  {
+    "id": "b0135",
+    "texto": "La siesta santiagueña"
+  },
+  {
+    "id": "b0136",
+    "texto": "Coger con extraños"
+  },
+  {
+    "id": "b0137",
+    "texto": "Dar el vuelto con caramelos"
+  },
+  {
+    "id": "b0138",
+    "texto": "Legalizar el aborto"
+  },
+  {
+    "id": "b0139",
+    "texto": "Las bicisendas"
+  },
+  {
+    "id": "b0140",
+    "texto": "Tapar el baño"
+  },
+  {
+    "id": "b0141",
+    "texto": "Andar a caballo en pelotas"
+  },
+  {
+    "id": "b0142",
+    "texto": "Compartir jeringas"
+  },
+  {
+    "id": "b0143",
+    "texto": "Preguntarle si está por acabar"
+  },
+  {
+    "id": "b0144",
+    "texto": "Un brote de dengue"
+  },
+  {
+    "id": "b0145",
+    "texto": "El sadomasoquismo"
+  },
+  {
+    "id": "b0146",
+    "texto": "El amor"
+  },
+  {
+    "id": "b0147",
+    "texto": "Las inundaciones"
+  },
+  {
+    "id": "b0148",
+    "texto": "La servidumbre"
+  },
+  {
+    "id": "b0149",
+    "texto": "(Nombrá al jugador de tu derecha)"
+  },
+  {
+    "id": "b0150",
+    "texto": "La justicia por mano propia"
+  },
+  {
+    "id": "b0151",
+    "texto": "Un grupo de viejos fachos"
+  },
+  {
+    "id": "b0152",
+    "texto": "Tomar medio vasito de orina"
+  },
+  {
+    "id": "b0153",
+    "texto": "La cura contra el cáncer"
+  },
+  {
+    "id": "b0154",
+    "texto": "Querer que vuelvan los militares"
+  },
+  {
+    "id": "b0155",
+    "texto": "El espiral para los mosquitos"
+  },
+  {
+    "id": "b0156",
+    "texto": "Una bañera llena de tibia leche"
+  },
+  {
+    "id": "b0157",
+    "texto": "Un conchero"
+  },
+  {
+    "id": "b0158",
+    "texto": "Un antojo de carne humana"
+  },
+  {
+    "id": "b0159",
+    "texto": "Los mormones"
+  },
+  {
+    "id": "b0160",
+    "texto": "El padre Grassi"
+  },
+  {
+    "id": "b0161",
+    "texto": "Quebrar en la previa"
+  },
+  {
+    "id": "b0162",
+    "texto": "Adolf Hitler"
+  },
+  {
+    "id": "b0163",
+    "texto": "Ir a misa"
+  },
+  {
+    "id": "b0164",
+    "texto": "El sueño de ser campeón de Gimnasia"
+  },
+  {
+    "id": "b0165",
+    "texto": "La Tercera Guerra Mundial"
+  },
+  {
+    "id": "b0166",
+    "texto": "La clase obrera"
+  },
+  {
+    "id": "b0167",
+    "texto": "El colesterol alto"
+  },
+  {
+    "id": "b0168",
+    "texto": "Irse en seco"
+  },
+  {
+    "id": "b0169",
+    "texto": "Depilarse el pecho"
+  },
+  {
+    "id": "b0170",
+    "texto": "La que hace la traducción para sordomudos"
+  },
+  {
+    "id": "b0171",
+    "texto": "Salir de joda los martes"
+  },
+  {
+    "id": "b0172",
+    "texto": "Apoyar el ojete en la estufa"
+  },
+  {
+    "id": "b0173",
+    "texto": "El Dirty Sanchez"
+  },
+  {
+    "id": "b0174",
+    "texto": "Una milanesa de soja"
+  },
+  {
+    "id": "b0175",
+    "texto": "Un Falcon verde"
+  },
+  {
+    "id": "b0176",
+    "texto": "Un ano contra natura"
+  },
+  {
+    "id": "b0177",
+    "texto": "Responder un \"te amo\" con un \"gracias\""
+  },
+  {
+    "id": "b0178",
+    "texto": "Entrarle como gallego a la gaita"
+  },
+  {
+    "id": "b0179",
+    "texto": "El calentamiento global"
+  },
+  {
+    "id": "b0180",
+    "texto": "Un cinturón de castidad"
+  },
+  {
+    "id": "b0181",
+    "texto": "La mafia china"
+  },
+  {
+    "id": "b0182",
+    "texto": "La gilada"
+  },
+  {
+    "id": "b0183",
+    "texto": "La Deep Web"
+  },
+  {
+    "id": "b0184",
+    "texto": "Un harén de cholas peruanas"
+  },
+  {
+    "id": "b0185",
+    "texto": "Un video de ISIS decapitando periodistas"
+  },
+  {
+    "id": "b0186",
+    "texto": "Mi colección de rosarios anales"
+  },
+  {
+    "id": "b0187",
+    "texto": "Las hemorroides"
+  },
+  {
+    "id": "b0188",
+    "texto": "Un disparo en la cabeza"
+  },
+  {
+    "id": "b0189",
+    "texto": "El ex presidente Pinedo"
+  },
+  {
+    "id": "b0190",
+    "texto": "El líquido azul de las propagandas de toallitas"
+  },
+  {
+    "id": "b0191",
+    "texto": "El fantasma de la B"
+  },
+  {
+    "id": "b0192",
+    "texto": "Un ataque de palometas"
+  },
+  {
+    "id": "b0193",
+    "texto": "La esvástica"
+  },
+  {
+    "id": "b0194",
+    "texto": "Jugar al Jenga con un sobreviviente de las Torres Gemelas"
+  },
+  {
+    "id": "b0195",
+    "texto": "36 vírgenes por un trabajo hecho a medias"
+  },
+  {
+    "id": "b0196",
+    "texto": "Hacerle caso a las voces en mi cabeza"
+  },
+  {
+    "id": "b0197",
+    "texto": "Sacar los pelos de la rejilla del baño"
+  },
+  {
+    "id": "b0198",
+    "texto": "Hacerte el orto"
+  },
+  {
+    "id": "b0199",
+    "texto": "Un señor desnudo llorando en la calle"
+  },
+  {
+    "id": "b0200",
+    "texto": "Un volcán de semen"
+  },
+  {
+    "id": "b0201",
+    "texto": "Las invasiones bárbaras"
+  },
+  {
+    "id": "b0202",
+    "texto": "El sex shop al final de la galería"
+  },
+  {
+    "id": "b0203",
+    "texto": "Stalkear a tu ex en redes sociales"
+  },
+  {
+    "id": "b0204",
+    "texto": "Dos semanas de retraso"
+  },
+  {
+    "id": "b0205",
+    "texto": "Brownies con gusto a pasto"
+  },
+  {
+    "id": "b0206",
+    "texto": "Los niños rata"
+  },
+  {
+    "id": "b0207",
+    "texto": "El paco"
+  },
+  {
+    "id": "b0208",
+    "texto": "La fe cristiana"
+  },
+  {
+    "id": "b0209",
+    "texto": "Malos modales"
+  },
+  {
+    "id": "b0210",
+    "texto": "Ponerle pasas de uva a las empanadas"
+  },
+  {
+    "id": "b0211",
+    "texto": "Consumir drogas duras"
+  },
+  {
+    "id": "b0212",
+    "texto": "Larry, Curly y Moe"
+  },
+  {
+    "id": "b0213",
+    "texto": "La homofobia"
+  },
+  {
+    "id": "b0214",
+    "texto": "El gol de Diego a los ingleses"
+  },
+  {
+    "id": "b0215",
+    "texto": "Cambiar de género"
+  },
+  {
+    "id": "b0216",
+    "texto": "Laburar los findes"
+  },
+  {
+    "id": "b0217",
+    "texto": "Vladimir Putin"
+  },
+  {
+    "id": "b0218",
+    "texto": "Una jauría de lobos salvajes"
+  },
+  {
+    "id": "b0219",
+    "texto": "Un detector de sarcasmo"
+  },
+  {
+    "id": "b0220",
+    "texto": "El anillo de cuero"
+  },
+  {
+    "id": "b0221",
+    "texto": "Borrar una publicación porque nadie le dio Like"
+  },
+  {
+    "id": "b0222",
+    "texto": "Meter los cuernos"
+  },
+  {
+    "id": "b0223",
+    "texto": "La del mono"
+  },
+  {
+    "id": "b0224",
+    "texto": "El segundo cordón del conurbano bonaerense"
+  },
+  {
+    "id": "b0225",
+    "texto": "Un Pollock de caca"
+  },
+  {
+    "id": "b0226",
+    "texto": "El cavado profundo"
+  },
+  {
+    "id": "b0227",
+    "texto": "Revisarle el celu a tu pareja"
+  },
+  {
+    "id": "b0228",
+    "texto": "Una foto mía de hace 5 años"
+  },
+  {
+    "id": "b0229",
+    "texto": "Un pingüino empetrolado"
+  },
+  {
+    "id": "b0230",
+    "texto": "Algún pelotudo de la farándula al azar"
+  },
+  {
+    "id": "b0231",
+    "texto": "La flora intestinal"
+  },
+  {
+    "id": "b0232",
+    "texto": "Viajar en la línea Sarmiento"
+  },
+  {
+    "id": "b0233",
+    "texto": "La copa menstrual"
+  },
+  {
+    "id": "b0234",
+    "texto": "El autor intelectual del crimen de Cabezas"
+  },
+  {
+    "id": "b0235",
+    "texto": "Una guerra de almohadas"
+  },
+  {
+    "id": "b0236",
+    "texto": "El trabajo esclavo"
+  },
+  {
+    "id": "b0237",
+    "texto": "La asfixia erótica"
+  },
+  {
+    "id": "b0238",
+    "texto": "Tener cara de boludo"
+  },
+  {
+    "id": "b0239",
+    "texto": "Opinar sin saber"
+  },
+  {
+    "id": "b0240",
+    "texto": "El Ku Klux Klan"
+  },
+  {
+    "id": "b0241",
+    "texto": "El tipo con el que fantasea tu vieja"
+  },
+  {
+    "id": "b0242",
+    "texto": "Un enema"
+  },
+  {
+    "id": "b0243",
+    "texto": "¡Essssta!"
+  },
+  {
+    "id": "b0244",
+    "texto": "La pastilla del día después"
+  },
+  {
+    "id": "b0245",
+    "texto": "Mauricio Macri"
+  },
+  {
+    "id": "b0246",
+    "texto": "La AFIP"
+  },
+  {
+    "id": "b0247",
+    "texto": "Dos niñas de 7 años"
+  },
+  {
+    "id": "b0248",
+    "texto": "Lamer axilas"
+  },
+  {
+    "id": "b0249",
+    "texto": "Un puñal de carne"
+  },
+  {
+    "id": "b0250",
+    "texto": "Orgasmos múltiples"
+  },
+  {
+    "id": "b0251",
+    "texto": "Ese tío raro que tienen todas las familias"
+  },
+  {
+    "id": "b0252",
+    "texto": "Un niño africano y su AK-47"
+  },
+  {
+    "id": "b0253",
+    "texto": "La barba candado"
+  },
+  {
+    "id": "b0254",
+    "texto": "Las manos de Perón"
+  },
+  {
+    "id": "b0255",
+    "texto": "El Día de la Lealtad"
+  },
+  {
+    "id": "b0256",
+    "texto": "Un motochorro"
+  },
+  {
+    "id": "b0257",
+    "texto": "Una wacha piola"
+  },
+  {
+    "id": "b0258",
+    "texto": "El tipo que piensa las placas de Crónica"
+  },
+  {
+    "id": "b0259",
+    "texto": "Un supositorio"
+  },
+  {
+    "id": "b0260",
+    "texto": "Forros sabor cordero patagónico"
+  },
+  {
+    "id": "b0261",
+    "texto": "La Bonaerense"
+  },
+  {
+    "id": "b0262",
+    "texto": "Las manos de todos los pibes arriba"
+  },
+  {
+    "id": "b0263",
+    "texto": "Un culo peludo"
+  },
+  {
+    "id": "b0264",
+    "texto": "Ponerla"
+  },
+  {
+    "id": "b0265",
+    "texto": "La ira de Dios"
+  },
+  {
+    "id": "b0266",
+    "texto": "El negro que muere primero en las películas"
+  },
+  {
+    "id": "b0267",
+    "texto": "Un arquero paraguayo con el ego altísimo"
+  },
+  {
+    "id": "b0268",
+    "texto": "Rambo"
+  },
+  {
+    "id": "b0269",
+    "texto": "Un proctólogo"
+  },
+  {
+    "id": "b0270",
+    "texto": "Jesús"
+  },
+  {
+    "id": "b0271",
+    "texto": "La raza aria"
+  },
+  {
+    "id": "b0272",
+    "texto": "El poliamor"
+  },
+  {
+    "id": "b0273",
+    "texto": "Un deportista argentino en una final"
+  },
+  {
+    "id": "b0274",
+    "texto": "Un cabeza de termo"
+  },
+  {
+    "id": "b0275",
+    "texto": "Los ensayos nucleares de Corea del Norte"
+  },
+  {
+    "id": "b0276",
+    "texto": "La cárcel de Devoto"
+  },
+  {
+    "id": "b0277",
+    "texto": "El testículo del medio"
+  },
+  {
+    "id": "b0278",
+    "texto": "Un dildo de dos puntas"
+  },
+  {
+    "id": "b0279",
+    "texto": "Las islas Malvinas"
+  },
+  {
+    "id": "b0280",
+    "texto": "Un cinturonga"
+  },
+  {
+    "id": "b0281",
+    "texto": "La 12"
+  },
+  {
+    "id": "b0282",
+    "texto": "Maiameeeee"
+  },
+  {
+    "id": "b0283",
+    "texto": "El pueblo judío"
+  },
+  {
+    "id": "b0284",
+    "texto": "La SIDE"
+  },
+  {
+    "id": "b0285",
+    "texto": "Sacarla y acabar afuera"
+  },
+  {
+    "id": "b0286",
+    "texto": "El olor a billete viejo"
+  },
+  {
+    "id": "b0287",
+    "texto": "El acoso sexual en el subte"
+  },
+  {
+    "id": "b0288",
+    "texto": "El culto al crossfit"
+  },
+  {
+    "id": "b0289",
+    "texto": "Eyacular en gravedad cero"
+  },
+  {
+    "id": "b0290",
+    "texto": "El vértigo en la cola"
+  },
+  {
+    "id": "b0291",
+    "texto": "Poner la otra mejilla"
+  },
+  {
+    "id": "b0292",
+    "texto": "Una inerte barra de carbón"
+  },
+  {
+    "id": "b0293",
+    "texto": "El porno gay"
+  },
+  {
+    "id": "b0294",
+    "texto": "Un ginecólogo pediatra"
+  },
+  {
+    "id": "b0295",
+    "texto": "Hacer cucharita con Hitler"
+  },
+  {
+    "id": "b0296",
+    "texto": "Pinchar forros"
+  },
+  {
+    "id": "b0297",
+    "texto": "Un secuestro express"
+  },
+  {
+    "id": "b0298",
+    "texto": "Ejercer el derecho de prima nocte con todos mis amigos"
+  },
+  {
+    "id": "b0299",
+    "texto": "Ser mufa"
+  },
+  {
+    "id": "b0300",
+    "texto": "La versión braille del Kamasutra"
+  },
+  {
+    "id": "b0301",
+    "texto": "Un alto guiso"
+  },
+  {
+    "id": "b0302",
+    "texto": "Salpicar la tapa del inodoro"
+  },
+  {
+    "id": "b0303",
+    "texto": "Fingir el orgasmo"
+  },
+  {
+    "id": "b0304",
+    "texto": "Chuck Norris"
+  },
+  {
+    "id": "b0305",
+    "texto": "La concha de la lora"
+  },
+  {
+    "id": "b0306",
+    "texto": "La santa Biblia"
+  },
+  {
+    "id": "b0307",
+    "texto": "Frodo, Sam y los otros dos"
+  },
+  {
+    "id": "b0308",
+    "texto": "La pincita de la depiladora"
+  },
+  {
+    "id": "b0309",
+    "texto": "Los pañales para adultos"
+  },
+  {
+    "id": "b0310",
+    "texto": "El antidóping"
+  },
+  {
+    "id": "b0311",
+    "texto": "Herpes bucales"
+  },
+  {
+    "id": "b0312",
+    "texto": "La leche cortada"
+  },
+  {
+    "id": "b0313",
+    "texto": "Chupar de abajo para arriba"
+  },
+  {
+    "id": "b0314",
+    "texto": "La selección rusa de volley"
+  },
+  {
+    "id": "b0315",
+    "texto": "Un volquete lleno de cadáveres"
+  },
+  {
+    "id": "b0316",
+    "texto": "Esa tibia sensación que sentís cuando levantás la caca del perro con una bolsita"
+  },
+  {
+    "id": "b0317",
+    "texto": "Un frasquito con un feto adentro"
+  },
+  {
+    "id": "b0318",
+    "texto": "Una bicicleta con dos vergas en lugar de manubrio"
+  },
+  {
+    "id": "b0319",
+    "texto": "Los Skinheads"
+  },
+  {
+    "id": "b0320",
+    "texto": "Enterarme de que su ex la tenía mucho más grande"
+  },
+  {
+    "id": "b0321",
+    "texto": "Ponerse la gorra"
+  },
+  {
+    "id": "b0322",
+    "texto": "Darle para que tenga"
+  },
+  {
+    "id": "b0323",
+    "texto": "Vivir rodeado de pelotudos"
+  },
+  {
+    "id": "b0324",
+    "texto": "Quedarse pelado"
+  },
+  {
+    "id": "b0325",
+    "texto": "Jugar al teto"
+  },
+  {
+    "id": "b0326",
+    "texto": "El racismo"
+  },
+  {
+    "id": "b0327",
+    "texto": "Los kelpers"
+  },
+  {
+    "id": "b0328",
+    "texto": "El incesto"
+  },
+  {
+    "id": "b0329",
+    "texto": "Hacer molinete"
+  },
+  {
+    "id": "b0330",
+    "texto": "Mi entrepierna"
+  },
+  {
+    "id": "b0331",
+    "texto": "Un mes sin masacres en Estados Unidos"
+  },
+  {
+    "id": "b0332",
+    "texto": "Un culo come trapo"
+  },
+  {
+    "id": "b0333",
+    "texto": "Un chiste misógino"
+  },
+  {
+    "id": "b0334",
+    "texto": "La tira de cola"
+  },
+  {
+    "id": "b0335",
+    "texto": "El machismo"
+  },
+  {
+    "id": "b0336",
+    "texto": "Cerrar el orto"
+  },
+  {
+    "id": "b0337",
+    "texto": "Cenar atún directo de la lata"
+  },
+  {
+    "id": "b0338",
+    "texto": "Negar el Holocausto"
+  },
+  {
+    "id": "b0339",
+    "texto": "Instalar la monarquía en la Argentina"
+  },
+  {
+    "id": "b0340",
+    "texto": "Coger con cocaína en la punta de la verga"
+  },
+  {
+    "id": "b0341",
+    "texto": "El 70% de descuento en la segunda unidad"
+  },
+  {
+    "id": "b0342",
+    "texto": "La posibilidad de una guerra nuclear"
+  },
+  {
+    "id": "b0343",
+    "texto": "Un bucle infinito de stories de Instagram."
+  },
+  {
+    "id": "b0344",
+    "texto": "La palabra \"soltar\"."
+  },
+  {
+    "id": "b0345",
+    "texto": "Un corte de luz programado para durar 8 horas."
+  },
+  {
+    "id": "b0346",
+    "texto": "El cepo al dólar."
+  },
+  {
+    "id": "b0347",
+    "texto": "Una clase de spinning motivacional."
+  },
+  {
+    "id": "b0348",
+    "texto": "La sesión 53 de Bizarrap."
+  },
+  {
+    "id": "b0349",
+    "texto": "Un termo Stanley."
+  },
+  {
+    "id": "b0350",
+    "texto": "El veganismo militante."
+  },
+  {
+    "id": "b0351",
+    "texto": "Un streamer reaccionando a otro streamer."
+  },
+  {
+    "id": "b0352",
+    "texto": "La receta de la chocotorta."
+  },
+  {
+    "id": "b0353",
+    "texto": "Mandar \"jajaja\" sin haberse reído."
+  },
+  {
+    "id": "b0354",
+    "texto": "Un audio de Milei gritando."
+  },
+  {
+    "id": "b0355",
+    "texto": "Un alfajor de maicena más seco que el Sahara."
+  },
+  {
+    "id": "b0356",
+    "texto": "El pasaporte europeo."
+  },
+  {
+    "id": "b0357",
+    "texto": "Un CV con dos páginas de \"habilidades blandas\"."
+  },
+  {
+    "id": "b0358",
+    "texto": "El olor a sahumerio de palo santo."
+  },
+  {
+    "id": "b0359",
+    "texto": "La friendzone."
+  },
+  {
+    "id": "b0360",
+    "texto": "Una tanda publicitaria de 15 minutos."
+  },
+  {
+    "id": "b0361",
+    "texto": "La tarjeta SUBE sin saldo."
+  },
+  {
+    "id": "b0362",
+    "texto": "Un debate presidencial a los gritos."
+  },
+  {
+    "id": "b0363",
+    "texto": "El último feriado puente."
+  },
+  {
+    "id": "b0364",
+    "texto": "Una birra artesanal con gusto a fruta exótica."
+  },
+  {
+    "id": "b0365",
+    "texto": "El fantasma de Gilda."
+  },
+  {
+    "id": "b0366",
+    "texto": "Un curso de finanzas en Hotmart."
+  },
+  {
+    "id": "b0367",
+    "texto": "El pancito de la picada que nadie quiere."
+  },
+  {
+    "id": "b0368",
+    "texto": "Un niño explicando el universo."
+  },
+  {
+    "id": "b0369",
+    "texto": "La cuenta de un restaurante en Palermo."
+  },
+  {
+    "id": "b0370",
+    "texto": "Una deuda con el FMI."
+  },
+  {
+    "id": "b0371",
+    "texto": "La app CUIDAR."
+  },
+  {
+    "id": "b0372",
+    "texto": "Un carpincho tomando sol en Nordelta."
+  },
+  {
+    "id": "b0373",
+    "texto": "Un taller de constelaciones familiares."
+  },
+  {
+    "id": "b0374",
+    "texto": "El carré de cerdo a la riojana."
+  },
+  {
+    "id": "b0375",
+    "texto": "El horóscopo de Jimena La Torre."
+  },
+  {
+    "id": "b0376",
+    "texto": "Un youtuber pidiendo que te suscribas."
+  },
+  {
+    "id": "b0377",
+    "texto": "La app de tu banco que nunca anda."
+  },
+  {
+    "id": "b0378",
+    "texto": "El último chisme de LAM."
+  },
+  {
+    "id": "b0379",
+    "texto": "Un gobierno de científicos."
+  },
+  {
+    "id": "b0380",
+    "texto": "Un liberal que no leyó a Hayek."
+  },
+  {
+    "id": "b0381",
+    "texto": "Una maceta con un cactus medio muerto."
+  },
+  {
+    "id": "b0382",
+    "texto": "El fantasma de Nisman."
+  },
+  {
+    "id": "b0383",
+    "texto": "El Satisfyer."
+  },
+  {
+    "id": "b0384",
+    "texto": "Una pelea de musculosos en la puerta de un gimnasio."
+  },
+  {
+    "id": "b0385",
+    "texto": "La palabra \"resiliencia\"."
+  },
+  {
+    "id": "b0386",
+    "texto": "El último outfit de Juliana Awada."
+  },
+  {
+    "id": "b0387",
+    "texto": "Un kirchnerista con un iPhone."
+  },
+  {
+    "id": "b0388",
+    "texto": "La inestabilidad emocional."
+  },
+  {
+    "id": "b0389",
+    "texto": "El fantasma de Menem."
+  },
+  {
+    "id": "b0390",
+    "texto": "Un asado vegano."
+  },
+  {
+    "id": "b0391",
+    "texto": "La falta de amor propio."
+  },
+  {
+    "id": "b0392",
+    "texto": "El Duki."
+  },
+  {
+    "id": "b0393",
+    "texto": "La evasión de impuestos."
+  },
+  {
+    "id": "b0394",
+    "texto": "Una tesis de la UBA sobre Foucault."
+  },
+  {
+    "id": "b0395",
+    "texto": "El último videoclip de Dillom."
+  },
+  {
+    "id": "b0396",
+    "texto": "Una pelea en el grupo de consorcio."
+  },
+  {
+    "id": "b0397",
+    "texto": "La inflación de Estados Unidos."
+  },
+  {
+    "id": "b0398",
+    "texto": "Un progre de Villa Urquiza."
+  },
+  {
+    "id": "b0399",
+    "texto": "El último Martín Fierro de Oro."
+  },
+  {
+    "id": "b0400",
+    "texto": "La yeta."
+  },
+  {
+    "id": "b0401",
+    "texto": "Un pato criollo."
+  },
+  {
+    "id": "b0402",
+    "texto": "El programa de Guido Kaczka."
+  },
+  {
+    "id": "b0403",
+    "texto": "Un viaje a la costa en enero."
+  },
+  {
+    "id": "b0404",
+    "texto": "El pre-viaje."
+  },
+  {
+    "id": "b0405",
+    "texto": "Una marcha anti-cuarentena."
+  },
+  {
+    "id": "b0406",
+    "texto": "El impuesto a las ganancias."
+  },
+  {
+    "id": "b0407",
+    "texto": "Una película de Suar."
+  },
+  {
+    "id": "b0408",
+    "texto": "El programa de Marley."
+  },
+  {
+    "id": "b0409",
+    "texto": "Una imitación de Fátima Florez."
+  },
+  {
+    "id": "b0410",
+    "texto": "Un mensaje de tu ex a las 3 AM."
+  },
+  {
+    "id": "b0411",
+    "texto": "La palabra \"deconstruite\"."
+  },
+  {
+    "id": "b0412",
+    "texto": "Una conversación con un taxista."
+  },
+  {
+    "id": "b0413",
+    "texto": "El final de Game of Thrones."
+  },
+  {
+    "id": "b0414",
+    "texto": "Un vendedor de medias en el subte."
+  },
+  {
+    "id": "b0415",
+    "texto": "La crisis existencial de los domingos."
+  },
+  {
+    "id": "b0416",
+    "texto": "Un audio de Aníbal Fernández."
+  },
+  {
+    "id": "b0417",
+    "texto": "Una publicidad de Mercado Libre."
+  },
+  {
+    "id": "b0418",
+    "texto": "El último libro de autoayuda."
+  },
+  {
+    "id": "b0419",
+    "texto": "La deuda externa."
+  },
+  {
+    "id": "b0420",
+    "texto": "Un chiste de Yayo."
+  },
+  {
+    "id": "b0421",
+    "texto": "El patriarcado."
+  },
+  {
+    "id": "b0422",
+    "texto": "Un plan social."
+  },
+  {
+    "id": "b0423",
+    "texto": "Una reposera en la playa."
+  },
+  {
+    "id": "b0424",
+    "texto": "El sánguche de milanesa de la ruta."
+  },
+  {
+    "id": "b0425",
+    "texto": "La pobreza estructural."
+  },
+  {
+    "id": "b0426",
+    "texto": "El fantasma de Néstor Kirchner."
+  },
+  {
+    "id": "b0427",
+    "texto": "El Indio Solari."
+  },
+  {
+    "id": "b0428",
+    "texto": "Un recital de Divididos."
+  },
+  {
+    "id": "b0429",
+    "texto": "La fuga de cerebros."
+  },
+  {
+    "id": "b0430",
+    "texto": "Un chiste de Nik."
+  },
+  {
+    "id": "b0431",
+    "texto": "La Panamericana en hora pico."
+  },
+  {
+    "id": "b0432",
+    "texto": "El último libro de Sacheri."
+  },
+  {
+    "id": "b0433",
+    "texto": "Una lloradita y a seguir."
+  },
+  {
+    "id": "b0434",
+    "texto": "La crisis de representatividad."
+  },
+  {
+    "id": "b0435",
+    "texto": "Un programa de Viviana Canosa."
+  },
+  {
+    "id": "b0436",
+    "texto": "Un personaje de Capusotto."
+  },
+  {
+    "id": "b0437",
+    "texto": "La fuga de capitales."
+  },
+  {
+    "id": "b0438",
+    "texto": "Un culo perfecto."
+  },
+  {
+    "id": "b0439",
+    "texto": "Un feriado irrenunciable."
+  },
+  {
+    "id": "b0440",
+    "texto": "El último tuit de Elon Musk."
+  },
+  {
+    "id": "b0441",
+    "texto": "Un video de gatitos en internet."
+  },
+  {
+    "id": "b0442",
+    "texto": "Una teoría conspirativa."
+  },
+  {
+    "id": "b0443",
+    "texto": "El Che Guevara."
+  },
+  {
+    "id": "b0444",
+    "texto": "Un audio de la \"cheta de Nordelta\"."
+  },
+  {
+    "id": "b0445",
+    "texto": "La pauta oficial."
+  },
+  {
+    "id": "b0446",
+    "texto": "El último disco de Babasónicos."
+  },
+  {
+    "id": "b0447",
+    "texto": "Una causa judicial que nunca avanza."
+  },
+  {
+    "id": "b0448",
+    "texto": "La tracción a sangre."
+  },
+  {
+    "id": "b0449",
+    "texto": "El último iPhone."
+  },
+  {
+    "id": "b0450",
+    "texto": "Una clase de crossfit."
+  },
+  {
+    "id": "b0451",
+    "texto": "Un influencer fitness."
+  },
+  {
+    "id": "b0452",
+    "texto": "El último libro de Felipe Pigna."
+  },
+  {
+    "id": "b0453",
+    "texto": "Una pelea de vedettes en Intrusos."
+  },
+  {
+    "id": "b0454",
+    "texto": "Un funcionario público que no funciona."
+  },
+  {
+    "id": "b0455",
+    "texto": "La bicicleta financiera."
+  },
+  {
+    "id": "b0456",
+    "texto": "El discurso de un CEO."
+  },
+  {
+    "id": "b0457",
+    "texto": "Un chongo."
+  },
+  {
+    "id": "b0458",
+    "texto": "El fantasma de Evita."
+  },
+  {
+    "id": "b0459",
+    "texto": "Una app de citas."
+  },
+  {
+    "id": "b0460",
+    "texto": "El último gol de Messi."
+  },
+  {
+    "id": "b0461",
+    "texto": "Una reunión de consorcio por Zoom."
+  },
+  {
+    "id": "b0462",
+    "texto": "El último aumento de sueldo."
+  },
+  {
+    "id": "b0463",
+    "texto": "Un chiste de Jaimito."
+  },
+  {
+    "id": "b0464",
+    "texto": "El último libro de Gabriel Rolón."
+  },
+  {
+    "id": "b0465",
+    "texto": "Una marcha piquetera."
+  },
+  {
+    "id": "b0466",
+    "texto": "La última canción de Wos."
+  },
+  {
+    "id": "b0467",
+    "texto": "El último video de Marito Baracus."
+  },
+  {
+    "id": "b0468",
+    "texto": "La última película de Campanella."
+  },
+  {
+    "id": "b0469",
+    "texto": "Un piquito."
+  },
+  {
+    "id": "b0470",
+    "texto": "El fantasma de Olmedo."
+  },
+  {
+    "id": "b0471",
+    "texto": "Una selfie en el baño."
+  },
+  {
+    "id": "b0472",
+    "texto": "El último capítulo de Casados con Hijos."
+  },
+  {
+    "id": "b0473",
+    "texto": "Una receta de Paulina Cocina."
+  },
+  {
+    "id": "b0474",
+    "texto": "El último disco de Fito Páez."
+  },
+  {
+    "id": "b0475",
+    "texto": "Una birra en un frasco."
+  },
+  {
+    "id": "b0476",
+    "texto": "El último video de Te Lo Resumo Así Nomás."
+  },
+  {
+    "id": "b0477",
+    "texto": "El fantasma de Perón."
+  },
+  {
+    "id": "b0478",
+    "texto": "Una tanda de penales."
+  },
+  {
+    "id": "b0479",
+    "texto": "El último disco de Charly García."
+  },
+  {
+    "id": "b0480",
+    "texto": "Un pasito de baile de TikTok."
+  },
+  {
+    "id": "b0481",
+    "texto": "La última publicidad de Luquitas Rodríguez."
+  },
+  {
+    "id": "b0482",
+    "texto": "El último libro de Darío Sztajnszrajber."
+  },
+  {
+    "id": "b0483",
+    "texto": "Un partido de la selección."
+  },
+  {
+    "id": "b0484",
+    "texto": "El último discurso de Cristina."
+  },
+  {
+    "id": "b0485",
+    "texto": "Una milanesa a la napolitana con fritas."
+  },
+  {
+    "id": "b0486",
+    "texto": "El último video de Peter Capusotto."
+  },
+  {
+    "id": "b0487",
+    "texto": "El último disco de los Redondos."
+  },
+  {
+    "id": "b0488",
+    "texto": "Una puteada al aire de Pagani."
+  },
+  {
+    "id": "b0489",
+    "texto": "El último aumento de la nafta."
+  },
+  {
+    "id": "b0490",
+    "texto": "Un fernet con Coca."
+  },
+  {
+    "id": "b0491",
+    "texto": "La última pelea de Cinthia Fernández."
+  },
+  {
+    "id": "b0492",
+    "texto": "El último disco de Soda Stereo."
+  },
+  {
+    "id": "b0493",
+    "texto": "El último video de Lizi Tagliani."
+  },
+  {
+    "id": "b0494",
+    "texto": "Una empanada de carne cortada a cuchillo."
+  },
+  {
+    "id": "b0495",
+    "texto": "El último programa de Mirtha Legrand."
+  },
+  {
+    "id": "b0496",
+    "texto": "El último disco de Calamaro."
+  },
+  {
+    "id": "b0497",
+    "texto": "Un alfajor Jorgito."
+  },
+  {
+    "id": "b0498",
+    "texto": "La última novela de Suar."
+  },
+  {
+    "id": "b0499",
+    "texto": "El último disco de Cerati."
+  },
+  {
+    "id": "b0500",
+    "texto": "Un choripán en la costanera."
+  },
+  {
+    "id": "b0501",
+    "texto": "El último programa de Tinelli."
+  },
+  {
+    "id": "b0502",
+    "texto": "El último disco de Spinetta."
+  },
+  {
+    "id": "b0503",
+    "texto": "Un sánguche de vacío."
+  },
+  {
+    "id": "b0504",
+    "texto": "La última película de Francella."
+  },
+  {
+    "id": "b0505",
+    "texto": "El último disco de Las Pelotas."
+  },
+  {
+    "id": "b0506",
+    "texto": "Un asado con amigos."
+  },
+  {
+    "id": "b0507",
+    "texto": "La última temporada de Los Simuladores."
+  },
+  {
+    "id": "b0508",
+    "texto": "El último disco de La Renga."
+  },
+  {
+    "id": "b0509",
+    "texto": "La soberanía de las Malvinas."
+  },
+  {
+    "id": "b0510",
+    "texto": "La pampa húmeda."
+  },
+  {
+    "id": "b0511",
+    "texto": "Un Martín Fierro."
+  },
+  {
+    "id": "b0512",
+    "texto": "La viveza criolla."
+  },
+  {
+    "id": "b0513",
+    "texto": "Un subsidio del Estado."
+  },
+  {
+    "id": "b0514",
+    "texto": "El dulce de leche."
+  },
+  {
+    "id": "b0515",
+    "texto": "La birome."
+  },
+  {
+    "id": "b0516",
+    "texto": "El colectivo."
+  },
+  {
+    "id": "b0517",
+    "texto": "Una denuncia por acoso."
+  },
+  {
+    "id": "b0518",
+    "texto": "La brecha salarial."
+  },
+  {
+    "id": "b0519",
+    "texto": "Un microondas que gira pero no calienta."
+  },
+  {
+    "id": "b0520",
+    "texto": "La friendzone con derecho a roce."
+  },
+  {
+    "id": "b0521",
+    "texto": "Mi ex viendo mis stories."
+  },
+  {
+    "id": "b0522",
+    "texto": "La gentrificación de Chacarita."
+  },
+  {
+    "id": "b0523",
+    "texto": "Un termo Lumilagro."
+  },
+  {
+    "id": "b0524",
+    "texto": "El pibe que atiende la fotocopiadora."
+  },
+  {
+    "id": "b0525",
+    "texto": "Un departamento con balcón terraza."
+  },
+  {
+    "id": "b0526",
+    "texto": "Los memes de Los Simpsons."
+  },
+  {
+    "id": "b0527",
+    "texto": "El último feriado."
+  },
+  {
+    "id": "b0528",
+    "texto": "Una fila de dos cuadras para votar."
+  },
+  {
+    "id": "b0529",
+    "texto": "La indemnización por despido."
+  },
+  {
+    "id": "b0530",
+    "texto": "Un plazo fijo en pesos."
+  },
+  {
+    "id": "b0531",
+    "texto": "La tarjeta de crédito al rojo vivo."
+  },
+  {
+    "id": "b0532",
+    "texto": "Un monotributista."
+  },
+  {
+    "id": "b0533",
+    "texto": "El Pre-Viaje 3."
+  },
+  {
+    "id": "b0534",
+    "texto": "Un centro cultural."
+  },
+  {
+    "id": "b0535",
+    "texto": "El impuesto al viento."
+  },
+  {
+    "id": "b0536",
+    "texto": "Una manifestación en Plaza de Mayo."
+  },
+  {
+    "id": "b0537",
+    "texto": "La marcha de los bombos."
+  },
+  {
+    "id": "b0538",
+    "texto": "Una empanada de humita."
+  },
+  {
+    "id": "b0539",
+    "texto": "El acento cordobés."
+  },
+  {
+    "id": "b0540",
+    "texto": "Una selfie con un famoso."
+  },
+  {
+    "id": "b0541",
+    "texto": "El último hit del verano."
+  },
+  {
+    "id": "b0542",
+    "texto": "La cumbia cruzada."
+  },
+  {
+    "id": "b0543",
+    "texto": "El cuarteto."
+  },
+  {
+    "id": "b0544",
+    "texto": "La zamba."
+  },
+  {
+    "id": "b0545",
+    "texto": "El tango."
+  },
+  {
+    "id": "b0546",
+    "texto": "El folklore."
+  },
+  {
+    "id": "b0547",
+    "texto": "El rock nacional."
+  },
+  {
+    "id": "b0548",
+    "texto": "El trap."
+  },
+  {
+    "id": "b0549",
+    "texto": "El reggaetón."
+  },
+  {
+    "id": "b0550",
+    "texto": "La música clásica."
+  },
+  {
+    "id": "b0551",
+    "texto": "El jazz."
+  },
+  {
+    "id": "b0552",
+    "texto": "El blues."
+  },
+  {
+    "id": "b0553",
+    "texto": "El heavy metal."
+  },
+  {
+    "id": "b0554",
+    "texto": "El punk."
+  },
+  {
+    "id": "b0555",
+    "texto": "La electrónica."
+  },
+  {
+    "id": "b0556",
+    "texto": "El pop."
+  },
+  {
+    "id": "b0557",
+    "texto": "La murga."
+  },
+  {
+    "id": "b0558",
+    "texto": "La chacarera."
+  },
+  {
+    "id": "b0559",
+    "texto": "El chamamé."
+  },
+  {
+    "id": "b0560",
+    "texto": "El malambo."
+  },
+  {
+    "id": "b0561",
+    "texto": "El carnavalito."
+  },
+  {
+    "id": "b0562",
+    "texto": "La milonga."
+  },
+  {
+    "id": "b0563",
+    "texto": "El candombe."
+  },
+  {
+    "id": "b0564",
+    "texto": "La payada."
+  },
+  {
+    "id": "b0565",
+    "texto": "El rap."
+  },
+  {
+    "id": "b0566",
+    "texto": "El hip-hop."
+  },
+  {
+    "id": "b0567",
+    "texto": "El indie."
+  },
+  {
+    "id": "b0568",
+    "texto": "La bossa nova."
+  },
+  {
+    "id": "b0569",
+    "texto": "El bolero."
+  },
+  {
+    "id": "b0570",
+    "texto": "La concha de tu madre en bicicleta."
+  },
+  {
+    "id": "b0571",
+    "texto": "Un pelotudo importante."
+  },
+  {
+    "id": "b0572",
+    "texto": "Ese forro de manual."
+  },
+  {
+    "id": "b0573",
+    "texto": "Una manga de hijos de remil puta."
+  },
+  {
+    "id": "b0574",
+    "texto": "¡Andá a cagar!"
+  },
+  {
+    "id": "b0575",
+    "texto": "Un sorete mal cagado."
+  },
+  {
+    "id": "b0576",
+    "texto": "Chupame bien la pija."
+  },
+  {
+    "id": "b0577",
+    "texto": "¡Qué te re parió, pedazo de guacho!"
+  },
+  {
+    "id": "b0578",
+    "texto": "La recalcada concha de tu hermana."
+  },
+  {
+    "id": "b0579",
+    "texto": "¡Pero mirá qué pedazo de boludo!"
+  },
+  {
+    "id": "b0580",
+    "texto": "Una mierda pinchada en un palo."
+  },
+  {
+    "id": "b0581",
+    "texto": "¡Metete el dedo en el orto y sacate una selfie!"
+  },
+  {
+    "id": "b0582",
+    "texto": "Un salame con ínfulas."
+  },
+  {
+    "id": "b0583",
+    "texto": "El pajero del grupo de WhatsApp."
+  },
+  {
+    "id": "b0584",
+    "texto": "La gata Flora."
+  },
+  {
+    "id": "b0585",
+    "texto": "Un guampudo consciente."
+  },
+  {
+    "id": "b0586",
+    "texto": "El típico \"yo no fui\"."
+  },
+  {
+    "id": "b0587",
+    "texto": "Un caradura sin remedio."
+  },
+  {
+    "id": "b0588",
+    "texto": "¡Me tenés las bolas al plato!"
+  },
+  {
+    "id": "b0589",
+    "texto": "El infradotado de siempre."
+  },
+  {
+    "id": "b0590",
+    "texto": "¡Cerrá el orto un poquito!"
+  },
+  {
+    "id": "b0591",
+    "texto": "La yuta puta."
+  },
+  {
+    "id": "b0592",
+    "texto": "Un político chorro."
+  },
+  {
+    "id": "b0593",
+    "texto": "El que se hace el boludo."
+  },
+  {
+    "id": "b0594",
+    "texto": "La vieja de al lado."
+  },
+  {
+    "id": "b0595",
+    "texto": "Un tránsfuga de aquellos."
+  },
+  {
+    "id": "b0596",
+    "texto": "¡Pero andá a la reputísima madre que te parió!"
+  },
+  {
+    "id": "b0597",
+    "texto": "El olor a culo."
+  },
+  {
+    "id": "b0598",
+    "texto": "Un moco pegado abajo de la mesa."
+  },
+  {
+    "id": "b0599",
+    "texto": "Las ganas de no hacer nada."
+  },
+  {
+    "id": "b0600",
+    "texto": "Un petardo en el culo."
+  },
+  {
+    "id": "b0601",
+    "texto": "El \"qué me importa\" argentino."
+  },
+  {
+    "id": "b0602",
+    "texto": "Un negro de mierda (dicho por un racista)."
+  },
+  {
+    "id": "b0603",
+    "texto": "La bronca acumulada."
+  },
+  {
+    "id": "b0604",
+    "texto": "¡Más falso que billete de 3 pesos!"
+  },
+  {
+    "id": "b0605",
+    "texto": "El que te caga el asado."
+  },
+  {
+    "id": "b0606",
+    "texto": "Un comentario de mala leche."
+  },
+  {
+    "id": "b0607",
+    "texto": "La viveza criolla mal entendida."
+  },
+  {
+    "id": "b0608",
+    "texto": "¡Dejate de joder!"
+  },
+  {
+    "id": "b0609",
+    "texto": "Un dolor de huevos insoportable."
+  },
+  {
+    "id": "b0610",
+    "texto": "El discurso de un sindicalista."
+  },
+  {
+    "id": "b0611",
+    "texto": "La burocracia estatal."
+  },
+  {
+    "id": "b0612",
+    "texto": "Un corte de luz en pleno partido."
+  },
+  {
+    "id": "b0613",
+    "texto": "El bondi que nunca llega."
+  },
+  {
+    "id": "b0614",
+    "texto": "La inflación que no para de subir."
+  },
+  {
+    "id": "b0615",
+    "texto": "Un programa de chimentos."
+  },
+  {
+    "id": "b0616",
+    "texto": "El ruido del vecino a las 3 AM."
+  },
+  {
+    "id": "b0617",
+    "texto": "Un mensaje de \"visto\" sin respuesta."
+  },
+  {
+    "id": "b0618",
+    "texto": "El que te estaciona en la puerta del garage."
+  },
+  {
+    "id": "b0619",
+    "texto": "Un pelotudo al volante."
+  },
+  {
+    "id": "b0620",
+    "texto": "La conexión a internet que anda para el orto."
+  },
+  {
+    "id": "b0621",
+    "texto": "El \"ya te llamo\" que nunca llega."
+  },
+  {
+    "id": "b0622",
+    "texto": "Un trámite que dura seis meses."
+  },
+  {
+    "id": "b0623",
+    "texto": "El precio del fernet."
+  },
+  {
+    "id": "b0624",
+    "texto": "La selección perdiendo una final."
+  },
+  {
+    "id": "b0625",
+    "texto": "Un árbitro comprado."
+  },
+  {
+    "id": "b0626",
+    "texto": "El que se cola en la fila."
+  },
+  {
+    "id": "b0627",
+    "texto": "Un grupito de chetos de Nordelta."
+  },
+  {
+    "id": "b0628",
+    "texto": "El \"no es mi problema\"."
+  },
+  {
+    "id": "b0629",
+    "texto": "La resaca de domingo."
+  },
+  {
+    "id": "b0630",
+    "texto": "El que habla con la boca llena."
+  },
+  {
+    "id": "b0631",
+    "texto": "Un spoiler de tu serie favorita."
+  },
+  {
+    "id": "b0632",
+    "texto": "El calor húmedo de enero."
+  },
+  {
+    "id": "b0633",
+    "texto": "Los mosquitos en verano."
+  },
+  {
+    "id": "b0634",
+    "texto": "El que no te devuelve la plata."
+  },
+  {
+    "id": "b0635",
+    "texto": "Un vegano dándote lecciones de moral."
+  },
+  {
+    "id": "b0636",
+    "texto": "El fútbol codificado."
+  },
+  {
+    "id": "b0637",
+    "texto": "La corrupción."
+  },
+  {
+    "id": "b0638",
+    "texto": "Un trapito prepotente."
+  },
+  {
+    "id": "b0639",
+    "texto": "El \"ya lo hago mañana\"."
+  },
+  {
+    "id": "b0640",
+    "texto": "Un pariente denso en Navidad."
+  },
+  {
+    "id": "b0641",
+    "texto": "La suegra."
+  },
+  {
+    "id": "b0642",
+    "texto": "El que te quiere vender un plan de ahorro."
+  },
+  {
+    "id": "b0643",
+    "texto": "Un audio de tu ex."
+  },
+  {
+    "id": "b0644",
+    "texto": "Las fake news."
+  },
+  {
+    "id": "b0645",
+    "texto": "Un influencer de medio pelo."
+  },
+  {
+    "id": "b0646",
+    "texto": "El \"no tenemos sistema\"."
+  },
+  {
+    "id": "b0647",
+    "texto": "La \"casta política\"."
+  },
+  {
+    "id": "b0648",
+    "texto": "Un aumento de expensas."
+  },
+  {
+    "id": "b0649",
+    "texto": "El que tira la basura donde no debe."
+  },
+  {
+    "id": "b0650",
+    "texto": "Un \"te lo dije\" bien merecido."
+  },
+  {
+    "id": "b0651",
+    "texto": "El que se cree superior."
+  },
+  {
+    "id": "b0652",
+    "texto": "La falta de empatía."
+  },
+  {
+    "id": "b0653",
+    "texto": "Un piquete que te caga el día."
+  },
+  {
+    "id": "b0654",
+    "texto": "El que te roba el encendedor."
+  },
+  {
+    "id": "b0655",
+    "texto": "La mentira piadosa que salió mal."
+  },
+  {
+    "id": "b0656",
+    "texto": "El \"amigo\" que te clava el visto."
+  },
+  {
+    "id": "b0657",
+    "texto": "Un gol de Messi en el último minuto."
+  },
+  {
+    "id": "b0658",
+    "texto": "El Dibu Martínez bailando después de atajar un penal."
+  },
+  {
+    "id": "b0659",
+    "texto": "Maradona calentando con la pelota atada al pie."
+  },
+  {
+    "id": "b0660",
+    "texto": "Un caño de Riquelme."
+  },
+  {
+    "id": "b0661",
+    "texto": "El \"qué mirás, bobo\" de Messi."
+  },
+  {
+    "id": "b0662",
+    "texto": "Un offside cobrado por el VAR que nadie entiende."
+  },
+  {
+    "id": "b0663",
+    "texto": "El Chiqui Tapia."
+  },
+  {
+    "id": "b0664",
+    "texto": "Un barrabrava con prontuario."
+  },
+  {
+    "id": "b0665",
+    "texto": "Perder una final contra Brasil."
+  },
+  {
+    "id": "b0666",
+    "texto": "Ganarle a los ingleses."
+  },
+  {
+    "id": "b0667",
+    "texto": "Un técnico que dura tres partidos."
+  },
+  {
+    "id": "b0668",
+    "texto": "El \"ganar como sea\" de Bilardo."
+  },
+  {
+    "id": "b0669",
+    "texto": "El \"jugar lindo\" de Menotti."
+  },
+  {
+    "id": "b0670",
+    "texto": "Un clásico Boca-River."
+  },
+  {
+    "id": "b0671",
+    "texto": "La hinchada más seguidora del país."
+  },
+  {
+    "id": "b0672",
+    "texto": "Un patadón a la altura de la rodilla."
+  },
+  {
+    "id": "b0673",
+    "texto": "El referí cobrando cualquier cosa."
+  },
+  {
+    "id": "b0674",
+    "texto": "Un \"pecho frío\"."
+  },
+  {
+    "id": "b0675",
+    "texto": "Un \"vendehumo\" de manual."
+  },
+  {
+    "id": "b0676",
+    "texto": "La mística copera."
+  },
+  {
+    "id": "b0677",
+    "texto": "Un gol en contra insólito."
+  },
+  {
+    "id": "b0678",
+    "texto": "El \"Pity\" Martínez."
+  },
+  {
+    "id": "b0679",
+    "texto": "La zurda mágica de Maradona."
+  },
+  {
+    "id": "b0680",
+    "texto": "Un penal dudoso."
+  },
+  {
+    "id": "b0681",
+    "texto": "El \"aguante\" de la hinchada."
+  },
+  {
+    "id": "b0682",
+    "texto": "La Conmebol."
+  },
+  {
+    "id": "b0683",
+    "texto": "Un equipo chico dándole una paliza a un grande."
+  },
+  {
+    "id": "b0684",
+    "texto": "El \"anulo mufa\"."
+  },
+  {
+    "id": "b0685",
+    "texto": "Una chilena espectacular."
+  },
+  {
+    "id": "b0686",
+    "texto": "Un jugador simulando una falta."
+  },
+  {
+    "id": "b0687",
+    "texto": "El aliento de La 12."
+  },
+  {
+    "id": "b0688",
+    "texto": "Los Borrachos del Tablón."
+  },
+  {
+    "id": "b0689",
+    "texto": "El \"paso a paso\" de Mostaza Merlo."
+  },
+  {
+    "id": "b0690",
+    "texto": "La \"Gallardeta\"."
+  },
+  {
+    "id": "b0691",
+    "texto": "El Virrey Bianchi."
+  },
+  {
+    "id": "b0692",
+    "texto": "Un córner a los 90 minutos."
+  },
+  {
+    "id": "b0693",
+    "texto": "El \"jogo bonito\" brasilero."
+  },
+  {
+    "id": "b0694",
+    "texto": "La garra charrúa."
+  },
+  {
+    "id": "b0695",
+    "texto": "Un cabezazo de Palermo."
+  },
+  {
+    "id": "b0696",
+    "texto": "La selección alemana."
+  },
+  {
+    "id": "b0697",
+    "texto": "Un \"bidón de Branco\"."
+  },
+  {
+    "id": "b0698",
+    "texto": "El \"Panadero\" tirando gas pimienta."
+  },
+  {
+    "id": "b0699",
+    "texto": "Un ascenso épico."
+  },
+  {
+    "id": "b0700",
+    "texto": "Un descenso trágico."
+  },
+  {
+    "id": "b0701",
+    "texto": "El \"Pipa\" Higuaín errando un gol increíble."
+  },
+  {
+    "id": "b0702",
+    "texto": "La pelota naranja en la nieve."
+  },
+  {
+    "id": "b0703",
+    "texto": "El \"Maracanazo\"."
+  },
+  {
+    "id": "b0704",
+    "texto": "Un \"olé, olé, olé\" de la tribuna."
+  },
+  {
+    "id": "b0705",
+    "texto": "El \"soy argentino\"."
+  },
+  {
+    "id": "b0706",
+    "texto": "El banderazo de los hinchas."
+  },
+  {
+    "id": "b0707",
+    "texto": "Un \"no fue córner\" que te caga el partido."
+  },
+  {
+    "id": "b0708",
+    "texto": "El \"fútbol para todos\"."
+  },
+  {
+    "id": "b0709",
+    "texto": "La Superliga."
+  },
+  {
+    "id": "b0710",
+    "texto": "Un jugador \"exquisito\"."
+  },
+  {
+    "id": "b0711",
+    "texto": "Un \"raspa y gana\" en la mitad de la cancha."
+  },
+  {
+    "id": "b0712",
+    "texto": "El promedio del descenso."
+  },
+  {
+    "id": "b0713",
+    "texto": "Un \"4 de copas\"."
+  },
+  {
+    "id": "b0714",
+    "texto": "El \"Bambino\" Veira."
+  },
+  {
+    "id": "b0715",
+    "texto": "Un \"Topo Gigio\" de Riquelme."
+  },
+  {
+    "id": "b0716",
+    "texto": "La \"Mano de Dios\"."
+  },
+  {
+    "id": "b0717",
+    "texto": "El \"Gol del Siglo\"."
+  },
+  {
+    "id": "b0718",
+    "texto": "El \"Muñeco\" Gallardo."
+  },
+  {
+    "id": "b0719",
+    "texto": "Carlos Tevez, el jugador del pueblo."
+  },
+  {
+    "id": "b0720",
+    "texto": "Un \"morite, bostero puto\"."
+  },
+  {
+    "id": "b0721",
+    "texto": "Una \"gallina pecho frío\"."
+  },
+  {
+    "id": "b0722",
+    "texto": "Un \"cuervo amargo\"."
+  },
+  {
+    "id": "b0723",
+    "texto": "Un \"quemero hijo de puta\"."
+  },
+  {
+    "id": "b0724",
+    "texto": "Un \"hincha de la tele\"."
+  },
+  {
+    "id": "b0725",
+    "texto": "La \"Guardia Imperial\" de Racing."
+  },
+  {
+    "id": "b0726",
+    "texto": "La \"Lepra\" rosarina."
+  },
+  {
+    "id": "b0727",
+    "texto": "El \"Canalla\" rosarino."
+  },
+  {
+    "id": "b0728",
+    "texto": "El \"Pincha\" de La Plata."
+  },
+  {
+    "id": "b0729",
+    "texto": "El \"Lobo\" platense."
+  },
+  {
+    "id": "b0730",
+    "texto": "El \"Fortín\" de Liniers."
+  },
+  {
+    "id": "b0731",
+    "texto": "El \"Globo\" de Parque Patricios."
+  },
+  {
+    "id": "b0732",
+    "texto": "El \"Taladro\" del Sur."
+  },
+  {
+    "id": "b0733",
+    "texto": "El \"Granate\" del Sur."
+  },
+  {
+    "id": "b0734",
+    "texto": "\"Andate a la B\"."
+  },
+  {
+    "id": "b0735",
+    "texto": "\"Referí, la concha de tu madre\"."
+  },
+  {
+    "id": "b0736",
+    "texto": "Un \"jugamos como nunca, perdimos como siempre\"."
+  },
+  {
+    "id": "b0737",
+    "texto": "El \"Cai Aimar\"."
+  },
+  {
+    "id": "b0738",
+    "texto": "Un \"Coco\" Basile."
+  },
+  {
+    "id": "b0739",
+    "texto": "El \"Tolo\" Gallego."
+  },
+  {
+    "id": "b0740",
+    "texto": "Un \"Patón\" Bauza."
+  },
+  {
+    "id": "b0741",
+    "texto": "El \"Chacho\" Coudet."
+  },
+  {
+    "id": "b0742",
+    "texto": "Un \"Bichi\" Fuertes."
+  },
+  {
+    "id": "b0743",
+    "texto": "El \"Burrito\" Ortega."
+  },
+  {
+    "id": "b0744",
+    "texto": "El \"Matador\" Kempes."
+  },
+  {
+    "id": "b0745",
+    "texto": "El \"Bocha\" Bochini."
+  },
+  {
+    "id": "b0746",
+    "texto": "Un \"Bati\" Batistuta."
+  },
+  {
+    "id": "b0747",
+    "texto": "El \"Kun\" Agüero."
+  },
+  {
+    "id": "b0748",
+    "texto": "Ángel Di María."
+  },
+  {
+    "id": "b0749",
+    "texto": "Julián Álvarez."
+  },
+  {
+    "id": "b0750",
+    "texto": "Lautaro Martínez."
+  },
+  {
+    "id": "b0751",
+    "texto": "El \"Cuti\" Romero."
+  },
+  {
+    "id": "b0752",
+    "texto": "Lisandro Martínez, el carnicero."
+  },
+  {
+    "id": "b0753",
+    "texto": "Emiliano \"Dibu\" Martínez."
+  },
+  {
+    "id": "b0754",
+    "texto": "Lionel Scaloni."
+  },
+  {
+    "id": "b0755",
+    "texto": "Rodrigo De Paul, el motorcito."
+  },
+  {
+    "id": "b0756",
+    "texto": "Leandro Paredes."
+  },
+  {
+    "id": "b0757",
+    "texto": "Un pase filtrado de Enzo Fernández."
+  },
+  {
+    "id": "b0758",
+    "texto": "La \"araña que pica\"."
+  },
+  {
+    "id": "b0759",
+    "texto": "Un equipo que no patea al arco."
+  },
+  {
+    "id": "b0760",
+    "texto": "El tiki-tiki intrascendente."
+  },
+  {
+    "id": "b0761",
+    "texto": "Un pelotazo largo y a la que te criaste."
+  },
+  {
+    "id": "b0762",
+    "texto": "Defender con línea de 5."
+  },
+  {
+    "id": "b0763",
+    "texto": "Jugar con doble 5."
+  },
+  {
+    "id": "b0764",
+    "texto": "Un enganche clásico."
+  },
+  {
+    "id": "b0765",
+    "texto": "Un wing picante."
+  },
+  {
+    "id": "b0766",
+    "texto": "Un 9 de área."
+  },
+  {
+    "id": "b0767",
+    "texto": "Un arquero que sale jugando."
+  },
+  {
+    "id": "b0768",
+    "texto": "El \"achique\" del arquero."
+  },
+  {
+    "id": "b0769",
+    "texto": "Un \"saque de arco de rugby\"."
+  },
+  {
+    "id": "b0770",
+    "texto": "La \"ley del ex\"."
+  },
+  {
+    "id": "b0771",
+    "texto": "Un \"clásico de verano\"."
+  },
+  {
+    "id": "b0772",
+    "texto": "La Copa Argentina."
+  },
+  {
+    "id": "b0773",
+    "texto": "La Copa Libertadores."
+  },
+  {
+    "id": "b0774",
+    "texto": "La Champions League."
+  },
+  {
+    "id": "b0775",
+    "texto": "El Mundial de Clubes."
+  },
+  {
+    "id": "b0776",
+    "texto": "Un jugador \"mercenario\"."
+  },
+  {
+    "id": "b0777",
+    "texto": "El \"fair play\" que nunca se cumple."
+  },
+  {
+    "id": "b0778",
+    "texto": "La \"viveza criolla\" en la cancha."
+  },
+  {
+    "id": "b0779",
+    "texto": "Un \"piscinazo\" en el área."
+  },
+  {
+    "id": "b0780",
+    "texto": "La \"mufa\" de un hincha rival."
+  },
+  {
+    "id": "b0781",
+    "texto": "El \"gordo\" de Central enojado."
+  },
+  {
+    "id": "b0782",
+    "texto": "El Tula con el bombo."
+  },
+  {
+    "id": "b0783",
+    "texto": "Una bandera robada."
+  },
+  {
+    "id": "b0784",
+    "texto": "El humo de las bengalas."
+  },
+  {
+    "id": "b0785",
+    "texto": "Un \"trapo\" con una frase ingeniosa."
+  },
+  {
+    "id": "b0786",
+    "texto": "La \"pelotita no se mancha\"."
+  },
+  {
+    "id": "b0787",
+    "texto": "Un \"pasillo\" al campeón."
+  },
+  {
+    "id": "b0788",
+    "texto": "El \"tercer tiempo\" con mucha birra."
+  },
+  {
+    "id": "b0789",
+    "texto": "Un kirchnerista fanático."
+  },
+  {
+    "id": "b0790",
+    "texto": "Un macrista cheto."
+  },
+  {
+    "id": "b0791",
+    "texto": "Un radical que no se decide."
+  },
+  {
+    "id": "b0792",
+    "texto": "Un libertario gritando \"¡casta!\"."
+  },
+  {
+    "id": "b0793",
+    "texto": "El lenguaje inclusivo forzado."
+  },
+  {
+    "id": "b0794",
+    "texto": "La palabra \"compañere\"."
+  },
+  {
+    "id": "b0795",
+    "texto": "Un DNU a las 3 de la mañana."
+  },
+  {
+    "id": "b0796",
+    "texto": "La inflación culpando al anterior gobierno."
+  },
+  {
+    "id": "b0797",
+    "texto": "El \"relato\" oficial."
+  },
+  {
+    "id": "b0798",
+    "texto": "La \"pesada herencia\"."
+  },
+  {
+    "id": "b0799",
+    "texto": "Un gorila de manual."
+  },
+  {
+    "id": "b0800",
+    "texto": "Un \"globoludo\"."
+  },
+  {
+    "id": "b0801",
+    "texto": "Una \"kuka\" recalcitrante."
+  },
+  {
+    "id": "b0802",
+    "texto": "La boina blanca de un radical."
+  },
+  {
+    "id": "b0803",
+    "texto": "El FMI."
+  },
+  {
+    "id": "b0804",
+    "texto": "Un discurso de Cristina."
+  },
+  {
+    "id": "b0805",
+    "texto": "Un tuit de Macri desde una reposera."
+  },
+  {
+    "id": "b0806",
+    "texto": "La mística de La Cámpora."
+  },
+  {
+    "id": "b0807",
+    "texto": "El PRO."
+  },
+  {
+    "id": "b0808",
+    "texto": "El Frente de Izquierda."
+  },
+  {
+    "id": "b0809",
+    "texto": "Un \"Viva Perón, carajo\"."
+  },
+  {
+    "id": "b0810",
+    "texto": "Un cacerolazo en Recoleta."
+  },
+  {
+    "id": "b0811",
+    "texto": "Un piquete en la 9 de Julio."
+  },
+  {
+    "id": "b0812",
+    "texto": "El INDEC dibujando números."
+  },
+  {
+    "id": "b0813",
+    "texto": "Las PASO."
+  },
+  {
+    "id": "b0814",
+    "texto": "Un balotaje infartante."
+  },
+  {
+    "id": "b0815",
+    "texto": "El \"que se vayan todos\"."
+  },
+  {
+    "id": "b0816",
+    "texto": "Un político procesado."
+  },
+  {
+    "id": "b0817",
+    "texto": "La \"justicia social\"."
+  },
+  {
+    "id": "b0818",
+    "texto": "El \"derrame\" que nunca llega."
+  },
+  {
+    "id": "b0819",
+    "texto": "La meritocracia (según un heredero)."
+  },
+  {
+    "id": "b0820",
+    "texto": "Un puntero del conurbano."
+  },
+  {
+    "id": "b0821",
+    "texto": "El clientelismo político."
+  },
+  {
+    "id": "b0822",
+    "texto": "Un sobre con \"aportes de campaña\"."
+  },
+  {
+    "id": "b0823",
+    "texto": "Un panelista de 678."
+  },
+  {
+    "id": "b0824",
+    "texto": "Un periodista de La Nación+."
+  },
+  {
+    "id": "b0825",
+    "texto": "El grupo Clarín."
+  },
+  {
+    "id": "b0826",
+    "texto": "La TV Pública."
+  },
+  {
+    "id": "b0827",
+    "texto": "El \"vamos a volver\"."
+  },
+  {
+    "id": "b0828",
+    "texto": "El \"sí, se puede\"."
+  },
+  {
+    "id": "b0829",
+    "texto": "La \"revolución de la alegría\"."
+  },
+  {
+    "id": "b0830",
+    "texto": "El \"segundo semestre\"."
+  },
+  {
+    "id": "b0831",
+    "texto": "Un \"ah, pero Macri\"."
+  },
+  {
+    "id": "b0832",
+    "texto": "Un \"ah, pero Cristina\"."
+  },
+  {
+    "id": "b0833",
+    "texto": "La soberanía alimentaria."
+  },
+  {
+    "id": "b0834",
+    "texto": "El \"lawfare\"."
+  },
+  {
+    "id": "b0835",
+    "texto": "Un discurso de Javier Milei."
+  },
+  {
+    "id": "b0836",
+    "texto": "El pañuelo verde."
+  },
+  {
+    "id": "b0837",
+    "texto": "El pañuelo celeste."
+  },
+  {
+    "id": "b0838",
+    "texto": "Un \"operador\" político."
+  },
+  {
+    "id": "b0839",
+    "texto": "Los fueros parlamentarios."
+  },
+  {
+    "id": "b0840",
+    "texto": "El default."
+  },
+  {
+    "id": "b0841",
+    "texto": "Una corrida cambiaria."
+  },
+  {
+    "id": "b0842",
+    "texto": "Un ajuste brutal."
+  },
+  {
+    "id": "b0843",
+    "texto": "La \"reforma estructural\"."
+  },
+  {
+    "id": "b0844",
+    "texto": "El progresismo cool."
+  },
+  {
+    "id": "b0845",
+    "texto": "Un \"compañero\" que te serrucha el piso."
+  },
+  {
+    "id": "b0846",
+    "texto": "La unidad básica."
+  },
+  {
+    "id": "b0847",
+    "texto": "Un local de Cambiemos en Palermo."
+  },
+  {
+    "id": "b0848",
+    "texto": "El \"Estado presente\"."
+  },
+  {
+    "id": "b0849",
+    "texto": "El \"Estado ausente\"."
+  },
+  {
+    "id": "b0850",
+    "texto": "Un \"no se inunda más\"."
+  },
+  {
+    "id": "b0851",
+    "texto": "La \"sensación de inseguridad\"."
+  },
+  {
+    "id": "b0852",
+    "texto": "Un militante rentado."
+  },
+  {
+    "id": "b0853",
+    "texto": "Un troll center."
+  },
+  {
+    "id": "b0854",
+    "texto": "La \"batalla cultural\"."
+  },
+  {
+    "id": "b0855",
+    "texto": "Un \"ciudadano de bien\"."
+  },
+  {
+    "id": "b0856",
+    "texto": "El \"voto bronca\"."
+  },
+  {
+    "id": "b0857",
+    "texto": "Un acto en Plaza de Mayo."
+  },
+  {
+    "id": "b0858",
+    "texto": "El helicóptero de De la Rúa."
+  },
+  {
+    "id": "b0859",
+    "texto": "Las AFJP."
+  },
+  {
+    "id": "b0860",
+    "texto": "Aerolíneas Argentinas."
+  },
+  {
+    "id": "b0861",
+    "texto": "YPF."
+  },
+  {
+    "id": "b0862",
+    "texto": "El \"gorilaje\"."
+  },
+  {
+    "id": "b0863",
+    "texto": "El \"zurdaje empobrecedor\"."
+  },
+  {
+    "id": "b0864",
+    "texto": "Un \"todes\"."
+  },
+  {
+    "id": "b0865",
+    "texto": "El \"patriarcado\"."
+  },
+  {
+    "id": "b0866",
+    "texto": "Un \"aliade\"."
+  },
+  {
+    "id": "b0867",
+    "texto": "La \"oligarquía terrateniente\"."
+  },
+  {
+    "id": "b0868",
+    "texto": "El \"pueblo trabajador\"."
+  },
+  {
+    "id": "b0869",
+    "texto": "Una promesa de campaña incumplida."
+  },
+  {
+    "id": "b0870",
+    "texto": "El nepotismo."
+  },
+  {
+    "id": "b0871",
+    "texto": "La \"justicia independiente\"."
+  },
+  {
+    "id": "b0872",
+    "texto": "Un fiscal amigo del poder."
+  },
+  {
+    "id": "b0873",
+    "texto": "El cierre de listas a último momento."
+  },
+  {
+    "id": "b0874",
+    "texto": "Una pija de tamaño industrial."
+  },
+  {
+    "id": "b0875",
+    "texto": "La concha de tu hermana (literalmente)."
+  },
+  {
+    "id": "b0876",
+    "texto": "Un pete con sabor a choripán."
+  },
+  {
+    "id": "b0877",
+    "texto": "Romperle el orto a un cura."
+  },
+  {
+    "id": "b0878",
+    "texto": "Acabar adentro sin forro."
+  },
+  {
+    "id": "b0879",
+    "texto": "Un trío con tu suegra y el perro."
+  },
+  {
+    "id": "b0880",
+    "texto": "El olor a pija sudada."
+  },
+  {
+    "id": "b0881",
+    "texto": "Una lluvia dorada inesperada."
+  },
+  {
+    "id": "b0882",
+    "texto": "El \"rapidito\" en el baño de un velorio."
+  },
+  {
+    "id": "b0883",
+    "texto": "Un gualicho para que se le pare."
+  },
+  {
+    "id": "b0884",
+    "texto": "Las tetas operadas de Moria Casán."
+  },
+  {
+    "id": "b0885",
+    "texto": "Un dildo de dos metros."
+  },
+  {
+    "id": "b0886",
+    "texto": "Coger con el fantasma de la ópera."
+  },
+  {
+    "id": "b0887",
+    "texto": "La \"leche\" del diablo."
+  },
+  {
+    "id": "b0888",
+    "texto": "Un gang bang con enanos."
+  },
+  {
+    "id": "b0889",
+    "texto": "El \"beso negro\" con dulce de leche."
+  },
+  {
+    "id": "b0890",
+    "texto": "La \"paja rusa\" con Fernet."
+  },
+  {
+    "id": "b0891",
+    "texto": "El ano sangrante de tu mejor amigo."
+  },
+  {
+    "id": "b0892",
+    "texto": "Una orgía en el geriátrico."
+  },
+  {
+    "id": "b0893",
+    "texto": "El sabor de un culo recién cagado."
+  },
+  {
+    "id": "b0894",
+    "texto": "Chuparle las medias al jefe (y algo más)."
+  },
+  {
+    "id": "b0895",
+    "texto": "Un sorete en el bidet."
+  },
+  {
+    "id": "b0896",
+    "texto": "La \"cama redonda\" del telo más berreta."
+  },
+  {
+    "id": "b0897",
+    "texto": "Forros sabor asado."
+  },
+  {
+    "id": "b0898",
+    "texto": "El \"punto G\" de un travesti."
+  },
+  {
+    "id": "b0899",
+    "texto": "Una concha llena de arena."
+  },
+  {
+    "id": "b0900",
+    "texto": "La regla en tu boca."
+  },
+  {
+    "id": "b0901",
+    "texto": "El olor a huevo podrido de un telo."
+  },
+  {
+    "id": "b0902",
+    "texto": "Una verga flácida y arrugada."
+  },
+  {
+    "id": "b0903",
+    "texto": "El \"69\" con tu abuela."
+  },
+  {
+    "id": "b0904",
+    "texto": "Un consolador hecho de salame."
+  },
+  {
+    "id": "b0905",
+    "texto": "La \"cucharita\" después de un garche violento."
+  },
+  {
+    "id": "b0906",
+    "texto": "Los pelos del culo enredados."
+  },
+  {
+    "id": "b0907",
+    "texto": "Una \"tirada de goma\" con dientes."
+  },
+  {
+    "id": "b0908",
+    "texto": "El \"dedo en el culo\" sorpresa."
+  },
+  {
+    "id": "b0909",
+    "texto": "Un herpes genital galopante."
+  },
+  {
+    "id": "b0910",
+    "texto": "La gonorrea."
+  },
+  {
+    "id": "b0911",
+    "texto": "El SIDA."
+  },
+  {
+    "id": "b0912",
+    "texto": "Un aborto clandestino."
+  },
+  {
+    "id": "b0913",
+    "texto": "El casting sábana de Suar."
+  },
+  {
+    "id": "b0914",
+    "texto": "Una paja con lija."
+  },
+  {
+    "id": "b0915",
+    "texto": "El \"salto del tigre\" fallido."
+  },
+  {
+    "id": "b0916",
+    "texto": "La \"mirada de las mil pijas\"."
+  },
+  {
+    "id": "b0917",
+    "texto": "Un travesti con más carne que una carnicería."
+  },
+  {
+    "id": "b0918",
+    "texto": "El \"agujero negro\" de una gorda."
+  },
+  {
+    "id": "b0919",
+    "texto": "La \"tarlipes\" de un viejo verde."
+  },
+  {
+    "id": "b0920",
+    "texto": "Una \"fiesta swinger\" en Longchamps."
+  },
+  {
+    "id": "b0921",
+    "texto": "El olor a \"pescado podrido\"."
+  },
+  {
+    "id": "b0922",
+    "texto": "Un pendejo con la chota más grande que la tuya."
+  },
+  {
+    "id": "b0923",
+    "texto": "El \"me quiero morir\" post-coito."
+  },
+  {
+    "id": "b0924",
+    "texto": "Una mamada con arcadas."
+  },
+  {
+    "id": "b0925",
+    "texto": "El \"me vine encima tuyo sin querer\"."
+  },
+  {
+    "id": "b0926",
+    "texto": "La \"francesita completa\" hasta el esófago."
+  },
+  {
+    "id": "b0927",
+    "texto": "Un culo que pide pista."
+  },
+  {
+    "id": "b0928",
+    "texto": "La \"cola de paja\"."
+  },
+  {
+    "id": "b0929",
+    "texto": "El \"no se me para\"."
+  },
+  {
+    "id": "b0930",
+    "texto": "Un enema de café."
+  },
+  {
+    "id": "b0931",
+    "texto": "La \"depilación definitiva\" del ojete."
+  },
+  {
+    "id": "b0932",
+    "texto": "El \"sexo tántrico\" con Osvaldo Laport."
+  },
+  {
+    "id": "b0933",
+    "texto": "Una tanga usada como barbijo."
+  },
+  {
+    "id": "b0934",
+    "texto": "El \"sadomaso\" con elementos de ferretería."
+  },
+  {
+    "id": "b0935",
+    "texto": "Un \"pito corto\" pero cabezón."
+  },
+  {
+    "id": "b0936",
+    "texto": "La \"lluvia de soretes\" (scat)."
+  },
+  {
+    "id": "b0937",
+    "texto": "Un \"beso de payaso\" bien baboso."
+  },
+  {
+    "id": "b0938",
+    "texto": "La \"paja grupal\" en el vestuario."
+  },
+  {
+    "id": "b0939",
+    "texto": "Un \"te la pongo hasta la garganta\"."
+  },
+  {
+    "id": "b0940",
+    "texto": "El \"tragasable\" del circo Rodas."
+  },
+  {
+    "id": "b0941",
+    "texto": "Una \"concha parlante\"."
+  },
+  {
+    "id": "b0942",
+    "texto": "El \"culo roto\" de tanto garchar."
+  },
+  {
+    "id": "b0943",
+    "texto": "La \"verga de toro\" del sex shop."
+  },
+  {
+    "id": "b0944",
+    "texto": "Un \"meo en la cara\"."
+  },
+  {
+    "id": "b0945",
+    "texto": "El \"te voy a hacer ver las estrellas\"."
+  },
+  {
+    "id": "b0946",
+    "texto": "Una \"paja a la crema\"."
+  },
+  {
+    "id": "b0947",
+    "texto": "El \"olor a huevo\" después del partido."
+  },
+  {
+    "id": "b0948",
+    "texto": "La \"concha de tu prima\"."
+  },
+  {
+    "id": "b0949",
+    "texto": "Un \"chupetín de carne\"."
+  },
+  {
+    "id": "b0950",
+    "texto": "El \"cabezazo\" en el clítoris."
+  },
+  {
+    "id": "b0951",
+    "texto": "Una \"empomada\" inolvidable."
+  },
+  {
+    "id": "b0952",
+    "texto": "El \"te voy a llenar de leche\"."
+  },
+  {
+    "id": "b0953",
+    "texto": "Un \"garche virtual\" por OnlyFans."
+  },
+  {
+    "id": "b0954",
+    "texto": "La \"paja cruzada\" con tu mejor amigo."
+  },
+  {
+    "id": "b0955",
+    "texto": "El \"juego previo\" con comida podrida."
+  },
+  {
+    "id": "b0956",
+    "texto": "Una \"violación correctiva\". (Humor MUY negro, úsese con extrema precaución)"
+  },
+  {
+    "id": "b0957",
+    "texto": "El \"sexo con muñecas inflables\"."
+  },
+  {
+    "id": "b0958",
+    "texto": "Un \" glory hole\" en un baño público."
+  },
+  {
+    "id": "b0959",
+    "texto": "La \"zoofilia\" con un carpincho."
+  },
+  {
+    "id": "b0960",
+    "texto": "El \"incesto\" consentido."
+  },
+  {
+    "id": "b0961",
+    "texto": "Una \"paja con baldosa fría\"."
+  },
+  {
+    "id": "b0962",
+    "texto": "El \"olor a culo de mono\"."
+  },
+  {
+    "id": "b0963",
+    "texto": "La \"masturbación con frutas exóticas\"."
+  },
+  {
+    "id": "b0964",
+    "texto": "Un \"te la comiste toda\"."
+  },
+  {
+    "id": "b0965",
+    "texto": "El \"trío lésbico\" de tus sueños."
+  },
+  {
+    "id": "b0966",
+    "texto": "Una \"concha depilada como delfín\"."
+  },
+  {
+    "id": "b0967",
+    "texto": "El \"sexo en el confesionario\"."
+  },
+  {
+    "id": "b0968",
+    "texto": "Un \"cura frotándose contra un monaguillo\"."
+  },
+  {
+    "id": "b0969",
+    "texto": "La \"paja con culpa católica\"."
+  },
+  {
+    "id": "b0970",
+    "texto": "El \"semen con gusto a Fernet\"."
+  },
+  {
+    "id": "b0971",
+    "texto": "Una \"orgía de jubilados\"."
+  },
+  {
+    "id": "b0972",
+    "texto": "El \"sexo anal sin lubricante\"."
+  },
+  {
+    "id": "b0973",
+    "texto": "\"Metemela toda, papi\"."
+  },
+  {
+    "id": "b0974",
+    "texto": "El \"chancho enjabonado\"."
+  },
+  {
+    "id": "b0975",
+    "texto": "Un \"trabuco\" impresionante."
+  },
+  {
+    "id": "b0976",
+    "texto": "La \"vagina dentada\"."
+  },
+  {
+    "id": "b0977",
+    "texto": "El \"sexo con tu ex para cerrar ciclos\"."
+  },
+  {
+    "id": "b0978",
+    "texto": "\"Sacala que me meo\"."
+  },
+  {
+    "id": "b0979",
+    "texto": "Un \"dedo perdido en el orto\"."
+  },
+  {
+    "id": "b0980",
+    "texto": "La \"concha floja\" de tu abuela."
+  },
+  {
+    "id": "b0981",
+    "texto": "El \"olor a chivo\" de un telo barato."
+  },
+  {
+    "id": "b0982",
+    "texto": "Un \"pene con ETS\"."
+  },
+  {
+    "id": "b0983",
+    "texto": "La \" impotencia sexual\" en el peor momento."
+  },
+  {
+    "id": "b0984",
+    "texto": "El \"sexo con un político corrupto\"."
+  },
+  {
+    "id": "b0985",
+    "texto": "\"Más apretada que tornillo de submarino\"."
+  },
+  {
+    "id": "b0986",
+    "texto": "Un \"baño de leche\" con sabor a pija."
+  },
+  {
+    "id": "b0987",
+    "texto": "El \"sexo con un fantasma\"."
+  },
+  {
+    "id": "b0988",
+    "texto": "\"Te hago un hijo y me voy\"."
+  },
+  {
+    "id": "b0989",
+    "texto": "La \"circuncisión\" mal hecha."
+  },
+  {
+    "id": "b0990",
+    "texto": "El \"olor a pescado\" de la concha de tu novia."
+  },
+  {
+    "id": "b0991",
+    "texto": "Un \"consolador de San Cayetano\"."
+  },
+  {
+    "id": "b0992",
+    "texto": "El \"sexo en público\" en la 9 de Julio."
+  },
+  {
+    "id": "b0993",
+    "texto": "La \"fimosis\" de tu mejor amigo."
+  },
+  {
+    "id": "b0994",
+    "texto": "Un \"culo con celulitis\" pero rendidor."
+  },
+  {
+    "id": "b0995",
+    "texto": "El \"sexo con un muñeco de Chucky\"."
+  },
+  {
+    "id": "b0996",
+    "texto": "\"Se me escapó un pedo mientras me la comías\"."
+  },
+  {
+    "id": "b0997",
+    "texto": "La \"virginidad anal\"."
+  },
+  {
+    "id": "b0998",
+    "texto": "El \"sexo con un robot\"."
+  },
+  {
+    "id": "b0999",
+    "texto": "\"Te la chupo hasta que salga el genio\"."
+  },
+  {
+    "id": "b1000",
+    "texto": "La \"andropausia\" pegando fuerte."
+  },
+  {
+    "id": "b1001",
+    "texto": "El \"sexo con alguien mucho más joven\"."
+  },
+  {
+    "id": "b1002",
+    "texto": "\"Abrí el orto que te lo vacuno\"."
+  },
+  {
+    "id": "b1003",
+    "texto": "Un \"gang bang de jubiladas\"."
+  },
+  {
+    "id": "b1004",
+    "texto": "La \"primera comunión\" en un telo."
+  },
+  {
+    "id": "b1005",
+    "texto": "\"Más puta que las gallinas\"."
+  },
+  {
+    "id": "b1006",
+    "texto": "El \"sexo con tu reflejo en el espejo\"."
+  },
+  {
+    "id": "b1007",
+    "texto": "Un \"garche con barbijo y alcohol en gel\"."
+  },
+  {
+    "id": "b1008",
+    "texto": "Mi jefe, el incompetente."
+  },
+  {
+    "id": "b1009",
+    "texto": "Un aumento de sueldo miserable."
+  },
+  {
+    "id": "b1010",
+    "texto": "La reunión que podría haber sido un mail."
+  },
+  {
+    "id": "b1011",
+    "texto": "El compañero que calienta la pava y no ceba."
+  },
+  {
+    "id": "b1012",
+    "texto": "Un Powerpoint de 150 diapositivas."
+  },
+  {
+    "id": "b1013",
+    "texto": "El grupo de WhatsApp del \"equipo\"."
+  },
+  {
+    "id": "b1014",
+    "texto": "Rascarse la pija olímpicamente."
+  },
+  {
+    "id": "b1015",
+    "texto": "Un CV lleno de mentiras."
+  },
+  {
+    "id": "b1016",
+    "texto": "El \"chupamedias\" oficial de la oficina."
+  },
+  {
+    "id": "b1017",
+    "texto": "Un garche rápido en el baño de discapacitados."
+  },
+  {
+    "id": "b1018",
+    "texto": "El olor a tupper recalentado."
+  },
+  {
+    "id": "b1019",
+    "texto": "La impresora que nunca tiene tóner."
+  },
+  {
+    "id": "b1020",
+    "texto": "\"Team building\" con juegos pelotudos."
+  },
+  {
+    "id": "b1021",
+    "texto": "El \"feedback constructivo\" de tu superior."
+  },
+  {
+    "id": "b1022",
+    "texto": "Un mail enviado por error a \"responder a todos\"."
+  },
+  {
+    "id": "b1023",
+    "texto": "El aire acondicionado a 18 grados en invierno."
+  },
+  {
+    "id": "b1024",
+    "texto": "Estar en negro."
+  },
+  {
+    "id": "b1025",
+    "texto": "Un \"ñoqui\" del Estado."
+  },
+  {
+    "id": "b1026",
+    "texto": "La pasante nueva que está buenísima."
+  },
+  {
+    "id": "b1027",
+    "texto": "El café horrible de la máquina."
+  },
+  {
+    "id": "b1028",
+    "texto": "Un \"burnout\" galopante."
+  },
+  {
+    "id": "b1029",
+    "texto": "El \"viernes casual\" que se va de las manos."
+  },
+  {
+    "id": "b1030",
+    "texto": "La fiesta de fin de año de la empresa."
+  },
+  {
+    "id": "b1031",
+    "texto": "Un compañero que huele a culo."
+  },
+  {
+    "id": "b1032",
+    "texto": "El \"deadline\" imposible."
+  },
+  {
+    "id": "b1033",
+    "texto": "Hacer horas extra sin que te las paguen."
+  },
+  {
+    "id": "b1034",
+    "texto": "El \"radiopasillo\"."
+  },
+  {
+    "id": "b1035",
+    "texto": "La ART que no te cubre nada."
+  },
+  {
+    "id": "b1036",
+    "texto": "Un curso de coaching obligatorio."
+  },
+  {
+    "id": "b1037",
+    "texto": "El \"home office\" en calzones."
+  },
+  {
+    "id": "b1038",
+    "texto": "Una call de Zoom con el micrófono abierto."
+  },
+  {
+    "id": "b1039",
+    "texto": "El \"multitasking\" que te deja pelotudo."
+  },
+  {
+    "id": "b1040",
+    "texto": "El sánguche de milanesa del escritorio."
+  },
+  {
+    "id": "b1041",
+    "texto": "El \"gerente de felicidad\"."
+  },
+  {
+    "id": "b1042",
+    "texto": "La política de \"escritorios limpios\"."
+  },
+  {
+    "id": "b1043",
+    "texto": "Un escritorio lleno de pelotudeces."
+  },
+  {
+    "id": "b1044",
+    "texto": "El \"brainstorming\" que no lleva a nada."
+  },
+  {
+    "id": "b1045",
+    "texto": "Un \"influencer\" corporativo."
+  },
+  {
+    "id": "b1046",
+    "texto": "La \"transformación digital\"."
+  },
+  {
+    "id": "b1047",
+    "texto": "El \"líder de proyecto\" que no lidera una mierda."
+  },
+  {
+    "id": "b1048",
+    "texto": "El \"Scrum Master\" que parece un pastor evangelista."
+  },
+  {
+    "id": "b1049",
+    "texto": "Una \"sprint review\" de tres horas."
+  },
+  {
+    "id": "b1050",
+    "texto": "El \"producto mínimo viable\" que es una cagada."
+  },
+  {
+    "id": "b1051",
+    "texto": "La \"metodología ágil\" aplicada por dinosaurios."
+  },
+  {
+    "id": "b1052",
+    "texto": "El \"pensamiento disruptivo\" de un tipo que usa crocs."
+  },
+  {
+    "id": "b1053",
+    "texto": "Un \"workshop\" de creatividad con post-its."
+  },
+  {
+    "id": "b1054",
+    "texto": "El \"mentoring\" de un viejo gagá."
+  },
+  {
+    "id": "b1055",
+    "texto": "La \"gamificación\" de tareas de mierda."
+  },
+  {
+    "id": "b1056",
+    "texto": "El \"key account manager\" que no sabe ni prender la PC."
+  },
+  {
+    "id": "b1057",
+    "texto": "El \"CEO\" que habla en inglés para parecer más importante."
+  },
+  {
+    "id": "b1058",
+    "texto": "El \"CFO\" que se afana la caja chica."
+  },
+  {
+    "id": "b1059",
+    "texto": "El \"CMO\" que no entiende las redes sociales."
+  },
+  {
+    "id": "b1060",
+    "texto": "El \"CTO\" que todavía programa en COBOL."
+  },
+  {
+    "id": "b1061",
+    "texto": "El de Recursos Humanos que te mira con cara de orto."
+  },
+  {
+    "id": "b1062",
+    "texto": "Una evaluación de desempeño trucha."
+  },
+  {
+    "id": "b1063",
+    "texto": "El \"plan de carrera\" que es una escalera al infierno."
+  },
+  {
+    "id": "b1064",
+    "texto": "La \"cultura organizacional\" tóxica."
+  },
+  {
+    "id": "b1065",
+    "texto": "El \"propósito\" de la empresa (facturar más)."
+  },
+  {
+    "id": "b1066",
+    "texto": "La \"visión\" de la empresa (que el jefe se compre otro yate)."
+  },
+  {
+    "id": "b1067",
+    "texto": "La \"misión\" de la empresa (explotarte al máximo)."
+  },
+  {
+    "id": "b1068",
+    "texto": "Los \"valores\" de la empresa (hipocresía pura)."
+  },
+  {
+    "id": "b1069",
+    "texto": "El \"empleado estrella\" que es un reverendo forro."
+  },
+  {
+    "id": "b1070",
+    "texto": "El \"work-life balance\" que no existe."
+  },
+  {
+    "id": "b1071",
+    "texto": "La \"fiaca\" de los lunes."
+  },
+  {
+    "id": "b1072",
+    "texto": "El \"ya fue todo\" de los viernes a la tarde."
+  },
+  {
+    "id": "b1073",
+    "texto": "Un feriado puente."
+  },
+  {
+    "id": "b1074",
+    "texto": "Las vacaciones pagas."
+  },
+  {
+    "id": "b1075",
+    "texto": "El sindicato que no te defiende un carajo."
+  },
+  {
+    "id": "b1076",
+    "texto": "Una indemnización por despido."
+  },
+  {
+    "id": "b1077",
+    "texto": "Un juicio laboral."
+  },
+  {
+    "id": "b1078",
+    "texto": "El \"presentismo\" aunque te estés muriendo."
+  },
+  {
+    "id": "b1079",
+    "texto": "El certificado médico trucho."
+  },
+  {
+    "id": "b1080",
+    "texto": "El \"día de enfermedad\" para rascarse la concha."
+  },
+  {
+    "id": "b1081",
+    "texto": "La \"capacitación\" que es una pérdida de tiempo."
+  },
+  {
+    "id": "b1082",
+    "texto": "El \"compañero nuevo\" que dura dos días."
+  },
+  {
+    "id": "b1083",
+    "texto": "El \"viejo choto\" que no se jubila más."
+  },
+  {
+    "id": "b1084",
+    "texto": "La \"pendeja trepadora\"."
+  },
+  {
+    "id": "b1085",
+    "texto": "El \"gordo de sistemas\" que te salva las papas."
+  },
+  {
+    "id": "b1086",
+    "texto": "La \"secretaria del gerente\" que sabe todos los puteríos."
+  },
+  {
+    "id": "b1087",
+    "texto": "El \"cadete\" que se come los mocos."
+  },
+  {
+    "id": "b1088",
+    "texto": "El \"limpiavidrios\" del semáforo de la esquina."
+  },
+  {
+    "id": "b1089",
+    "texto": "Un almuerzo de trabajo que se convierte en borrachera."
+  },
+  {
+    "id": "b1090",
+    "texto": "El \"coffee break\" que se extiende dos horas."
+  },
+  {
+    "id": "b1091",
+    "texto": "Una pelea en el grupo de WhatsApp por una pelotudez."
+  },
+  {
+    "id": "b1092",
+    "texto": "El meme del jefe que se viraliza."
+  },
+  {
+    "id": "b1093",
+    "texto": "Una foto tuya en pedo en la fiesta de la empresa."
+  },
+  {
+    "id": "b1094",
+    "texto": "El \"compañero tóxico\"."
+  },
+  {
+    "id": "b1095",
+    "texto": "El \"mobbing\" laboral."
+  },
+  {
+    "id": "b1096",
+    "texto": "El \"acoso sexual\" del gerente de ventas."
+  },
+  {
+    "id": "b1097",
+    "texto": "El \"ruido a mate\" del de al lado."
+  },
+  {
+    "id": "b1098",
+    "texto": "El que escucha cumbia sin auriculares."
+  },
+  {
+    "id": "b1099",
+    "texto": "El \"olor a pata\" en la oficina."
+  },
+  {
+    "id": "b1100",
+    "texto": "El baño tapado."
+  },
+  {
+    "id": "b1101",
+    "texto": "El \"arbolito de Navidad\" de la oficina."
+  },
+  {
+    "id": "b1102",
+    "texto": "El \"regalo del amigo invisible\" que es una poronga."
+  },
+  {
+    "id": "b1103",
+    "texto": "El \"chisme fresco\" de la mañana."
+  },
+  {
+    "id": "b1104",
+    "texto": "El \"acting\" de que estás laburando cuando pasa el jefe."
+  },
+  {
+    "id": "b1105",
+    "texto": "La \"comida de fin de año\" en un lugar de mierda."
+  },
+  {
+    "id": "b1106",
+    "texto": "El \"discurso emotivo\" del CEO antes de rajar a la mitad."
+  },
+  {
+    "id": "b1107",
+    "texto": "Una computadora que tarda 10 minutos en prender."
+  },
+  {
+    "id": "b1108",
+    "texto": "El Excel que se tilda."
+  },
+  {
+    "id": "b1109",
+    "texto": "El \"error 404\" en la intranet."
+  },
+  {
+    "id": "b1110",
+    "texto": "La silla de oficina que te rompe la espalda."
+  },
+  {
+    "id": "b1111",
+    "texto": "El \"tupper\" con sobras de anteayer."
+  },
+  {
+    "id": "b1112",
+    "texto": "El \"qué hacemos para comer\" de todos los mediodías."
+  },
+  {
+    "id": "b1113",
+    "texto": "La \"colecta para el cumpleaños\" de alguien que ni conocés."
+  },
+  {
+    "id": "b1114",
+    "texto": "El \"día de la fruta\" en la oficina."
+  },
+  {
+    "id": "b1115",
+    "texto": "El \"after\" que termina en un telo."
+  },
+  {
+    "id": "b1116",
+    "texto": "El \"compañero que se fue a vivir afuera\" y ahora postea fotos en la playa."
+  },
+  {
+    "id": "b1117",
+    "texto": "El \"síndrome del impostor\"."
+  },
+  {
+    "id": "b1118",
+    "texto": "El \"teletrabajo\" desde la cama."
+  },
+  {
+    "id": "b1119",
+    "texto": "La \"procrastinación\" como estilo de vida."
+  },
+  {
+    "id": "b1120",
+    "texto": "El \"último día hábil del mes\"."
+  },
+  {
+    "id": "b1121",
+    "texto": "El \"paro de transporte\"."
+  },
+  {
+    "id": "b1122",
+    "texto": "El \"jefe de vacaciones\"."
+  },
+  {
+    "id": "b1123",
+    "texto": "La \"reunión de directorio\"."
+  },
+  {
+    "id": "b1124",
+    "texto": "El \"informe mensual\" que nadie lee."
+  },
+  {
+    "id": "b1125",
+    "texto": "El \"presupuesto\" que nunca alcanza."
+  },
+  {
+    "id": "b1126",
+    "texto": "La \"estrategia comercial\" que es puro humo."
+  },
+  {
+    "id": "b1127",
+    "texto": "El \"nuevo producto revolucionario\" que es igual al anterior."
+  },
+  {
+    "id": "b1128",
+    "texto": "La \"competencia desleal\"."
+  },
+  {
+    "id": "b1129",
+    "texto": "El \"cliente hincha pelotas\"."
+  },
+  {
+    "id": "b1130",
+    "texto": "El \"proveedor que te caga\"."
+  },
+  {
+    "id": "b1131",
+    "texto": "El \"llamado a licitación\" arreglado."
+  },
+  {
+    "id": "b1132",
+    "texto": "La \"coima\" para que salga el trámite."
+  },
+  {
+    "id": "b1133",
+    "texto": "El \"ñoqui VIP\"."
+  },
+  {
+    "id": "b1134",
+    "texto": "El \"acomodo\" político."
+  },
+  {
+    "id": "b1135",
+    "texto": "El \"pariente del dueño\"."
+  },
+  {
+    "id": "b1136",
+    "texto": "El \"pibe de la moto\" que trae el almuerzo."
+  },
+  {
+    "id": "b1137",
+    "texto": "La \"mañana perdida\" haciendo trámites."
+  },
+  {
+    "id": "b1138",
+    "texto": "El \"cafecito\" para estirar la mañana."
+  },
+  {
+    "id": "b1139",
+    "texto": "La \"mirada fulminante\" de tu jefe."
+  },
+  {
+    "id": "b1140",
+    "texto": "El \"ascenso\" que nunca llega."
+  },
+  {
+    "id": "b1141",
+    "texto": "El \"portazo\" al renunciar."
+  },
+  {
+    "id": "b1142",
+    "texto": "El \"currículum vitae\" de dos hojas."
+  },
+  {
+    "id": "b1143",
+    "texto": "La \"carta de recomendación\" más falsa que Judas."
+  },
+  {
+    "id": "b1144",
+    "texto": "El \"período de prueba\" eterno."
+  },
+  {
+    "id": "b1145",
+    "texto": "El \"contrato basura\"."
+  },
+  {
+    "id": "b1146",
+    "texto": "El \"salario mínimo, vital y móvil\" que no alcanza para una mierda."
+  },
+  {
+    "id": "b1147",
+    "texto": "El \"sindicato\" que solo defiende al que más chorea."
+  },
+  {
+    "id": "b1148",
+    "texto": "La \"jubilación\" como una utopía lejana."
+  },
+  {
+    "id": "b1149",
+    "texto": "El \"stress laboral\"."
+  },
+  {
+    "id": "b1150",
+    "texto": "Las \"ganas de mandar todo al carajo\"."
+  },
+  {
+    "id": "b1151",
+    "texto": "El \"emprendedor\" que te explota."
+  },
+  {
+    "id": "b1152",
+    "texto": "El \"freelancer\" que no cobra nunca."
+  },
+  {
+    "id": "b1153",
+    "texto": "El \"coworking\" lleno de hipsters."
+  },
+  {
+    "id": "b1154",
+    "texto": "El \"networking\" forzado."
+  },
+  {
+    "id": "b1155",
+    "texto": "La \"charla motivacional\" de un chanta."
+  },
+  {
+    "id": "b1156",
+    "texto": "El \"líder coach\" que te da consejos de mierda."
+  },
+  {
+    "id": "b1157",
+    "texto": "El \"software de gestión\" que no gestiona nada."
+  },
+  {
+    "id": "b1158",
+    "texto": "La \"nube\" donde se pierden tus archivos."
+  },
+  {
+    "id": "b1159",
+    "texto": "El \"backup\" que nunca se hizo."
+  },
+  {
+    "id": "b1160",
+    "texto": "El \"virus informático\" que te borra todo."
+  },
+  {
+    "id": "b1161",
+    "texto": "El \"soporte técnico\" que no te da soporte."
+  },
+  {
+    "id": "b1162",
+    "texto": "El \"call center\" en la India."
+  },
+  {
+    "id": "b1163",
+    "texto": "La \"encuesta de clima laboral\" que es una farsa."
+  },
+  {
+    "id": "b1164",
+    "texto": "El \"buzón de sugerencias\" que va directo a la basura."
+  },
+  {
+    "id": "b1165",
+    "texto": "La \"responsabilidad social empresaria\" para lavar culpas."
+  },
+  {
+    "id": "b1166",
+    "texto": "El \"balance social\" que es puro cuento."
+  },
+  {
+    "id": "b1167",
+    "texto": "El \"código de ética\" que nadie respeta."
+  },
+  {
+    "id": "b1168",
+    "texto": "La \"reunión de accionistas\"."
+  },
+  {
+    "id": "b1169",
+    "texto": "El \"dividendo\" que se llevan los de arriba."
+  },
+  {
+    "id": "b1170",
+    "texto": "El \"cepo a las importaciones\" que te caga el stock."
+  },
+  {
+    "id": "b1171",
+    "texto": "El \"dólar tarjeta\" para los viajes de la gerencia."
+  },
+  {
+    "id": "b1172",
+    "texto": "La \"bicicleta\" de un cadete."
+  },
+  {
+    "id": "b1173",
+    "texto": "El \"almuerzo ejecutivo\" con sobreprecio."
+  },
+  {
+    "id": "b1174",
+    "texto": "La \"tarjeta corporativa\" para gastos personales."
+  },
+  {
+    "id": "b1175",
+    "texto": "El \"uniforme de trabajo\" ridículo."
+  },
+  {
+    "id": "b1176",
+    "texto": "La \"credencial de empleado\" con una foto de orto."
+  },
+  {
+    "id": "b1177",
+    "texto": "El \"fichaje\" a la entrada y salida."
+  },
+  {
+    "id": "b1178",
+    "texto": "El \"control horario\" más estricto que en la cárcel."
+  },
+  {
+    "id": "b1179",
+    "texto": "La \"charla de seguridad e higiene\" que da sueño."
+  },
+  {
+    "id": "b1180",
+    "texto": "El \"simulacro de incendio\" en el que nadie sabe qué hacer."
+  },
+  {
+    "id": "b1181",
+    "texto": "El \"matafuegos\" vencido."
+  },
+  {
+    "id": "b1182",
+    "texto": "La \"escalera de emergencia\" clausurada."
+  },
+  {
+    "id": "b1183",
+    "texto": "El \"ascensor\" que siempre está roto."
+  },
+  {
+    "id": "b1184",
+    "texto": "La \"oficina sin ventanas\"."
+  },
+  {
+    "id": "b1185",
+    "texto": "El \"comedor de la empresa\" con comida para perros."
+  },
+  {
+    "id": "b1186",
+    "texto": "El \"kiosco\" de la esquina que te fía."
+  },
+  {
+    "id": "b1187",
+    "texto": "El \"chino\" de la vuelta que tiene de todo."
+  },
+  {
+    "id": "b1188",
+    "texto": "El \"pucho\" en la puerta de la oficina."
+  },
+  {
+    "id": "b1189",
+    "texto": "La \"escapadita\" a mitad de mañana."
+  },
+  {
+    "id": "b1190",
+    "texto": "El \"grupo de running\" de la empresa."
+  },
+  {
+    "id": "b1191",
+    "texto": "El \"equipo de fútbol 5\" del laburo."
+  },
+  {
+    "id": "b1192",
+    "texto": "El \"asado de fin de año\" donde todos se emborrachan."
+  },
+  {
+    "id": "b1193",
+    "texto": "El \"compañero que se casó\" y hay que poner plata."
+  },
+  {
+    "id": "b1194",
+    "texto": "El \"bebé del compañero\" al que hay que visitar."
+  },
+  {
+    "id": "b1195",
+    "texto": "La \"cadena de mails\" con chistes pelotudos."
+  },
+  {
+    "id": "b1196",
+    "texto": "El \"video viral\" que todos comentan."
+  },
+  {
+    "id": "b1197",
+    "texto": "El \"cumpleaños del mes\" con una torta de mierda."
+  },
+  {
+    "id": "b1198",
+    "texto": "La \"lista de Spotify\" colaborativa de la oficina."
+  },
+  {
+    "id": "b1199",
+    "texto": "El \"aire acondicionado\" que genera guerra civil."
+  },
+  {
+    "id": "b1200",
+    "texto": "La \"estufa\" que no calienta un carajo."
+  },
+  {
+    "id": "b1201",
+    "texto": "El \"baño de mujeres\" siempre impecable."
+  },
+  {
+    "id": "b1202",
+    "texto": "El \"baño de hombres\" que es un asco nuclear."
+  },
+  {
+    "id": "b1203",
+    "texto": "El \"papel higiénico\" que parece lija."
+  },
+  {
+    "id": "b1204",
+    "texto": "El \"jabón líquido\" aguado."
+  },
+  {
+    "id": "b1205",
+    "texto": "El \"secamanos\" que no seca nada."
+  },
+  {
+    "id": "b1206",
+    "texto": "La \"máquina de café\" que solo da agua sucia."
+  },
+  {
+    "id": "b1207",
+    "texto": "La \"sala de reuniones\" con olor a pata."
+  },
+  {
+    "id": "b1208",
+    "texto": "La \"alfombra\" manchada con café de hace años."
+  },
+  {
+    "id": "b1209",
+    "texto": "El \"escritorio ajeno\" lleno de porquerías."
+  },
+  {
+    "id": "b1210",
+    "texto": "El \"post-it\" con un mensaje pasivo-agresivo."
+  },
+  {
+    "id": "b1211",
+    "texto": "El \"organigrama\" de la empresa que nadie entiende."
+  },
+  {
+    "id": "b1212",
+    "texto": "La \"política de ascensos\" basada en el amiguismo."
+  },
+  {
+    "id": "b1213",
+    "texto": "El \"sueño de emprender\" para no verle más la cara al jefe."
+  },
+  {
+    "id": "b1214",
+    "texto": "La \"carta de renuncia\" escrita con sangre."
+  },
+  {
+    "id": "b1215",
+    "texto": "El \"preaviso\" de dos semanas rascándome la chota."
+  },
+  {
+    "id": "b1216",
+    "texto": "La \"liquidación final\" que no alcanza ni para el bondi."
+  },
+  {
+    "id": "b1217",
+    "texto": "El \"seguro de desempleo\"."
+  },
+  {
+    "id": "b1218",
+    "texto": "La \"búsqueda laboral\" en LinkedIn."
+  },
+  {
+    "id": "b1219",
+    "texto": "El \"perfil profesional\" inflado."
+  },
+  {
+    "id": "b1220",
+    "texto": "La \"entrevista de trabajo\" por Zoom."
+  },
+  {
+    "id": "b1221",
+    "texto": "El \"test psicotécnico\" que te hace dibujar pelotudeces."
+  },
+  {
+    "id": "b1222",
+    "texto": "La \"pregunta capciosa\" del entrevistador."
+  },
+  {
+    "id": "b1223",
+    "texto": "El \"chamuyo\" para conseguir el puesto."
+  },
+  {
+    "id": "b1224",
+    "texto": "La \"oferta laboral\" con un sueldo de mierda."
+  },
+  {
+    "id": "b1225",
+    "texto": "El \"primer día de laburo\" lleno de falsas esperanzas."
+  },
+  {
+    "id": "b1226",
+    "texto": "El \"período de adaptación\" que es una cagada."
+  },
+  {
+    "id": "b1227",
+    "texto": "El \"manual de inducción\" que nadie lee."
+  },
+  {
+    "id": "b1228",
+    "texto": "El \"compañero que te explica todo\" y no entiende nada."
+  },
+  {
+    "id": "b1229",
+    "texto": "El \"sistema\" que es una poronga arcaica."
+  },
+  {
+    "id": "b1230",
+    "texto": "El \"delegado sindical\" que es un panqueque."
+  },
+  {
+    "id": "b1231",
+    "texto": "El \"viernes de pizza y birra\" pago por los empleados."
+  },
+  {
+    "id": "b1232",
+    "texto": "Un feto abortado en un frasco."
+  },
+  {
+    "id": "b1233",
+    "texto": "El culo sangrante de tu hermana."
+  },
+  {
+    "id": "b1234",
+    "texto": "Una pija llena de pus."
+  },
+  {
+    "id": "b1235",
+    "texto": "Comerse la placenta."
+  },
+  {
+    "id": "b1236",
+    "texto": "Un enema de lavandina."
+  },
+  {
+    "id": "b1237",
+    "texto": "La mierda de un linyera."
+  },
+  {
+    "id": "b1238",
+    "texto": "El cadáver de tu abuela."
+  },
+  {
+    "id": "b1239",
+    "texto": "Un consolador hecho con un brazo amputado."
+  },
+  {
+    "id": "b1240",
+    "texto": "La necrofilia con animales de granja."
+  },
+  {
+    "id": "b1241",
+    "texto": "El vómito de un borracho."
+  },
+  {
+    "id": "b1242",
+    "texto": "Una concha con gangrena."
+  },
+  {
+    "id": "b1243",
+    "texto": "Beber semen de caballo."
+  },
+  {
+    "id": "b1244",
+    "texto": "Un festín de carne humana."
+  },
+  {
+    "id": "b1245",
+    "texto": "El ojo de vidrio de tu tío."
+  },
+  {
+    "id": "b1246",
+    "texto": "Una infección de transmisión sexual incurable."
+  },
+  {
+    "id": "b1247",
+    "texto": "El pañal cagado de un bebé."
+  },
+  {
+    "id": "b1248",
+    "texto": "Un tampón usado como saquito de té."
+  },
+  {
+    "id": "b1249",
+    "texto": "La silla eléctrica."
+  },
+  {
+    "id": "b1250",
+    "texto": "Un tumor cerebral del tamaño de una naranja."
+  },
+  {
+    "id": "b1251",
+    "texto": "El olor a muerto en una morgue."
+  },
+  {
+    "id": "b1252",
+    "texto": "Un clítoris de 15 centímetros."
+  },
+  {
+    "id": "b1253",
+    "texto": "La caca con gusanos."
+  },
+  {
+    "id": "b1254",
+    "texto": "Un cura pedófilo en acción."
+  },
+  {
+    "id": "b1255",
+    "texto": "El holocausto caníbal."
+  },
+  {
+    "id": "b1256",
+    "texto": "Una orgía con leprosos."
+  },
+  {
+    "id": "b1257",
+    "texto": "El prolapso anal de (Nombrá a un jugador de la mesa)."
+  },
+  {
+    "id": "b1258",
+    "texto": "Los testículos de Hitler."
+  },
+  {
+    "id": "b1259",
+    "texto": "Una lluvia de fetos."
+  },
+  {
+    "id": "b1260",
+    "texto": "El sabor del smegma."
+  },
+  {
+    "id": "b1261",
+    "texto": "Un niño soldado africano."
+  },
+  {
+    "id": "b1262",
+    "texto": "La diarrea explosiva en un baño público."
+  },
+  {
+    "id": "b1263",
+    "texto": "Un campo de exterminio nazi."
+  },
+  {
+    "id": "b1264",
+    "texto": "El suicidio asistido."
+  },
+  {
+    "id": "b1265",
+    "texto": "Un video snuff."
+  },
+  {
+    "id": "b1266",
+    "texto": "El incesto grupal."
+  },
+  {
+    "id": "b1267",
+    "texto": "Una pija mutilada."
+  },
+  {
+    "id": "b1268",
+    "texto": "El síndrome de Down."
+  },
+  {
+    "id": "b1269",
+    "texto": "Un bebé deforme."
+  },
+  {
+    "id": "b1270",
+    "texto": "La eutanasia forzada."
+  },
+  {
+    "id": "b1271",
+    "texto": "El Ku Klux Klan."
+  },
+  {
+    "id": "b1272",
+    "texto": "Un aborto con una percha."
+  },
+  {
+    "id": "b1273",
+    "texto": "El cáncer terminal."
+  },
+  {
+    "id": "b1274",
+    "texto": "La mutilación genital femenina."
+  },
+  {
+    "id": "b1275",
+    "texto": "Una violación en manada."
+  },
+  {
+    "id": "b1276",
+    "texto": "El atentado a la AMIA."
+  }
+]

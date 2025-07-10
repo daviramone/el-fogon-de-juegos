@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Partida de HDP - {{ nombre_jugador }}</title>
+    <style>
+        body { font-family: 'Helvetica Neue', Arial, sans-serif; background-color: #1e1e1e; color: #f0f0f0; margin: 0; padding: 20px; text-align: center; }
+        .game-container { max-width: 800px; margin: auto; background-color: #2a2a2a; padding: 30px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.5); }
+        h1 { color: #ff4500; font-weight: bold; margin-bottom: 20px; }
+        h2 { color: #ccc; margin-bottom: 15px; }
+        #chat-box { background-color: #333; border-radius: 8px; padding: 15px; height: 200px; overflow-y: scroll; margin-bottom: 20px; text-align: left; }
+        .message { margin-bottom: 8px; }
+        .message strong { color: #ff8c00; }
+        #message-input { width: calc(100% - 90px); padding: 10px; background-color: #444; border: 1px solid #555; border-radius: 5px; color: #f0f0f0; margin-right: 10px; }
+        #send-button { padding: 10px 15px; background-color: #007bff; color: white; border: none; border-radius: 5px; cursor: pointer; }
+        #send-button:hover { background-color: #0069d9; }
+        #game-info { margin-top: 30px; padding: 15px; background-color: #333; border-radius: 8px; }
+        #game-info p { margin: 5px 0; }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.0/socket.io.js"></script>
+</head>
+<body>
+    <div class="game-container">
+        <h1>Partida: <span id="partida-id">{{ partida_id }}</span></h1>
+        <h2>Jugador: <span id="nombre-jugador">{{ nombre_jugador }}</span></h2>
+
+        <div id="game-area">
+            <p>Bienvenido a la partida. ¡Prepárate para jugar!</p>
+        </div>
+
+        <hr/>
+
+        <h3>Chat de la Partida</h3>
+        <div id="chat-box"></div>
+        <input type="text" id="message-input" placeholder="Escribe un mensaje...">
+        <button id="send-button">Enviar</button>
+
+        <hr/>
+
+        <div id="game-info">
+            <p>ID de la Partida: <strong>{{ partida_id }}</strong></p>
+            <p>Tu Nombre: <strong>{{ nombre_jugador }}</strong></p>
+            </div>
+    </div>
+
+    <script>
+        // Obtener la ID de la partida y el nombre del jugador de las variables de Jinja2
+        const partidaId = "{{ partida_id }}";
+        const nombreJugador = "{{ nombre_jugador }}";
+
+        // Conectar a Socket.IO
+        const socket = io();
+
+        socket.on('connect', () => {
+            console.log('Conectado al servidor Socket.IO');
+            // Una vez conectado, unirse a la sala de la partida
+            socket.emit('unirse_partida', { partida_id: partidaId, nombre_jugador: nombreJugador });
+        });
+
+        socket.on('disconnect', () => {
+            console.log('Desconectado del servidor Socket.IO');
+        });
+
+        // Manejar mensajes de chat entrantes
+        socket.on('mensaje_chat', (data) => {
+            const chatBox = document.getElementById('chat-box');
+            const messageElement = document.createElement('p');
+            messageElement.classList.add('message');
+            messageElement.innerHTML = `<strong>${data.usuario}</strong>: ${data.mensaje}`;
+            chatBox.appendChild(messageElement);
+            chatBox.scrollTop = chatBox.scrollHeight; // Desplazar al final
+        });
+
+        // Enviar mensajes de chat
+        document.getElementById('send-button').addEventListener('click', () => {
+            const messageInput = document.getElementById('message-input');
+            const message = messageInput.value.trim();
+            if (message) {
+                socket.emit('mensaje_chat', { partida_id: partidaId, usuario: nombreJugador, mensaje: message });
+                messageInput.value = ''; // Limpiar el input
+            }
+        });
+
+        // Permite enviar mensajes de chat al presionar Enter
+        document.getElementById('message-input').addEventListener('keypress', (event) => {
+            if (event.key === 'Enter') {
+                document.getElementById('send-button').click();
+            }
+        });
+
+        // Aquí puedes añadir más lógica JavaScript para tu juego
+        // Por ejemplo, escuchar eventos de 'carta_jugada' y actualizar la interfaz.
+        socket.on('carta_jugada', (data) => {
+            console.log(`${data.usuario} jugó la carta ${data.carta}`);
+            // Actualiza tu interfaz de juego aquí
+        });
+
+    </script>
+</body>
+</html>

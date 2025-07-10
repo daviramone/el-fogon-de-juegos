@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Partida de HDP - {{ nombre_jugador }}</title>
+    <script src="https://cdn.socket.io/4.7.5/socket.io.min.js"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <audio id="sonido-seleccion" src="{{ url_for('static', filename='sonidos/select.mp3') }}" preload="auto"></audio>
+    <audio id="sonido-chat" src="{{ url_for('static', filename='sonidos/chat_receive.mp3') }}" preload="auto"></audio>
+
+    <div id="app">
+        <h1>HDP Online</h1>
+        
+        <div id="premio-container"></div>
+
+        <div id="info-partida" role="region" aria-label="Información de la partida">
+            <div id="jugadores" class="card-base" role="complementary">
+                <h3>Jugadores</h3>
+                <ul id="lista-jugadores" role="list"><li>Conectando...</li></ul>
+            </div>
+            <div id="mesa" role="main">
+                <div id="carta-negra" class="card-base card-negra" tabindex="0">Esperando inicio de partida...</div>
+                <div id="respuestas-para-elegir-container" role="group" aria-label="Respuestas jugadas para elegir"></div>
+            </div>
+        </div>
+
+        <div id="mensaje-global" aria-live="polite">Conectando al servidor...</div>
+        
+        <div id="controles-ronda" class="controles-wrapper">
+             <button id="btn-siguiente-ronda" style="display: none;">Siguiente Ronda</button>
+             <div id="form-premio-container" style="display: none;">
+                <input type="text" id="input-youtube" placeholder="Pegá un link de YouTube...">
+                <button id="btn-enviar-premio">Compartir Premio</button>
+             </div>
+        </div>
+
+        <div id="mi-mano-wrapper" class="controles-wrapper" style="display: none;" role="group" aria-label="Tus cartas en mano">
+            <h3>Tu Mano</h3>
+            <div id="mi-mano-container"></div>
+            <button id="btn-descartar-hdp" style="display: none;">Descartar y Robar</button>
+            <button id="btn-jugar" aria-label="Jugar las cartas blancas seleccionadas (Atajo: Alt + J)">Jugar Cartas</button>
+        </div>
+
+        <div id="chat-container">
+            <h4>Chat de la Partida</h4>
+            <div id="chat-messages" role="log" aria-live="polite"></div>
+            <div id="chat-input-area">
+                <input type="text" id="chat-input" placeholder="Escribe un mensaje..." aria-label="Escribe tu mensaje de chat aquí">
+                <button id="chat-send-btn" aria-label="Enviar mensaje de chat">Enviar</button>
+            </div>
+        </div>
+    </div>
+
+<script>
+    const nombreJugador = "{{ nombre_jugador }}";
+    const idPartida = "{{ id_partida }}";
+    const socket = io();
+    let soyElHDPActual = false;
+    let currentSelectedCards = [];
+
+    const dom = {
+        app: document.getElementById('app'),
+        listaJugadores: document.getElementById('lista-jugadores'),
+        cartaNegra: document.getElementById('carta-negra'),
+        mensajeGlobal: document.getElementById('mensaje-global'),
+        respuestasContainer: document.getElementById('respuestas-para-elegir-container'),
+        miManoWrapper: document.getElementById('mi-mano-wrapper'),
+        miManoContainer: document.getElementById('mi-mano-container'),
+        btnJugar: document.getElementById('btn-jugar'),
+        btnDescartarHDP: document.getElementById('btn-descartar-hdp'),
+        btnSiguienteRonda: document.getElementById('btn-siguiente-ronda'),
+        chatMessages: document.getElementById('chat-messages'),
+        chatInput: document.getElementById('chat-input'),
+        chatSendBtn: document.getElementById('chat-send-btn'),
+        sonidoSeleccion: document.getElementById('sonido-seleccion'),
+        sonidoChat: document.getElementById('sonido-chat'),
+        premioContainer: document.getElementById('premio-container'),
+        formPremioContainer: document.getElementById('form-premio-container'),
+        inputYoutube: document.getElementById('input-youtube'),
+        btnEnviarPremio: document.getElementById('btn-enviar-premio'),
+    };
+
+    function renderizarJugadores(jugadores, nombreHDPActual) {
+        dom.listaJugadores.innerHTML = '';
+        jugadores.sort((a, b) => b.puntos - a.puntos);
+        jugadores.forEach(j => {
+            const li = document.createElement('li');
+            const iconoHDP = j.nombre === nombreHDPActual ? '👑 ' : '';
+            li.innerHTML = `${iconoHDP}${j.nombre} (<strong>${j.puntos}</strong> 🏆)`;
+            if (j.ha_jugado_ronda) li.classList.add('jugo');
+            dom.listaJugadores.appendChild(li);
+        });
+    }
+
+    function renderizarMano(mano, config) {
+        dom.miManoContainer.innerHTML = '';
+        currentSelectedCards = [];
+        mano.forEach((carta, indice) => {
+            const div = document.createElement('div');
+            div.className = 'card-base card-blanca';
+            div.innerText = carta.texto;
+            div.dataset.indice = indice;
+            div.setAttribute('tabindex', '0');
+            div.setAttribute('role', 'button');
+            div.addEventListener('click', () => toggleSeleccionCarta(div, indice, config));
+            dom.miManoContainer.appendChild(div);
+        });
+        if (config.proposito === 'jugar') {
+            actualizarBotonJugar(config.espaciosRequeridos);
+        } else if (config.proposito === 'descartar') {
+            dom.btnDescartarHDP.disabled = false;
+        }
+    }
+
+    function renderizarRespuestas(respuestas) {
+        dom.respuestasContainer.innerHTML = '';
+        respuestas.forEach((comboDeCartas) => {
+            const textoCompleto = comboDeCartas.map(c => c.texto).join(' | ');
+            const div = document.createElement('div');
+            div.className = 'card-base card-blanca combo-elegible';
+            div.innerText = textoCompleto;
+            div.setAttribute('tabindex', '0');
+            div.setAttribute('role', 'button');
+            div.addEventListener('click', () => seleccionarGanador(comboDeCartas));
+            dom.respuestasContainer.appendChild(div);
+        });
+    }
+
+    function toggleSeleccionCarta(div, indice, config) {
+        const yaSeleccionada = div.classList.toggle('seleccionada');
+        try { dom.sonidoSeleccion.currentTime = 0; dom.sonidoSeleccion.play(); } catch (e) {}
+
+        if (yaSeleccionada) {
+            currentSelectedCards.push(indice);
+        } else {
+            currentSelectedCards = currentSelectedCards.filter(i => i !== indice);
+        }
+
+        if (config.proposito === 'jugar') {
+            actualizarBotonJugar(config.espaciosRequeridos);
+        } else {
+            dom.mensajeGlobal.innerText = `${currentSelectedCards.length} carta(s) para descartar.`;
+        }
+    }
+
+    function actualizarBotonJugar(espaciosRequeridos) {
+        dom.btnJugar.disabled = currentSelectedCards.length !== espaciosRequeridos;
+        dom.btnJugar.innerText = dom.btnJugar.disabled ? `Selecciona ${espaciosRequeridos} carta(s)` : 'Jugar Cartas (Alt + J)';
+    }
+
+    function seleccionarGanador(comboGanador) {
+        if (confirm(`¿Elegir "${comboGanador.map(c => c.texto).join(' | ')}"?`)) {
+            socket.emit('seleccionar_ganador', { id_partida: idPartida, cartas_ganadoras: comboGanador });
+        }
+    }
+
+    function enviarMensajeChat() {
+        let mensaje = dom.chatInput.value.trim();
+        if (mensaje) {
+            mensaje = mensaje.replace(/:D/g, '😀').replace(/:\)/g, '😊').replace(/;\)/g, '😉').replace(/:o/g, '😮').replace(/:\(/g, '😞');
+            socket.emit('enviar_mensaje_chat', { id_partida: idPartida, remitente: nombreJugador, mensaje: mensaje });
+            dom.chatInput.value = '';
+        }
+    }
+
+    function resetUI() {
+        dom.premioContainer.innerHTML = '';
+        dom.miManoWrapper.style.display = 'none';
+        dom.respuestasContainer.innerHTML = '';
+        dom.btnJugar.style.display = 'none';
+        dom.btnDescartarHDP.style.display = 'none';
+        dom.btnSiguienteRonda.style.display = 'none';
+        dom.formPremioContainer.style.display = 'none';
+        dom.mensajeGlobal.style.display = 'block';
+        dom.cartaNegra.style.display = 'block';
+    }
+
+    socket.on('connect', () => socket.emit('unirse_a_partida', { id_partida: idPartida, nombre_jugador: nombreJugador }));
+    socket.on('error_juego', (error) => alert(`Error: ${error.mensaje}`));
+
+    socket.on('actualizar_estado_juego', (estado) => {
+        resetUI();
+        soyElHDPActual = estado.soy_hdp;
+        renderizarJugadores(estado.jugadores, estado.nombre_hdp_actual);
+        dom.cartaNegra.innerHTML = estado.carta_negra_actual ? estado.carta_negra_actual.texto.replace(/_/g, '______') : "Cargando...";
+
+        if (estado.estado_partida === 'esperando_respuestas') {
+            if (estado.soy_hdp && !estado.ya_jugue) {
+                dom.mensajeGlobal.innerText = 'Eres el HDP. Podés descartar las cartas que no te gusten y luego robar.';
+                dom.miManoWrapper.style.display = 'block';
+                dom.btnDescartarHDP.style.display = 'block';
+                renderizarMano(estado.mi_mano, { proposito: 'descartar' });
+            } else if (estado.soy_hdp && estado.ya_jugue) {
+                dom.mensajeGlobal.innerText = 'Descarte realizado. Esperando que los demás jueguen...';
+            } else if (estado.ya_jugue) {
+                dom.mensajeGlobal.innerText = '¡Respuesta enviada! Esperando a los demás...';
+            } else {
+                dom.mensajeGlobal.innerText = `¡Tu turno! Elige ${estado.carta_negra_actual.espacios_requeridos} carta(s).`;
+                dom.miManoWrapper.style.display = 'block';
+                dom.btnJugar.style.display = 'block';
+                renderizarMano(estado.mi_mano, { proposito: 'jugar', espaciosRequeridos: estado.carta_negra_actual.espacios_requeridos });
+            }
+        } else if (estado.estado_partida === 'esperando_seleccion_hdp') {
+            if (estado.soy_hdp) {
+                dom.mensajeGlobal.innerText = '¡Todos jugaron! Elige la combinación ganadora.';
+                dom.respuestasContainer.style.display = 'flex';
+                renderizarRespuestas(estado.respuestas_para_elegir);
+            } else {
+                dom.mensajeGlobal.innerText = `Esperando que ${estado.nombre_hdp_actual} elija la respuesta ganadora...`;
+            }
+        } else if (estado.estado_partida === 'juego_terminado') {
+            dom.mensajeGlobal.innerHTML = `<strong>¡JUEGO TERMINADO!</strong><br>El ganador es ${estado.ganador_del_juego}.`;
+            dom.cartaNegra.style.display = 'none';
+        }
+    });
+
+    socket.on('ronda_terminada', (info) => {
+        resetUI();
+        dom.mensajeGlobal.innerHTML = `<strong>¡${info.nombre_ganador} ganó la ronda!</strong>`;
+        dom.cartaNegra.innerHTML = info.frase_completa;
+        
+        if (info.nombre_ganador === nombreJugador) {
+            dom.formPremioContainer.style.display = 'flex';
+        }
+        if (soyElHDPActual) {
+            dom.btnSiguienteRonda.style.display = 'block';
+        }
+    });
+
+    socket.on('mostrar_premio', (data) => {
+        const videoIdMatch = data.url.match(/(?:v=|\/embed\/|\/)([\w-]{11})/);
+        const videoId = videoIdMatch ? videoIdMatch[1] : null;
+        if (videoId) {
+            dom.premioContainer.innerHTML = `<iframe width="560" height="315" src="https://www.youtube.com/embed/${videoId}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
+        }
+    });
+
+    socket.on('recibir_mensaje_chat', (data) => {
+        const p = document.createElement('p');
+        p.innerHTML = `<strong>${data.remitente}:</strong> ${data.mensaje}`;
+        dom.chatMessages.appendChild(p);
+        dom.chatMessages.scrollTop = dom.chatMessages.scrollHeight;
+        if (data.remitente !== nombreJugador) {
+            try { dom.sonidoChat.currentTime = 0; dom.sonidoChat.play(); } catch (e) {}
+        }
+    });
+    
+    dom.chatSendBtn.addEventListener('click', enviarMensajeChat);
+    dom.chatInput.addEventListener('keypress', (e) => { if (e.key === 'Enter') enviarMensajeChat(); });
+    
+    document.addEventListener('keydown', (e) => { if (e.altKey && e.key === 'j' && !dom.btnJugar.disabled) { e.preventDefault(); dom.btnJugar.click(); }});
+    
+    dom.btnJugar.addEventListener('click', () => socket.emit('jugar_cartas', { id_partida: idPartida, indices_cartas: currentSelectedCards }));
+    
+    dom.btnSiguienteRonda.addEventListener('click', () => socket.emit('iniciar_siguiente_ronda', { id_partida: idPartida }));
+    
+    dom.btnEnviarPremio.addEventListener('click', () => {
+        const url = dom.inputYoutube.value;
+        if (url) {
+            socket.emit('compartir_premio', { id_partida: idPartida, url: url });
+            dom.formPremioContainer.style.display = 'none';
+            dom.inputYoutube.value = '';
+        }
+    });
+
+    dom.btnDescartarHDP.addEventListener('click', () => {
+        socket.emit('hdp_descartar_cartas', { id_partida: idPartida, indices_cartas: currentSelectedCards });
+        dom.btnDescartarHDP.disabled = true;
+    });
+</script>
+</body>
+</html>

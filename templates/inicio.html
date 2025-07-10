@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenida a El Fogón del Juego</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #2c2f33;
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+        .contenedor {
+            max-width: 500px;
+            width: 90%;
+        }
+        /* Estilo para el botón gigante inicial */
+        #boton-inicial {
+            background-color: #ff9900;
+            color: #23272a;
+            font-size: 2em;
+            font-weight: bold;
+            padding: 25px 45px;
+            border: none;
+            border-radius: 15px;
+            cursor: pointer;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+            transition: transform 0.2s ease;
+        }
+        #boton-inicial:hover {
+            transform: scale(1.05);
+        }
+        /* Contenedor del formulario de bienvenida */
+        .welcome-container {
+            background-color: #23272a;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
+            border: 1px solid #ff9900;
+        }
+        .welcome-container h1 {
+            color: #ff9900;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+        .welcome-container p {
+            font-size: 1.1em;
+            color: #ccc;
+        }
+        .welcome-container input[type="text"] {
+            width: calc(100% - 22px);
+            padding: 10px;
+            margin-top: 20px;
+            border-radius: 5px;
+            border: 1px solid #7289da;
+            background-color: #40444b;
+            color: #ffffff;
+            font-size: 1em;
+        }
+        .welcome-container button {
+            width: 100%;
+            padding: 12px;
+            margin-top: 15px;
+            border: none;
+            border-radius: 5px;
+            background-color: #7289da;
+            color: #ffffff;
+            font-size: 1.1em;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        /* Clase para ocultar elementos */
+        .oculto {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <audio id="sonido-bienvenida" src="{{ url_for('static', filename='sonidos/bienvenida.mp3') }}" preload="auto"></audio>
+
+    <div class="contenedor">
+        <div id="contenedor-boton-inicial">
+            <button id="boton-inicial">¿Querés entrar al Fogón del Juego de los amigos de DAVI?</button>
+        </div>
+
+        <div id="contenedor-formulario" class="welcome-container oculto">
+            <form action="/" method="post">
+                <h1>El Fogón del Juego</h1>
+                <p>
+                    Un universo de juegos para escuchar, sentir y compartir. Este es el rincón de los amigos de Davi, un espacio para la estrategia, las risas y la imaginación.
+                </p>
+                <label for="nombre" style="display: block; margin-top: 20px;">Para empezar, por favor, ingresá tu apodo:</label>
+                <input type="text" id="nombre" name="nombre" required autocomplete="off">
+                <button type="submit">ENTRAR AL FOGÓN</button>
+            </form>
+        </div>
+    </div>
+
+<script>
+    const botonInicial = document.getElementById('boton-inicial');
+    const contenedorBoton = document.getElementById('contenedor-boton-inicial');
+    const contenedorFormulario = document.getElementById('contenedor-formulario');
+    const audioBienvenida = document.getElementById('sonido-bienvenida');
+    const inputNombre = document.getElementById('nombre');
+
+    // Cuando el usuario hace clic en el botón gigante...
+    botonInicial.addEventListener('click', () => {
+        // 1. Reproducimos el sonido de bienvenida.
+        audioBienvenida.play();
+
+        // 2. Ocultamos el botón gigante.
+        contenedorBoton.classList.add('oculto');
+
+        // 3. Mostramos el formulario para poner el apodo.
+        contenedorFormulario.classList.remove('oculto');
+        
+        // 4. (Opcional) Ponemos el cursor listo para escribir en el campo del nombre.
+        inputNombre.focus();
+    });
+</script>
+
+</body>
+</html>
