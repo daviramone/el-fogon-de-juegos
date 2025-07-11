@@ -54,8 +54,6 @@
     </div>
 
 <script>
-    // --- INICIO DEL SCRIPT CORREGIDO ---
-
     const nombreJugador = "{{ nombre_jugador }}";
     const idPartida = "{{ id_partida }}";
     const socket = io();
@@ -102,7 +100,6 @@
             const div = document.createElement('div');
             div.className = 'card-base card-blanca';
             div.innerText = carta.texto;
-            // --- CORRECCIÓN CLAVE: Guardamos el ID único de la carta en el HTML ---
             div.dataset.id = carta.id;
             div.setAttribute('role', 'button');
             dom.miManoContainer.appendChild(div);
@@ -117,7 +114,6 @@
             div.className = 'card-base card-blanca combo-elegible';
             div.innerText = textoCompleto;
             div.setAttribute('role', 'button');
-            // --- CORRECCIÓN CLAVE: Guardamos el ID de la combinación (el nombre del jugador) ---
             div.dataset.comboId = combo.combo_id;
             dom.respuestasContainer.appendChild(div);
         });
@@ -180,7 +176,7 @@
         }
     });
 
-    // --- MANEJO DE EVENTOS DE CLIC Y TECLADO (LÓGICA CORREGIDA) ---
+    // --- MANEJO DE EVENTOS DE CLIC ---
 
     // 1. Para seleccionar/deseleccionar cartas de la mano (Jugadores Y HDP)
     dom.miManoContainer.addEventListener('click', function(event) {
@@ -222,11 +218,73 @@
     // 5. Botón para iniciar la siguiente ronda
     dom.btnSiguienteRonda.addEventListener('click', () => socket.emit('iniciar_siguiente_ronda', { id_partida: idPartida }));
 
-    // --- CONEXIÓN INICIAL Y OTROS ---
+    // --- CONEXIÓN INICIAL ---
     socket.on('connect', () => socket.emit('unirse_a_partida', { id_partida: idPartida, nombre_jugador: nombreJugador }));
     socket.on('error_juego', (error) => alert(`Error: ${error.mensaje}`));
     
-    // El resto de tus funciones de chat y premio pueden ir aquí...
+
+    // =======================================================================
+    // === INICIO DEL BLOQUE DE CÓDIGO DEL CHAT Y ATAJOS DE TECLADO ===
+    // =======================================================================
+
+    // --- LÓGICA DEL CHAT ACCESIBLE ---
+
+    // Función centralizada para enviar el mensaje al servidor
+    function enviarMensajeChat() {
+        const mensaje = dom.chatInput.value.trim(); // Obtenemos el texto y quitamos espacios en blanco
+        if (mensaje) { // Nos aseguramos de que no esté vacío
+            socket.emit('enviar_mensaje_chat', {
+                id_partida: idPartida,
+                nombre: nombreJugador,
+                mensaje: mensaje
+            });
+            dom.chatInput.value = ''; // Vaciamos el campo de texto
+        }
+    }
+
+    // 1. MANEJO DEL ENVÍO DE MENSAJES
+    dom.chatSendBtn.addEventListener('click', enviarMensajeChat);
+    dom.chatInput.addEventListener('keydown', (event) => {
+        if (event.key === 'Enter') {
+            event.preventDefault(); // Evitamos que el Enter haga un salto de línea
+            enviarMensajeChat();
+        }
+    });
+
+    // 2. MANEJO DE LA RECEPCIÓN DE MENSAJES
+    socket.on('recibir_mensaje_chat', (data) => {
+        const mensajeElemento = document.createElement('div');
+        mensajeElemento.classList.add('chat-message');
+        mensajeElemento.innerText = `${data.nombre} dice: ${data.mensaje}`;
+        dom.chatMessages.appendChild(mensajeElemento);
+        dom.chatMessages.scrollTop = dom.chatMessages.scrollHeight;
+        try {
+            dom.sonidoChat.currentTime = 0;
+            dom.sonidoChat.play();
+        } catch (e) {}
+    });
+
+    // 3. ATAJOS DE TECLADO GLOBALES
+    document.addEventListener('keydown', (event) => {
+        // Atajo para ir al CHAT (Alt + C)
+        if (event.altKey && event.key.toLowerCase() === 'c') {
+            event.preventDefault(); 
+            dom.chatInput.focus();
+        }
+        
+        // Atajo para JUGAR cartas (Alt + J)
+        if (event.altKey && event.key.toLowerCase() === 'j') {
+            // Verificamos si el botón "Jugar" está visible en la pantalla
+            if (dom.btnJugar.offsetParent !== null) {
+                event.preventDefault();
+                dom.btnJugar.click(); // Simulamos un clic en el botón
+            }
+        }
+    });
+
+    // =======================================================================
+    // === FIN DEL BLOQUE DE CÓDIGO DEL CHAT Y ATAJOS DE TECLADO ===
+    // =======================================================================
 
 </script>
 </body>
