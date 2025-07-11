@@ -6,8 +6,7 @@ import uuid
 import os
 
 # --- CORRECCIÓN DE IMPORTACIÓN ---
-from partida_hdp import PartidaHDP
-
+from juegos.hdp.partida_hdp import PartidaHDP
 app = Flask(__name__)
 # --- CORRECCIÓN DE SEGURIDAD ---
 # Usamos una clave secreta aleatoria y más segura

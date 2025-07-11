@@ -8,6 +8,10 @@
 </head>
 <body>
     <audio id="sonido-seleccion" src="{{ url_for('static', filename='sonidos/select.mp3') }}" preload="auto"></audio>
+    <audio id="sonido-deseleccion" src="{{ url_for('static', filename='sonidos/deselect.mp3') }}" preload="auto"></audio>
+    <audio id="sonido-jugar-carta" src="{{ url_for('static', filename='sonidos/play_card.mp3') }}" preload="auto"></audio>
+    <audio id="sonido-ronda-ganada" src="{{ url_for('static', filename='sonidos/select.mp3') }}" preload="auto"></audio>
+    <audio id="sonido-juego-ganado" src="{{ url_for('static', filename='sonidos/game_win.mp3') }}" preload="auto"></audio>
     <audio id="sonido-chat" src="{{ url_for('static', filename='sonidos/chat_receive.mp3') }}" preload="auto"></audio>
 
     <div id="app">
@@ -58,7 +62,7 @@
     const idPartida = "{{ id_partida }}";
     const socket = io();
 
-    // --- Referencias a los elementos del DOM para no buscarlos a cada rato ---
+    // --- Referencias a los elementos del DOM ---
     const dom = {
         listaJugadores: document.getElementById('lista-jugadores'),
         cartaNegra: document.getElementById('carta-negra'),
@@ -78,6 +82,10 @@
         formPremioContainer: document.getElementById('form-premio-container'),
         inputYoutube: document.getElementById('input-youtube'),
         btnEnviarPremio: document.getElementById('btn-enviar-premio'),
+        sonidoDeseleccion: document.getElementById('sonido-deseleccion'),
+        sonidoJugarCarta: document.getElementById('sonido-jugar-carta'),
+        sonidoRondaGanada: document.getElementById('sonido-ronda-ganada'),
+        sonidoJuegoGanado: document.getElementById('sonido-juego-ganado'),
     };
 
     // --- LÓGICA DE RENDERIZADO (DIBUJAR EN PANTALLA) ---
@@ -94,6 +102,7 @@
         });
     }
 
+    // -- CAMBIO DE ACCESIBILIDAD 1 de 2 --
     function renderizarMano(mano) {
         dom.miManoContainer.innerHTML = '';
         mano.forEach(carta => {
@@ -102,6 +111,7 @@
             div.innerText = carta.texto;
             div.dataset.id = carta.id;
             div.setAttribute('role', 'button');
+            div.setAttribute('aria-pressed', 'false'); // <-- Se añade esto para que el lector sepa el estado inicial
             dom.miManoContainer.appendChild(div);
         });
     }
@@ -122,7 +132,6 @@
     // --- LÓGICA PRINCIPAL DE ACTUALIZACIÓN DE ESTADO ---
     
     socket.on('actualizar_estado_juego', (estado) => {
-        // Ocultamos todo y luego mostramos solo lo necesario
         dom.miManoWrapper.style.display = 'none';
         dom.respuestasContainer.innerHTML = '';
         dom.btnJugar.style.display = 'none';
@@ -131,7 +140,6 @@
         dom.formPremioContainer.style.display = 'none';
         dom.cartaNegra.style.display = 'block';
 
-        // Actualizamos info general
         renderizarJugadores(estado.jugadores, estado.nombre_hdp_actual);
         dom.cartaNegra.innerHTML = estado.carta_negra_actual ? estado.carta_negra_actual.texto.replace(/_/g, '______') : "Cargando...";
 
@@ -143,7 +151,7 @@
                     dom.btnDescartarHDP.style.display = 'block';
                     renderizarMano(estado.mi_mano);
                 }
-            } else { // Si soy jugador normal
+            } else {
                 dom.mensajeGlobal.innerText = estado.ya_jugue ? '¡Respuesta enviada! Esperando a los demás...' : `¡Tu turno! Elegí ${estado.carta_negra_actual.espacios_requeridos} carta(s).`;
                 if (!estado.ya_jugue) {
                     dom.miManoWrapper.style.display = 'block';
@@ -159,6 +167,7 @@
         } else if (estado.estado_partida === 'juego_terminado') {
             dom.mensajeGlobal.innerHTML = `<strong>¡JUEGO TERMINADO!</strong><br>El ganador es ${estado.ganador_del_juego}.`;
             dom.cartaNegra.style.display = 'none';
+            try { dom.sonidoJuegoGanado.play(); } catch(e) {}
         }
     });
 
@@ -171,34 +180,46 @@
         if (info.nombre_ganador === nombreJugador) {
             dom.formPremioContainer.style.display = 'flex';
         }
-        if (dom.listaJugadores.innerText.includes(`👑 ${nombreJugador}`)) { // Si yo soy el HDP
+        if (dom.listaJugadores.innerText.includes(`👑 ${nombreJugador}`)) {
             dom.btnSiguienteRonda.style.display = 'block';
         }
     });
 
     // --- MANEJO DE EVENTOS DE CLIC ---
 
-    // 1. Para seleccionar/deseleccionar cartas de la mano (Jugadores Y HDP)
+    // -- CAMBIO DE ACCESIBILIDAD 2 de 2 --
     dom.miManoContainer.addEventListener('click', function(event) {
         if (event.target.classList.contains('card-blanca')) {
+            const isPressed = event.target.getAttribute('aria-pressed') === 'true';
+
+            // Actualizamos el atributo para el lector de pantalla
+            event.target.setAttribute('aria-pressed', !isPressed);
+
+            // Reproducimos el sonido correspondiente
+            if (isPressed) {
+                try { dom.sonidoDeseleccion.currentTime = 0; dom.sonidoDeseleccion.play(); } catch (e) {}
+            } else {
+                try { dom.sonidoSeleccion.currentTime = 0; dom.sonidoSeleccion.play(); } catch (e) {}
+            }
+            
+            // Finalmente, alternamos la clase para el efecto visual
             event.target.classList.toggle('seleccionada');
-            try { dom.sonidoSeleccion.currentTime = 0; dom.sonidoSeleccion.play(); } catch (e) {}
         }
     });
 
-    // 2. Para que el HDP elija la respuesta ganadora
     dom.respuestasContainer.addEventListener('click', function(event) {
         if (event.target.classList.contains('combo-elegible')) {
             const comboId = event.target.dataset.comboId;
             const textoCombo = event.target.innerText;
             if (confirm(`¿Elegir "${textoCombo}"?`)) {
+                try { dom.sonidoRondaGanada.play(); } catch (e) {}
                 socket.emit('seleccionar_ganador', { combo_id_ganador: comboId });
             }
         }
     });
 
-    // 3. Botón para que los JUGADORES envíen sus cartas
     dom.btnJugar.addEventListener('click', () => {
+        try { dom.sonidoJugarCarta.play(); } catch(e) {}
         const cartasSeleccionadas = dom.miManoContainer.querySelectorAll('.seleccionada');
         const ids_a_enviar = [];
         cartasSeleccionadas.forEach(carta => ids_a_enviar.push(carta.dataset.id));
@@ -206,7 +227,6 @@
         socket.emit('jugar_cartas', { ids_cartas: ids_a_enviar });
     });
 
-    // 4. Botón para que el HDP descarte sus cartas
     dom.btnDescartarHDP.addEventListener('click', () => {
         const cartasSeleccionadas = dom.miManoContainer.querySelectorAll('.seleccionada');
         const ids_a_enviar = [];
@@ -215,7 +235,6 @@
         socket.emit('hdp_descartar_cartas', { ids_cartas: ids_a_enviar });
     });
     
-    // 5. Botón para iniciar la siguiente ronda
     dom.btnSiguienteRonda.addEventListener('click', () => socket.emit('iniciar_siguiente_ronda', { id_partida: idPartida }));
 
     // --- CONEXIÓN INICIAL ---
@@ -223,35 +242,25 @@
     socket.on('error_juego', (error) => alert(`Error: ${error.mensaje}`));
     
 
-    // =======================================================================
-    // === INICIO DEL BLOQUE DE CÓDIGO DEL CHAT Y ATAJOS DE TECLADO ===
-    // =======================================================================
-
-    // --- LÓGICA DEL CHAT ACCESIBLE ---
-
-    // Función centralizada para enviar el mensaje al servidor
+    // --- CÓDIGO DEL CHAT Y ATAJOS DE TECLADO ---
     function enviarMensajeChat() {
-        const mensaje = dom.chatInput.value.trim(); // Obtenemos el texto y quitamos espacios en blanco
-        if (mensaje) { // Nos aseguramos de que no esté vacío
+        const mensaje = dom.chatInput.value.trim();
+        if (mensaje) {
             socket.emit('enviar_mensaje_chat', {
                 id_partida: idPartida,
                 nombre: nombreJugador,
                 mensaje: mensaje
             });
-            dom.chatInput.value = ''; // Vaciamos el campo de texto
+            dom.chatInput.value = '';
         }
     }
-
-    // 1. MANEJO DEL ENVÍO DE MENSAJES
     dom.chatSendBtn.addEventListener('click', enviarMensajeChat);
     dom.chatInput.addEventListener('keydown', (event) => {
         if (event.key === 'Enter') {
-            event.preventDefault(); // Evitamos que el Enter haga un salto de línea
+            event.preventDefault();
             enviarMensajeChat();
         }
     });
-
-    // 2. MANEJO DE LA RECEPCIÓN DE MENSAJES
     socket.on('recibir_mensaje_chat', (data) => {
         const mensajeElemento = document.createElement('div');
         mensajeElemento.classList.add('chat-message');
@@ -263,29 +272,19 @@
             dom.sonidoChat.play();
         } catch (e) {}
     });
-
-    // 3. ATAJOS DE TECLADO GLOBALES
     document.addEventListener('keydown', (event) => {
-        // Atajo para ir al CHAT (Alt + C)
         if (event.altKey && event.key.toLowerCase() === 'c') {
             event.preventDefault(); 
             dom.chatInput.focus();
         }
         
-        // Atajo para JUGAR cartas (Alt + J)
         if (event.altKey && event.key.toLowerCase() === 'j') {
-            // Verificamos si el botón "Jugar" está visible en la pantalla
             if (dom.btnJugar.offsetParent !== null) {
                 event.preventDefault();
-                dom.btnJugar.click(); // Simulamos un clic en el botón
+                dom.btnJugar.click();
             }
         }
     });
-
-    // =======================================================================
-    // === FIN DEL BLOQUE DE CÓDIGO DEL CHAT Y ATAJOS DE TECLADO ===
-    // =======================================================================
-
 </script>
 </body>
 </html>

@@ -2,10 +2,10 @@
 
 import random
 import uuid
-from mazo import Mazo
-from jugador_hdp import JugadorHDP
+from .mazo import Mazo
+from .jugador_hdp import JugadorHDP
 
-PUNTOS_PARA_GANAR_DEFAULT = 7
+PUNTOS_PARA_GANAR_DEFAULT = 10
 
 class PartidaHDP:
     def __init__(self, nombres_jugadores, puntos_para_ganar=PUNTOS_PARA_GANAR_DEFAULT, id_partida=None):
@@ -129,25 +129,25 @@ class PartidaHDP:
         for carta in combo_cartas_obj:
             texto_frase = texto_frase.replace('_', f"<strong>{carta.texto}</strong>", 1)
         return texto_frase
-
+# PEGAR ESTE CÓDIGO NUEVO
     def get_estado_para_todos(self):
         estados_completos = {}
         hdp_actual_obj = self.get_hdp_actual()
-        
-        # --- CORRECCIÓN PARA ENVIAR RESPUESTAS AL HDP ---
+
+        # Preparamos la lista de respuestas una sola vez
         respuestas_para_hdp = []
         if self.estado_partida == 'esperando_seleccion_hdp':
-            # Ahora enviamos el nombre del jugador junto con su combinación
             respuestas_mezcladas = list(self.respuestas_ronda_actual.items())
             random.shuffle(respuestas_mezcladas)
             for nombre_jugador, combo in respuestas_mezcladas:
                 respuestas_para_hdp.append({
-                    "combo_id": nombre_jugador, # El ID de la combinación es el nombre del jugador
+                    "combo_id": nombre_jugador,
                     "cartas": [carta.to_dict() for carta in combo]
                 })
 
+        # Creamos un estado personalizado para cada jugador
         for jugador in self.jugadores:
-            estado_base = {
+            estado_personal = {
                 "id_partida": self.id_partida,
                 "estado_partida": self.estado_partida,
                 "ronda_actual": self.ronda_actual,
@@ -158,10 +158,15 @@ class PartidaHDP:
                 "soy_hdp": jugador.es_hdp_actual,
                 "ya_jugue": jugador.ha_jugado_ronda,
                 "ganador_del_juego": self.ganador_del_juego.nombre if self.ganador_del_juego else None,
-                "respuestas_para_elegir": []
+                # Por defecto, la lista está vacía
+                "respuestas_para_elegir": [] 
             }
+
+            # SOLO si el jugador es el HDP y estamos en el estado correcto,
+            # le añadimos la lista de respuestas.
             if jugador.es_hdp_actual and self.estado_partida == 'esperando_seleccion_hdp':
-                estado_base["respuestas_para_elegir"] = respuestas_para_hdp
-            
-            estados_completos[jugador.nombre] = estado_base
+                estado_personal["respuestas_para_elegir"] = respuestas_para_hdp
+
+            estados_completos[jugador.nombre] = estado_personal
+
         return estados_completos

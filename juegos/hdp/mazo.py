@@ -1,11 +1,10 @@
-# mazo.py
+# mazo.py CORREGIDO
 
 import random
 import os
 import json
-# --- CORRECCIÓN DE IMPORTACIÓN ---
-# Se quita el punto para que funcione en Render
-from carta import CartaBlanca, CartaNegra
+# Esta importación es correcta para la nueva estructura. El punto significa "desde la misma carpeta".
+from .carta import CartaBlanca, CartaNegra
 
 class Mazo:
     def __init__(self):
@@ -15,12 +14,17 @@ class Mazo:
         self.descarte_negras = []
 
         # --- CORRECCIÓN DE RUTA ---
-        # Esta es la forma más robusta de encontrar la carpeta de datos
-        directorio_actual = os.path.dirname(os.path.abspath(__file__))
-        ruta_blancas_json = os.path.join(directorio_actual, 'data', 'cartas_blancas.json')
-        ruta_negras_json = os.path.join(directorio_actual, 'data', 'cartas_negras.json')
+        # 1. Obtenemos la ruta del directorio de este archivo (juegos/hdp)
+        directorio_archivo_actual = os.path.dirname(os.path.abspath(__file__))
         
-        # Cargar cartas desde JSON
+        # 2. Subimos dos niveles para llegar a la raíz del proyecto
+        directorio_proyecto = os.path.dirname(os.path.dirname(directorio_archivo_actual))
+
+        # 3. Construimos la ruta a la carpeta 'data' desde la raíz del proyecto
+        ruta_blancas_json = os.path.join(directorio_proyecto, 'data', 'cartas_blancas.json')
+        ruta_negras_json = os.path.join(directorio_proyecto, 'data', 'cartas_negras.json')
+        
+        # Cargar cartas desde JSON (el resto del código no cambia)
         self._cargar_cartas_json(ruta_blancas_json, CartaBlanca, self.cartas_blancas)
         self._cargar_cartas_json(ruta_negras_json, CartaNegra, self.cartas_negras)
         

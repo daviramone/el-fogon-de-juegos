@@ -1,0 +1,8 @@
+# Ignorar la carpeta de cache de Python
+__pycache__/
+
+# Ignorar archivos de entorno virtual (si usás en el futuro)
+venv/
+.env
+Esto mantendrá tu repositorio de GitHub limpio.
+ 
