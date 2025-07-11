@@ -1,8 +1,8 @@
-# backend/game_logic/mazo.py
 import random
 import os
 import json
-from carta import CartaBlanca, CartaNegra
+# Usamos .carta para que Python sepa que está en la misma carpeta
+from .carta import CartaBlanca, CartaNegra
 
 class Mazo:
     def __init__(self):
@@ -11,12 +11,15 @@ class Mazo:
         self.cartas_negras = []
         self.descarte_negras = []
 
-        # --- INICIO DE LA CORRECCIÓN ---
-        # Usamos la ruta COMPLETA y EXACTA a tus archivos.
-        # La 'r' al principio es MUY IMPORTANTE para que Windows entienda bien la ruta.
-        ruta_blancas_json = r"C:\Users\Davi\Desktop\python\clue\Juegos terminados\PlataformaDeJuegos\data\cartas_blancas.json"
-        ruta_negras_json = r"C:\Users\Davi\Desktop\python\clue\Juegos terminados\PlataformaDeJuegos\data\cartas_negras.json"
-        # --- FIN DE LA CORRECCIÓN ---
+        # --- INICIO DE LA CORRECCIÓN DEFINITIVA ---
+        # Esta es la forma dinámica que funciona en TU PC y en RENDER.
+        # Le dice al código: "busca la carpeta raíz del proyecto desde donde te encuentres".
+        directorio_base = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+        
+        # Ahora construimos la ruta a los archivos de datos
+        ruta_blancas_json = os.path.join(directorio_base, 'data', 'cartas_blancas.json')
+        ruta_negras_json = os.path.join(directorio_base, 'data', 'cartas_negras.json')
+        # --- FIN DE LA CORRECCIÓN DEFINITIVA ---
         
         # Cargar cartas desde JSON
         self._cargar_cartas_json(ruta_blancas_json, CartaBlanca, self.cartas_blancas)
@@ -37,7 +40,7 @@ class Mazo:
                         continue
 
                     if clase_carta == CartaNegra:
-                        espacios = item.get('espacios_requeridos', 1)
+                        espacios = item.get('respuestas_necesarias', 1)
                         lista_destino.append(clase_carta(texto, espacios))
                     else:
                         lista_destino.append(clase_carta(texto))
