@@ -1,8 +1,11 @@
+# mazo.py
+
 import random
 import os
 import json
-# Usamos .carta para que Python sepa que está en la misma carpeta
-from .carta import CartaBlanca, CartaNegra
+# --- CORRECCIÓN DE IMPORTACIÓN ---
+# Se quita el punto para que funcione en Render
+from carta import CartaBlanca, CartaNegra
 
 class Mazo:
     def __init__(self):
@@ -11,15 +14,11 @@ class Mazo:
         self.cartas_negras = []
         self.descarte_negras = []
 
-        # --- INICIO DE LA CORRECCIÓN DEFINITIVA ---
-        # Esta es la forma dinámica que funciona en TU PC y en RENDER.
-        # Le dice al código: "busca la carpeta raíz del proyecto desde donde te encuentres".
-        directorio_base = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-        
-        # Ahora construimos la ruta a los archivos de datos
-        ruta_blancas_json = os.path.join(directorio_base, 'data', 'cartas_blancas.json')
-        ruta_negras_json = os.path.join(directorio_base, 'data', 'cartas_negras.json')
-        # --- FIN DE LA CORRECCIÓN DEFINITIVA ---
+        # --- CORRECCIÓN DE RUTA ---
+        # Esta es la forma más robusta de encontrar la carpeta de datos
+        directorio_actual = os.path.dirname(os.path.abspath(__file__))
+        ruta_blancas_json = os.path.join(directorio_actual, 'data', 'cartas_blancas.json')
+        ruta_negras_json = os.path.join(directorio_actual, 'data', 'cartas_negras.json')
         
         # Cargar cartas desde JSON
         self._cargar_cartas_json(ruta_blancas_json, CartaBlanca, self.cartas_blancas)
@@ -28,9 +27,7 @@ class Mazo:
         self.mezclar_mazos()
 
     def _cargar_cartas_json(self, archivo, clase_carta, lista_destino):
-        """
-        Carga cartas desde un archivo JSON.
-        """
+        """Carga cartas desde un archivo JSON, asignando IDs."""
         try:
             with open(archivo, 'r', encoding='utf-8') as f:
                 datos_cartas = json.load(f)
@@ -45,9 +42,7 @@ class Mazo:
                     else:
                         lista_destino.append(clase_carta(texto))
         except FileNotFoundError:
-            print(f"ADVERTENCIA: Archivo JSON de cartas no encontrado en {archivo}. El mazo estará vacío.")
-        except json.JSONDecodeError:
-            print(f"ERROR: No se pudo parsear el archivo JSON en {archivo}. Asegúrate de que el formato sea válido.")
+            print(f"ADVERTENCIA: Archivo JSON no encontrado en {archivo}.")
         except Exception as e:
             print(f"ERROR inesperado al cargar cartas de {archivo}: {e}")
 
@@ -58,19 +53,14 @@ class Mazo:
     def _reponer_mazo_desde_descarte(self, mazo, descarte, tipo):
         """Si un mazo está vacío, lo repone desde su descarte."""
         if not mazo and descarte:
-            print(f"Mezclando descarte de cartas {tipo} de vuelta al mazo.")
             mazo.extend(descarte)
             descarte.clear()
             random.shuffle(mazo)
 
     def robar_carta_blanca(self):
         self._reponer_mazo_desde_descarte(self.cartas_blancas, self.descarte_blancas, "blancas")
-        if not self.cartas_blancas:
-            return None
-        return self.cartas_blancas.pop()
+        return self.cartas_blancas.pop() if self.cartas_blancas else None
 
     def robar_carta_negra(self):
         self._reponer_mazo_desde_descarte(self.cartas_negras, self.descarte_negras, "negras")
-        if not self.cartas_negras:
-            return None
-        return self.cartas_negras.pop()
+        return self.cartas_negras.pop() if self.cartas_negras else None

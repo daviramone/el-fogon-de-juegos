@@ -1,4 +1,5 @@
 # partida_hdp.py
+
 import random
 import uuid
 from mazo import Mazo
@@ -20,7 +21,7 @@ class PartidaHDP:
         self.ronda_actual = 0
         self.hdp_actual_idx = -1
         self.carta_negra_actual = None
-        self.respuestas_ronda_actual = {}
+        self.respuestas_ronda_actual = {}  # Almacena {nombre_jugador: [lista_de_objetos_CartaBlanca]}
         self.estado_partida = "iniciando"
         self.ganador_ronda_anterior = None
         self.ganador_del_juego = None
@@ -31,9 +32,7 @@ class PartidaHDP:
             jugador.reponer_mano(self.mazo)
 
     def get_hdp_actual(self):
-        if 0 <= self.hdp_actual_idx < len(self.jugadores):
-            return self.jugadores[self.hdp_actual_idx]
-        return None
+        return self.jugadores[self.hdp_actual_idx] if 0 <= self.hdp_actual_idx < len(self.jugadores) else None
     
     def get_jugador_por_nombre(self, nombre):
         return next((j for j in self.jugadores if j.nombre == nombre), None)
@@ -60,57 +59,47 @@ class PartidaHDP:
         self.estado_partida = "esperando_respuestas"
         return True
 
-    def recibir_respuesta_de_jugador(self, nombre_jugador, indices_cartas):
+    def recibir_respuesta_de_jugador(self, nombre_jugador, ids_cartas_jugadas):
         jugador = self.get_jugador_por_nombre(nombre_jugador)
         if not jugador or jugador.es_hdp_actual or jugador.ha_jugado_ronda: return False
 
-        if any(i < 0 or i >= len(jugador.mano) for i in indices_cartas) or \
-           len(indices_cartas) != self.carta_negra_actual.espacios_requeridos:
+        cartas_jugadas_obj = [carta for carta in jugador.mano if carta.id in ids_cartas_jugadas]
+
+        if len(cartas_jugadas_obj) != self.carta_negra_actual.espacios_requeridos:
             return False
 
-        cartas_jugadas_obj = [jugador.mano[i] for i in indices_cartas]
         jugador.ha_jugado_ronda = True
         jugador.respuestas_enviadas = cartas_jugadas_obj
         self.respuestas_ronda_actual[jugador.nombre] = cartas_jugadas_obj
-        jugador.mano = [carta for i, carta in enumerate(jugador.mano) if i not in indices_cartas]
+        jugador.mano = [carta for carta in jugador.mano if carta.id not in ids_cartas_jugadas]
         
         jugador.reponer_mano(self.mazo)
-        print(f"Jugador {jugador.nombre} ha jugado sus cartas.")
         return True
 
-    def hdp_descartar_y_robar(self, nombre_jugador, indices_a_descartar):
+    def hdp_descartar_y_robar(self, nombre_jugador, ids_cartas_a_descartar):
         jugador = self.get_jugador_por_nombre(nombre_jugador)
         if not jugador or not jugador.es_hdp_actual or jugador.ha_jugado_ronda: return False
         
         jugador.ha_jugado_ronda = True
         
-        indices_a_descartar.sort(reverse=True)
-        for indice in indices_a_descartar:
-            if 0 <= indice < len(jugador.mano):
-                carta_descartada = jugador.mano.pop(indice)
-                self.mazo.descarte_blancas.append(carta_descartada)
+        cartas_descartadas = [c for c in jugador.mano if c.id in ids_cartas_a_descartar]
+        for carta in cartas_descartadas:
+            self.mazo.descarte_blancas.append(carta)
+
+        jugador.mano = [c for c in jugador.mano if c.id not in ids_cartas_a_descartar]
         
         jugador.reponer_mano(self.mazo)
-        print(f"HDP {jugador.nombre} descartó {len(indices_a_descartar)} cartas y robó nuevas.")
         return True
 
     def todos_han_jugado(self):
         jugadores_que_deben_jugar = [j for j in self.jugadores if not j.es_hdp_actual]
         return all(j.ha_jugado_ronda for j in jugadores_que_deben_jugar)
 
-    def seleccionar_respuesta_ganadora(self, cartas_ganadoras_dicts):
-        if not cartas_ganadoras_dicts: return False
-            
-        textos_ganadores = [c['texto'] for c in cartas_ganadoras_dicts]
-        nombre_jugador_ganador = None
-
-        for nombre_jugador, combo_cartas_obj in self.respuestas_ronda_actual.items():
-            textos_jugados = [c.texto for c in combo_cartas_obj]
-            if sorted(textos_jugados) == sorted(textos_ganadores):
-                nombre_jugador_ganador = nombre_jugador
-                break
-        
-        if not nombre_jugador_ganador: return False
+    def seleccionar_respuesta_ganadora(self, nombre_jugador_ganador):
+        # --- LÓGICA DE GANADOR CORREGIDA ---
+        # Ahora es mucho más simple y seguro.
+        if nombre_jugador_ganador not in self.respuestas_ronda_actual:
+            return False
 
         jugador_ganador = self.get_jugador_por_nombre(nombre_jugador_ganador)
         if jugador_ganador:
@@ -119,10 +108,8 @@ class PartidaHDP:
             
             if len(jugador_ganador.cartas_negras_ganadas) >= self.puntos_para_ganar:
                 self.ganador_del_juego = jugador_ganador
-                self.estado_partida = "juego_terminado"
-            else:
-                self.estado_partida = "fin_ronda"
             
+            self.estado_partida = "fin_ronda"
             return True
         return False
 
@@ -130,11 +117,13 @@ class PartidaHDP:
         if not self.jugadores: return None
         return max(self.jugadores, key=lambda j: len(j.cartas_negras_ganadas))
 
-    def get_frase_ganadora_formateada(self, combo_cartas_obj):
-        if not self.carta_negra_actual or not combo_cartas_obj: return ""
+    def get_frase_ganadora_formateada(self):
+        if not self.carta_negra_actual or not self.ganador_ronda_anterior: return ""
         
+        combo_cartas_obj = self.ganador_ronda_anterior.respuestas_enviadas
         texto_frase = self.carta_negra_actual.texto
-        if texto_frase.count('_') != len(combo_cartas_obj):
+        
+        if '_' not in texto_frase:
             return texto_frase + " " + " / ".join([f"<strong>{c.texto}</strong>" for c in combo_cartas_obj])
 
         for carta in combo_cartas_obj:
@@ -145,11 +134,17 @@ class PartidaHDP:
         estados_completos = {}
         hdp_actual_obj = self.get_hdp_actual()
         
+        # --- CORRECCIÓN PARA ENVIAR RESPUESTAS AL HDP ---
         respuestas_para_hdp = []
         if self.estado_partida == 'esperando_seleccion_hdp':
-            respuestas_mezcladas = list(self.respuestas_ronda_actual.values())
+            # Ahora enviamos el nombre del jugador junto con su combinación
+            respuestas_mezcladas = list(self.respuestas_ronda_actual.items())
             random.shuffle(respuestas_mezcladas)
-            respuestas_para_hdp = [[carta.to_dict() for carta in combo] for combo in respuestas_mezcladas]
+            for nombre_jugador, combo in respuestas_mezcladas:
+                respuestas_para_hdp.append({
+                    "combo_id": nombre_jugador, # El ID de la combinación es el nombre del jugador
+                    "cartas": [carta.to_dict() for carta in combo]
+                })
 
         for jugador in self.jugadores:
             estado_base = {

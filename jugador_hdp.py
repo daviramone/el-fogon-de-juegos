@@ -1,43 +1,52 @@
 # jugador_hdp.py
+
 import uuid
 
+LIMITE_CARTAS_MANO = 10
+
 class JugadorHDP:
-    def __init__(self, nombre, cartas_por_mano=10):
+    """Representa a un jugador en la partida de HDP."""
+    def __init__(self, nombre, sid=None):
         self.id_jugador = str(uuid.uuid4())
         self.nombre = nombre
+        self.sid = sid  # Session ID de SocketIO
         self.mano = []
-        self.cartas_por_mano = cartas_por_mano
-        self.respuestas_enviadas = []
-        
-        # CAMBIO: Ahora coleccionamos las cartas negras ganadas como trofeos
         self.cartas_negras_ganadas = []
         
         # Estado de la ronda
         self.es_hdp_actual = False
         self.ha_jugado_ronda = False
+        self.respuestas_enviadas = [] # Guarda las cartas que jugó en la ronda
+
+    def limpiar_estado_ronda(self):
+        """Reinicia el estado del jugador para la siguiente ronda."""
+        self.es_hdp_actual = False
+        self.ha_jugado_ronda = False
+        self.respuestas_enviadas = []
 
     def reponer_mano(self, mazo):
-        """Roba cartas hasta volver a tener el máximo en la mano."""
-        while len(self.mano) < self.cartas_por_mano:
+        """Roba cartas del mazo hasta tener el límite en mano."""
+        while len(self.mano) < LIMITE_CARTAS_MANO:
             carta = mazo.robar_carta_blanca()
             if carta:
                 self.mano.append(carta)
             else:
-                break # No hay más cartas en el mazo
+                # No hay más cartas en el mazo
+                break
 
-    def limpiar_estado_ronda(self):
-        self.es_hdp_actual = False
-        self.ha_jugado_ronda = False
-        self.respuestas_enviadas = []
-        
     def get_mano_dict(self):
+        """Devuelve la mano del jugador como una lista de diccionarios."""
         return [carta.to_dict() for carta in self.mano]
 
     def to_dict(self):
-        """Genera una representación del jugador para enviar al frontend."""
+        """Devuelve una representación pública del jugador."""
         return {
+            "id_jugador": self.id_jugador,
             "nombre": self.nombre,
-            # CAMBIO: Los puntos ahora son la cantidad de trofeos
-            "puntos": len(self.cartas_negras_ganadas), 
+            "puntos": len(self.cartas_negras_ganadas),
+            "es_hdp_actual": self.es_hdp_actual,
             "ha_jugado_ronda": self.ha_jugado_ronda
         }
+
+    def __repr__(self):
+        return f"JugadorHDP(nombre='{self.nombre}', puntos={len(self.cartas_negras_ganadas)})"
